@@ -1,3 +1,9 @@
+# Phase 1F — protected staging preparation
+
+Prepared on `codex/phase-1f` from Phase 1E `24d232c`. Canonical brief from main `85d0c23` was recorded before implementation. PRs #1–#4 remain open drafts; merge order is 1B → 1C → 1D → 1E → 1F. Adds a GET-only, origin-restricted 144-route staging acceptance runner, local preview integration, guarded Linux archive packaging and a manual audit-gated GitHub candidate workflow. Exact WHC change/rollback plan: docs/WHC_STAGING_ACCEPTANCE.md. Verified: 38 tests, catalogue, synthetic delivery, lint/types, both builds, production source/packaged 144-route checks and preview 144-route authenticated acceptance passed. Results: docs/PHASE_1F_QA.md. Hosted staging and production remain NO-GO; no Phase 1F DNS, WHC, uploads, deployment or lead transmission occurred.
+
+Phase 1E GitHub run 39870752110: verify job passed both Linux build modes; separate full dependency-audit job failed. This is not an all-green CI result.
+
 # Phase 1E — WHC deployment engineering
 
 Branch `codex/phase-1e` from Phase 1D `b4fd3cf`; canonical main brief `075921a` recorded before execution. PRs #1–#3 remain open/unmerged. Adds Next standalone output, guarded build/start scripts, versioned asset packaging, both production/preview artifact verification and WHC compatibility/staging/release handoff.

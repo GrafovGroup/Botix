@@ -1,6 +1,6 @@
 {
   "name": "botix-ca",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
@@ -16,7 +16,9 @@
     "release:smoke": "node scripts/release-smoke.mjs",
     "build:release": "node scripts/build-release.mjs",
     "package:release": "node scripts/package-standalone.mjs",
-    "standalone:smoke": "BOTIX_STANDALONE=true node scripts/release-smoke.mjs"
+    "standalone:smoke": "BOTIX_STANDALONE=true node scripts/release-smoke.mjs",
+    "staging:acceptance": "node scripts/staging-acceptance.mjs",
+    "archive:staging": "node scripts/archive-staging.mjs"
   },
   "dependencies": {
     "next": "16.4.2",

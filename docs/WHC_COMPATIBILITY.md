@@ -1,3 +1,7 @@
+# Phase 1F compatibility update
+
+Host evidence remains unchanged from Phase 1E. No Phase 1F live WHC probing or configuration occurred. Node selector availability is not proof of Next standalone/Passenger compatibility. The proposed Linux x64 candidate must be matched to actual architecture/libc before upload. See [exact staging plan and reversible matrix](WHC_STAGING_ACCEPTANCE.md). A manual candidate workflow is prepared but not dispatched; full audit currently gates publication. macOS test artifacts are ineligible for WHC.
+
 # WHC compatibility decision — 2026-10-22
 
 Decision: retain the owner's WHC Web Hosting Pro plan as the **conditional staging candidate**. Do not declare production compatibility until the actual BOTIX artifact passes host tests. No hosting purchase is needed to conduct those authorized tests later. Live inquiry delivery is unsupported on the current evidence, and remains disabled.

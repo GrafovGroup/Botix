@@ -1,3 +1,7 @@
+# Phase 1F decision
+
+**NO-GO for hosted staging and production.** Repository preparation is reviewable; actual WHC runtime acceptance has not occurred. See [staging acceptance](WHC_STAGING_ACCEPTANCE.md) and [QA evidence](PHASE_1F_QA.md). Required gates: explicit staging authorization, clean Linux candidate after unsuppressed full audit, verified Passenger/startup and TLS/protection, hosted HTTP/browser/capacity/restart/restore acceptance. Prior Phase 1E Linux verification passed but its dependency-audit job failed. Production still requires separate operational, business, branding and legal signoffs.
+
 # BOTIX production decision — NO-GO
 
 Date: 2026-10-22. Phase 1D is a reviewable implementation, not permission to release. **Production deployment, merge and live delivery are NOT authorized.** The owner separately authorized the completed domain attachment/nameserver connection before 1E; no further DNS changes or staging deployment are authorized by 1E. This report covers repository/local evidence, not a deployed environment. Independent owner signoff is required for every unresolved gate.
