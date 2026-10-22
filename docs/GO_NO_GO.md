@@ -1,3 +1,7 @@
+# Authorized staging execution status — 2026-10-22
+
+**Staging remains NO-GO; authorization is complete.** Fresh audit still fails on unpatched high dev-only braces; current supported dependency versions retain it. Staging DNS points to WHC but HTTPS verification fails on its self-signed certificate. Phase 1F Linux verify job passed; full-audit job failed (run 39872409833). No application uploaded/deployed. Follow [execution evidence](WHC_STAGING_ACCEPTANCE.md) and [authorization](WHC_STAGING_AUTHORIZATION.md); earlier pending-authorization notes below are historical. Production remains separately unauthorized.
+
 # Phase 1F decision
 
 **NO-GO for hosted staging and production.** Repository preparation is reviewable; actual WHC runtime acceptance has not occurred. See [staging acceptance](WHC_STAGING_ACCEPTANCE.md) and [QA evidence](PHASE_1F_QA.md). Required gates: explicit staging authorization, clean Linux candidate after unsuppressed full audit, verified Passenger/startup and TLS/protection, hosted HTTP/browser/capacity/restart/restore acceptance. Prior Phase 1E Linux verification passed but its dependency-audit job failed. Production still requires separate operational, business, branding and legal signoffs.

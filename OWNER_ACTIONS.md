@@ -1,3 +1,7 @@
+# Current staging dependencies — 2026-10-22
+
+Staging is already authorized; no repeated approval is needed. The execution attempt is blocked by an unpatched high dependency advisory and untrusted staging TLS. A reviewed dependency remediation must pass the full audit, and WHC must issue a valid certificate before a protected artifact is uploaded. Existing supported dependency upgrades do not remove braces. See docs/WHC_STAGING_ACCEPTANCE.md for exact evidence and remaining host checks. No purchase or production release is requested. Earlier approval requests below are historical.
+
 # Phase 1F approval boundary
 
 Review docs/WHC_STAGING_ACCEPTANCE.md and the stacked Phase 1F PR. Explicit authorization is required for staging.botix.ca creation/DNS, isolated WHC app and TLS configuration, Linux candidate upload and staging-only acceptance tests. The brief explicitly excludes these from a generic request to continue phases. Full dependency audit must pass before the proposed candidate workflow publishes an artifact. Passenger/port compatibility, Linux libc/architecture, host-wide protection, restart/drain, capacity, logs, backup restore and browser acceptance remain unverified. Production/apex/www/mail changes, live inquiries, merges and purchases remain outside approval scope.

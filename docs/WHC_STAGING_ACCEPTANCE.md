@@ -1,5 +1,22 @@
 # WHC staging change plan and acceptance — Phase 1F
 
+## Authorized execution attempt — 2026-10-22
+
+Staging authorization is now recorded in WHC_STAGING_AUTHORIZATION.md and the owner explicitly requested execution of WHC_STAGING_EXECUTION.md. Do not ask for the same authorization again. Earlier approval-pending text below is historical Phase 1F preparation evidence.
+
+**Current decision: NO-GO, blocked by security prerequisites.** Source application SHA: `f5cfaf8adf673d604b75324a9c8831757fb3bba3` (PR #5). Execution branch: `codex/staging-execution`, stacked on #5. PRs #1–#5 were inspected and remain open drafts/unmerged; dependency order remains #1 → #2 → #3 → #4 → #5 → execution evidence PR.
+
+- Fresh full audit fails on high development-only `braces@3.0.3`, GHSA-vfj7-8cjw-p6xm. Registry latest braces is 3.0.3; GitHub advisory lists no patched version. Latest Next ESLint plugin 16.4.2 still requires fast-glob 3.3.1. Latest fast-glob 3.3.3 still requires micromatch ^4.0.8, whose latest 4.0.8 still requires braces ^3.0.3. No supported package upgrade currently removes the finding. No ignored advisory, changed audit threshold, disabled lint rule or unreviewed substitute package was introduced. A separately reviewed dependency-chain replacement or upstream fix is required; authorization to deploy does not waive this gate.
+- Fresh production-only audit has zero vulnerabilities. Phase 1F GitHub run 39872409833: verify job 120149760268 passed all Linux builds/tests and production/preview smoke; dependency-audit job 120149760477 failed. Overall run failed. This is actual CI evidence, not inferred from local checks.
+- Existing WHC authenticated cPanel access works. Prior owner-requested domain connection created staging.botix.ca at isolated document root `/home/nvfglyl5/botix-staging-public`; all three WHC authoritative nameservers returned A 51.161.57.68. Public resolver 1.1.1.1 now returns the same staging IP, but the local resolver still returns no address.
+- A direct HTTPS check using `curl --resolve staging.botix.ca:443:51.161.57.68` (normal certificate validation retained) fails with exit 60: self-signed certificate. The cPanel SSL Status page also shows staging.botix.ca and www.staging.botix.ca as self-signed. No trusted HTTPS acceptance; no certificate-warning bypass and no credentials transmitted to staging.
+- No upload, artifact publication/dispatch, new Node application, host configuration change or deployment occurred during this execution attempt. As directed by execution step 6, deployment stopped at failed prerequisites. Host architecture/libc, Passenger startup/bind contract, host-level authentication, resource limits under load, restart/drain and backup restore remain unverified. No remote 144-route/browser acceptance was attempted against an undeployed or untrusted endpoint.
+
+Next steps: obtain a reviewed dependency remediation with a passing full audit; complete valid WHC AutoSSL issuance; then verify target/runtime/host protection, produce a clean Linux preview candidate, upload and run the authorized acceptance matrix. No additional staging authorization is required. Production/apex/www/mail changes, purchases, live inquiries and merges remain excluded. No application code changed, so full builds were not repeated; existing exact-SHA Linux results were inspected, fresh audits/DNS/TLS checks run, and documentation diff checked.
+
+Evidence sources: [GitHub advisory](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm), [Phase 1F Actions run](https://github.com/GrafovGroup/Botix/actions/runs/39872409833). The local connection screenshot is kept outside Git; no credentials or account contact information are published.
+
+
 **Decision: NO-GO for hosted staging acceptance.** Repository preparation is ready; no staging hostname/app/upload has been authorized or performed. Production remains NO-GO separately. This is the concrete plan for owner review, not an instruction to execute without approval.
 
 ## Exact proposed change scope
