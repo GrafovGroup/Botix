@@ -75,6 +75,7 @@ test("analytics is opt-in and permits only event and locale", () => {
 test("production delivery fails closed for every missing operational gate", () => {
   const env = {
     NODE_ENV: "production",
+    SITE_ENV: "production",
     INQUIRY_DELIVERY_ENABLED: "true",
     INQUIRY_WEBHOOK_URL: "https://example.com/inquiry",
     INQUIRY_WEBHOOK_SECRET: "w".repeat(32),

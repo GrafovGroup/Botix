@@ -8,6 +8,7 @@ import { deliverInquiry, issueToken } from "../src/lib/inquiry-server";
 import { inquirySchema } from "../src/lib/inquiry";
 async function main() {
   Object.assign(process.env, {
+    SITE_ENV: "production",
     INQUIRY_DELIVERY_ENABLED: "true",
     INQUIRY_WEBHOOK_URL: "https://receiver.invalid/inquiry",
     INQUIRY_WEBHOOK_SECRET: "synthetic-webhook-secret-32-characters",

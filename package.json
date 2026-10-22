@@ -1,6 +1,6 @@
 {
   "name": "botix-ca",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
@@ -12,7 +12,8 @@
     "format": "prettier --write src tests",
     "catalog:check": "tsx scripts/catalog-check.ts",
     "delivery:check": "tsx scripts/check-readiness.ts",
-    "delivery:test": "tsx scripts/test-delivery.ts"
+    "delivery:test": "tsx scripts/test-delivery.ts",
+    "release:smoke": "node scripts/release-smoke.mjs"
   },
   "dependencies": {
     "next": "16.4.2",

@@ -67,6 +67,7 @@ test("rate limiter blocks sixth attempt and permits after window", () => {
 test("delivery never reports success without configuration or upstream acceptance", async () => {
   const savedEnv = { ...process.env };
   Object.assign(process.env, {
+    SITE_ENV: "production",
     INQUIRY_DELIVERY_ENABLED: "true",
     INQUIRY_SIGNING_SECRET: "test-signing-secret-32-characters-long",
     INQUIRY_RECEIVER_VERIFIED: "true",
@@ -114,6 +115,7 @@ test("delivery never reports success without configuration or upstream acceptanc
     assert.equal(await deliverInquiry(inquiry, accepted), "unconfigured");
   } finally {
     for (const key of [
+      "SITE_ENV",
       "INQUIRY_DELIVERY_ENABLED",
       "INQUIRY_SIGNING_SECRET",
       "INQUIRY_RECEIVER_VERIFIED",

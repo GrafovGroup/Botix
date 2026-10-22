@@ -1,5 +1,17 @@
 # BOTIX implementation status
 
+## Phase 1D — 2026-10-22
+
+Branch `codex/phase-1d` starts from completed GitHub Phase 1C `42d6e82` and incorporates the canonical Phase 1D brief `95e39c1`. PR #1 (1B) and #2 (1C) were inspected and remain open drafts/unmerged. No merge to main, deployment, DNS change, purchase or live delivery. Original local incremental history is preserved when publishing the exact tested tree through the GitHub integration.
+
+Delivered: pinned/read-only CI, isolated production/preview HTTP harness, uncached liveness endpoint, protected preview with noindex and missing-secret denial, conservative CSP/no-referrer/opt-in HSTS, validated trusted forwarded-IP syntax, preview delivery prohibition and explicit production mode requirement. Public content/routes and existing imagery remain intact; approved logo files are absent. Added final manual QA matrix, bilingual authorized live receiver test plan, release/rollback runbook, dependency security record and production NO-GO report.
+
+Local environment: macOS, Node **v24.19.0**, pnpm **11.25.0**, Next **16.4.2**. Tests: **31 passed**. Catalogue: six products/five manufacturers valid and dated within review policy. Synthetic receiver, ESLint, build and TypeScript passed. Production HTTP smoke passed **144 content URLs and 144 unique internal links**, canonical/hreflang, 404s, redirects, images, filter/query context, phone exclusion and seven inquiry API cases. Release harness also checks health/security headers, preview authentication/noindex, spoofed middleware header, preview delivery disabled and missing-secret fail-closed. `git diff --check` passed.
+
+Dependency scans: production-only audit reports **zero vulnerabilities**; full audit exits 1 with **one high development-only braces advisory** (GHSA-vfj7-8cjw-p6xm), no patched release listed at review. No suppression or speculative dependency upgrade. The CI full-audit job intentionally exposes this blocker; a local pass does not claim GitHub-hosted CI passed.
+
+Production status: **NO-GO**. Browser policy still prevents actual visual/client/a11y/Web Vitals evidence. Receiver/CRM/TLS, shared edge, provider/CDN/origin controls, approved branding, verified phone, privacy/legal/trademark and owner release authorizations remain outstanding. Preview app authentication must be backed by actual host controls; health is liveness only. See docs/GO_NO_GO.md, docs/PHASE_1D_QA.md and docs/RELEASE_RUNBOOK.md for evidence and gates.
+
 ## Phase 1C — 2026-10-22
 
 Implemented on `codex/phase-1c` from completed GitHub Phase 1B `e1a4e02`, incorporating the canonical 1C brief from `b65aa11`. Phase 1B is still an unmerged draft PR; Phase 1C is prepared as a stacked review. Original incremental work is retained locally. No merge to main, deployment, DNS change, purchase or live lead transmission.

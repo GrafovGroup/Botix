@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-10-22
+
+- Add pinned, read-only CI checks and isolated production/preview release smoke harness.
+- Protect preview HTML/API/assets with a shared secret, noindex and fail-closed defaults; prohibit preview delivery.
+- Add uncached health liveness, conservative CSP/no-referrer headers and opt-in HSTS.
+- Validate trusted forwarded IP syntax while ignoring untrusted forwarded headers.
+- Add final QA matrix, bilingual receiver test plan, release runbook and explicit production NO-GO gates.
+- Record unpatched high development-only dependency advisory; no audit suppression, deployment or authorization implied.
+
 ## 0.3.0 — 2026-10-22
 
 - Preserve rental dates, province and use case across quote workflows and normal language/pathway clicks on the main quote form; contextual category, journey and location CTAs.
