@@ -1,3 +1,5 @@
+import { regions } from "@/lib/locations";
+import { inquiryHref, type InquiryContext } from "@/lib/inquiry-context";
 import Link from "next/link";
 import { type Locale } from "@/lib/content";
 import { type City, cities } from "@/lib/cities";
@@ -5,7 +7,6 @@ import { journeys, rentalJourneys, industryJourneys } from "@/lib/journeys";
 import {
   publishableProducts,
   filterProducts,
-  quoteHref,
   type RobotType,
 } from "@/lib/catalog";
 import { ProductCard } from "./catalog-explorer";
@@ -93,7 +94,11 @@ export function JourneySections({
             <p>{journey.considerations[locale]}</p>
             <Link
               className="text-link"
-              href={quoteHref(locale, journey.intent)}
+              href={inquiryHref(locale, {
+                intent: journey.intent,
+                category: journey.category as RobotType | undefined,
+                useCase: journey.title[locale],
+              })}
             >
               {en ? "Open full inquiry" : "Ouvrir la demande complète"} ↗
             </Link>
@@ -195,7 +200,12 @@ export function CityPage({ city: c, locale }: { city: City; locale: Locale }) {
           </p>
           <Link
             className="button"
-            href={`/${locale}/request-quote?intent=general&city=${encodeURIComponent(c.name[locale])}`}
+            href={inquiryHref(locale, {
+              intent: "general",
+              city: c.name[locale],
+              province: regions.find((r) => r.slug === c.region)
+                ?.code as InquiryContext["province"],
+            })}
           >
             {en ? "Discuss the project" : "Discuter du projet"} ↗
           </Link>

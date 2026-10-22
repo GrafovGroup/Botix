@@ -1,9 +1,10 @@
+import { ContactPhone } from "@/components/contact-phone";
 import { StructuredBreadcrumbs } from "@/components/structured-breadcrumbs";
-import Link from "next/link";
+import { InquiryContextLink } from "@/components/inquiry-context-link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale, siteUrl, phone } from "@/lib/content";
-import { resolveInquiryContext } from "@/lib/inquiry-context";
+import { isLocale, siteUrl } from "@/lib/content";
+import { resolveInquiryContext, inquiryHref } from "@/lib/inquiry-context";
 import { InquiryForm } from "@/components/inquiry-form";
 export async function generateMetadata({
   params,
@@ -47,7 +48,16 @@ export default async function Page({
   const en = locale === "en";
   return (
     <>
-      <StructuredBreadcrumbs locale={locale} items={[{name:locale==="en"?"Request a quote":"Demander une soumission",path:"request-quote"}]}/>
+      <StructuredBreadcrumbs
+        locale={locale}
+        items={[
+          {
+            name:
+              locale === "en" ? "Request a quote" : "Demander une soumission",
+            path: "request-quote",
+          },
+        ]}
+      />
       <section className="section page-intro">
         <p className="eyebrow">
           {en
@@ -80,13 +90,19 @@ export default async function Page({
             ],
             ["general", en ? "General project" : "Projet général"],
           ].map(([intent, label]) => (
-            <Link
+            <InquiryContextLink
+              locale={locale}
+              intent={intent as NonNullable<typeof initial.intent>}
               key={intent}
-              href={`/${locale}/request-quote?intent=${intent}`}
-              aria-current={initial.intent === intent ? "page" : undefined}
+              href={inquiryHref(
+                locale,
+                initial,
+                intent as NonNullable<typeof initial.intent>,
+              )}
+              current={initial.intent === intent}
             >
               {label}
-            </Link>
+            </InquiryContextLink>
           ))}
         </nav>
       </section>
@@ -109,11 +125,10 @@ export default async function Page({
                   ? "Share the application, operating site and constraints. A request starts an assessment; it does not create an order or guarantee availability."
                   : "Précisez l’application, le site et les contraintes. Une demande amorce une évaluation; elle ne constitue pas une commande ou une garantie de disponibilité."}
           </p>
-          <a className="contact-phone" href="tel:+18336969996">
-            {phone} ↗
-          </a>
+          <ContactPhone className="contact-phone" />
         </aside>
         <InquiryForm
+          preserveContext
           key={JSON.stringify(initial)}
           locale={locale}
           initial={initial}

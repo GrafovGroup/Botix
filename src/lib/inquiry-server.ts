@@ -1,3 +1,4 @@
+import { deliveryReadiness } from "./delivery-config";
 import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 import type { Inquiry } from "./inquiry";
 const secret =
@@ -41,6 +42,7 @@ export async function deliverInquiry(
   inquiry: Inquiry,
   sender: typeof fetch = fetch,
 ) {
+  if (!deliveryReadiness().ready) return "unconfigured" as const;
   const endpoint = process.env.INQUIRY_WEBHOOK_URL;
   const key = process.env.INQUIRY_WEBHOOK_SECRET;
   if (!endpoint || !key) return "unconfigured" as const;

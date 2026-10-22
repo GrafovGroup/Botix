@@ -1,5 +1,21 @@
 # BOTIX implementation status
 
+## Phase 1C — 2026-10-22
+
+Implemented on `codex/phase-1c` from completed GitHub Phase 1B `e1a4e02`, incorporating the canonical 1C brief from `b65aa11`. Phase 1B is still an unmerged draft PR; Phase 1C is prepared as a stacked review. Original incremental work is retained locally. No merge to main, deployment, DNS change, purchase or live lead transmission.
+
+- Verified-only public phone configuration removes the placeholder from links and structured data by default. Localized brief downloads provide a local fallback without claiming submission.
+- Quote context carries product, intent, locale, use case, province/city and rental dates. Normal workflow/language clicks on the main quote page capture current project fields; contact fields never enter navigation URLs. Modified/new-tab links preserve query-prefilled context only. Form data is not persisted in browser storage.
+- Contextual humanoid/category, industry/rental and regional/city CTAs use actual journey intent. Sourcing and pilot copy explains written scope, safety responsibilities and evaluation criteria without guarantees.
+- Form submission is disabled when runtime configuration is unavailable, with bilingual retry/save states. Success still requires receiver acceptance; failed attempts retain entries. Separate optional analytics consent emits only allowlisted event + locale, with no installed external provider.
+- Production delivery fails closed without explicit enablement, HTTPS endpoint/site URL, independent secrets and owner receiver/shared-edge verification attestations. The local persisted synthetic receiver tests acceptance, deduplication, conflict and failure without network calls.
+- Catalogue operations add supplier relationship states, future-review-date rejection, a read-only JSON/registry check (180-day review policy and media existence), and a worked editorial guide. All five relationships remain not-confirmed; six editorial products remain inquiry-only.
+- Logo slots retain typography until approved assets arrive. No new images; existing asset audit limitations remain. Launch checklist covers hosting/DNS/secrets, CRM, phone, logos, rights, legal/trademark review, consent, monitoring, backups and rollback.
+
+### Phase 1C verification and launch status
+
+Final automated checks passed: **26 unit tests**, ESLint, TypeScript, production build, catalogue validation (six products/five manufacturers) and the synthetic receiver harness. Production HTTP smoke checks passed all **144 content routes and 144 unique internal links**, metadata/hreflang, missing-page 404s, root redirect, image optimisation, filters/French search, quote context/dates and seven inquiry API cases. Phone/schema exclusion and disabled-delivery smoke guard passed. `pnpm delivery:check` exited 1 as expected with missing production gates; no real destination was contacted. `git diff --check` passed. Browser policy blocked real-browser access; screenshots, mobile/keyboard/client interaction, contrast/accessibility tool audits and measured Web Vitals remain pending. Live receiver/TLS/CRM delivery is unconfigured and untested. Production readiness command correctly refuses the current missing settings. Owner signoff items remain in OWNER_ACTIONS.md and docs/LAUNCH_CHECKLIST.md; implementation is reviewable, production launch is not authorized or verified.
+
 ## Phase 1B — 2026-10-22
 
 Implemented from the GitHub Phase 1B specification and governance commits through `4130483` on `codex/phase-1b`. GitHub implementation commit `3846713` includes the completed Phase 1A foundation, which was not yet on main. Original local Phase 1A commit `be26bbf` and tested Phase 1B history are preserved on local branches `codex/phase-1a` and `codex/phase-1b-local`; they are not ancestors of the GitHub implementation commit. No merge, deployment or DNS change.

@@ -1,3 +1,4 @@
+import { deliveryReadiness } from "@/lib/delivery-config";
 import { NextRequest, NextResponse } from "next/server";
 import { inquirySchema } from "@/lib/inquiry";
 import {
@@ -10,17 +11,22 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export function GET() {
   return NextResponse.json(
-    { token: issueToken() },
+    { token: issueToken(), available: deliveryReadiness().ready },
     { headers: { "Cache-Control": "no-store" } },
   );
 }
 export async function POST(req: NextRequest) {
   const origin = req.headers.get("origin");
-  const allowed = process.env.SITE_URL
-    ? new URL(process.env.SITE_URL).origin
-    : new URL(
-        `${req.nextUrl.protocol}//${req.headers.get("host") || req.nextUrl.host}`,
-      ).origin;
+  let allowed: string;
+  try {
+    allowed = process.env.SITE_URL
+      ? new URL(process.env.SITE_URL).origin
+      : new URL(
+          `${req.nextUrl.protocol}//${req.headers.get("host") || req.nextUrl.host}`,
+        ).origin;
+  } catch {
+    return NextResponse.json({ error: "unconfigured" }, { status: 503 });
+  }
   if (!origin || origin !== allowed)
     return NextResponse.json({ error: "origin" }, { status: 403 });
   if (!req.headers.get("content-type")?.startsWith("application/json"))

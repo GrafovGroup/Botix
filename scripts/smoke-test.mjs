@@ -2,6 +2,12 @@ import assert from "node:assert/strict";
 const base = process.env.TEST_URL || "http://127.0.0.1:3000";
 const request = (path, options) =>
   fetch(`${base}${path}`, { ...options, signal: AbortSignal.timeout(60000) });
+const readiness = await (await request("/api/inquiry")).json();
+assert.equal(
+  readiness.available,
+  false,
+  "Refusing smoke submissions: delivery must be disabled",
+);
 const sitemap = await (await request("/sitemap.xml")).text();
 const paths = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(
   (m) => new URL(m[1]).pathname,
@@ -20,6 +26,14 @@ for (let i = 0; i < paths.length; i += 4) {
       assert.equal(res.status, 200, path);
       const html = await res.text();
       const locale = path.split("/")[1];
+      assert.ok(
+        !html.includes("tel:+18336969996"),
+        `${path}: unverified phone hidden`,
+      );
+      assert.ok(
+        !html.includes('"telephone":"+18336969996"'),
+        `${path}: unverified structured phone hidden`,
+      );
       assert.ok(html.includes(`lang="${locale}-CA"`), `${path}: lang`);
       assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, `${path}: h1`);
       assert.ok(
@@ -142,4 +156,17 @@ assert.equal(
 assert.equal((await post({ ...payload, category: "cleaning" })).status, 400);
 console.log(
   "Passed: catalogue filters, French search, empty state, contextual quote and rental/product rejection.",
+);
+
+const dates = await (
+  await request(
+    "/fr/request-quote?intent=rental&product=unitree-g1&startDate=2026-12-01&endDate=2026-12-03&province=QC&city=Montreal&useCase=Supervised%20demonstration",
+  )
+).text();
+assert.ok(dates.includes('value="2026-12-01"'));
+assert.ok(dates.includes('value="2026-12-03"'));
+assert.ok(dates.includes("startDate=2026-12-01&amp;endDate=2026-12-03"));
+assert.ok(dates.includes("Enregistrer mon projet"));
+console.log(
+  "Passed: verified-only phone, disabled-delivery guard and contextual rental dates.",
 );

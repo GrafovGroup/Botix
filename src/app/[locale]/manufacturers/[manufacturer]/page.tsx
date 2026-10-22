@@ -26,7 +26,13 @@ export async function generateMetadata({
   return {
     title: `${manufacturer.name} | BOTIX`,
     description: manufacturer.summary[locale],
-    openGraph:{title:manufacturer.name,description:manufacturer.summary[locale],type:"website",locale:locale==="fr"?"fr_CA":"en_CA",url:`${siteUrl}/${locale}/manufacturers/${manufacturer.slug}`},
+    openGraph: {
+      title: manufacturer.name,
+      description: manufacturer.summary[locale],
+      type: "website",
+      locale: locale === "fr" ? "fr_CA" : "en_CA",
+      url: `${siteUrl}/${locale}/manufacturers/${manufacturer.slug}`,
+    },
     alternates: {
       canonical: `${siteUrl}/${locale}/manufacturers/${manufacturer.slug}`,
       languages: {

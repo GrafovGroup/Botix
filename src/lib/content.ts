@@ -8,7 +8,6 @@ export const siteUrl = (process.env.SITE_URL || "https://botix.ca").replace(
   /\/$/,
   "",
 );
-export const phone = "(833) 696-9996";
 export type Section = { title: Bilingual; body: Bilingual };
 export type ContentPage = {
   slug: string;
@@ -317,6 +316,18 @@ export const pages: ContentPage[] = [
         "02 / Évaluer",
         "Compare potential approaches, supplier information and the questions that require a site assessment or pilot.",
         "Comparez les approches, les renseignements des fournisseurs et les questions nécessitant une visite ou un projet pilote.",
+      ),
+      section(
+        "From shortlist to a written scope",
+        "De la sélection à une portée écrite",
+        "Treat catalogue profiles as a starting point. Confirm the exact model and configuration, supplier relationship, software access, transport, training and support responsibilities in writing before committing. Evaluate total project costs and acceptance criteria, not only the platform.",
+        "Les profils du catalogue constituent un point de départ. Confirmez par écrit le modèle, la configuration, la relation fournisseur, l’accès logiciel, le transport, la formation et les responsabilités de soutien avant de vous engager. Évaluez les coûts du projet et les critères d’acceptation, au-delà de la plateforme.",
+      ),
+      section(
+        "A supervised pilot with a clear decision",
+        "Un projet pilote supervisé menant à une décision claire",
+        "Define a baseline, measurable task, operating limits, responsible operator and stop criteria. Review site access, public separation, emergency stop and recovery procedures with the responsible supplier and site team. Agree how results will support a proceed, revise or stop decision.",
+        "Définissez la situation initiale, une tâche mesurable, les limites d’utilisation, l’opérateur responsable et les critères d’arrêt. Examinez l’accès au site, la séparation du public, l’arrêt d’urgence et la récupération avec le fournisseur responsable et l’équipe du site. Convenez de la façon dont les résultats guideront la poursuite, la révision ou l’arrêt du projet.",
       ),
       section(
         "03 / Coordinate",

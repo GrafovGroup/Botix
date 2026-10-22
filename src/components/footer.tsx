@@ -1,5 +1,7 @@
+import { ContactPhone } from "@/components/contact-phone";
 import Link from "next/link";
-import { type Locale, ui, phone } from "@/lib/content";
+import { Brand } from "./brand";
+import { type Locale, ui } from "@/lib/content";
 export function Footer({ locale }: { locale: Locale }) {
   const t = ui[locale];
   return (
@@ -7,7 +9,7 @@ export function Footer({ locale }: { locale: Locale }) {
       <div className="footer-top">
         <div>
           <Link className="brand" href={`/${locale}`}>
-            BOTI<span className="brand-x">X</span>
+            <Brand />
           </Link>
           <p>
             {locale === "en"
@@ -27,10 +29,7 @@ export function Footer({ locale }: { locale: Locale }) {
             </Link>
           ))}
         </div>
-        <a className="footer-phone" href="tel:+18336969996">
-          {phone}
-          <span aria-hidden>↗</span>
-        </a>
+        <ContactPhone className="footer-phone" />
       </div>
       <div className="footer-bottom">
         <span>

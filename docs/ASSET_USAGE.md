@@ -18,3 +18,7 @@ Local cross-site audit: `scripts/audit-assets.py` screened 2,108 images in 10 ne
 ## Phase 1B
 
 No new photographic assets or manufacturer logos were added. Product cards use text and product galleries remain empty until rights-cleared assets are supplied. Each future gallery entry requires a locale, source, rights record and unique placement; update this register and rerun exact/visual duplicate checks before publishing media. The Phase 1A audit scope above is unchanged.
+
+## Phase 1C
+
+No new images or approved vector files were supplied or added. Existing homepage placements are unchanged; brand asset slots are null and retain typography. Asset audit inventory scope remains the Phase 1A scope above.

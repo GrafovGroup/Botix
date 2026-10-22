@@ -1,3 +1,9 @@
+import {
+  inquiryHref,
+  pageInquiryContext,
+  type InquiryContext,
+} from "@/lib/inquiry-context";
+import { ContactPhone } from "@/components/contact-phone";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -6,13 +12,18 @@ import {
   ui,
   type Locale,
   type ContentPage,
-  phone,
 } from "@/lib/content";
 import { regions, type Region } from "@/lib/locations";
 import { Arrow, RobotIcon } from "./icons";
 import { JourneySections, CityLinks } from "./journey-sections";
 import { InquiryForm } from "./inquiry-form";
-export function QuoteCTA({ locale }: { locale: Locale }) {
+export function QuoteCTA({
+  locale,
+  context = {},
+}: {
+  locale: Locale;
+  context?: InquiryContext;
+}) {
   return (
     <section className="cta-band">
       <div>
@@ -25,7 +36,7 @@ export function QuoteCTA({ locale }: { locale: Locale }) {
             : "Donnons vie aux possibilités."}
         </h2>
       </div>
-      <Link className="button" href={`/${locale}/request-quote`}>
+      <Link className="button" href={inquiryHref(locale, context)}>
         {ui[locale].quote}
         <Arrow />
       </Link>
@@ -420,7 +431,10 @@ export function StandardPage({
         <h1>{page.title[locale]}</h1>
         <p className="lead">{page.intro[locale]}</p>
         {!legal && !["request-quote", "contact"].includes(page.slug) && (
-          <Link className="button" href={`/${locale}/request-quote`}>
+          <Link
+            className="button"
+            href={inquiryHref(locale, pageInquiryContext(page.slug, locale))}
+          >
             {ui[locale].next}
             <Arrow />
           </Link>
@@ -461,9 +475,7 @@ export function StandardPage({
                 ? "Purchase, rental, pilot or integration. Tell us what you have in mind."
                 : "Achat, location, projet pilote ou intégration. Parlez-nous de vos idées."}
             </p>
-            <a className="contact-phone" href="tel:+18336969996">
-              {phone} ↗
-            </a>
+            <ContactPhone className="contact-phone" />
             <p>
               {locale === "en"
                 ? "English & French · Canada-wide inquiries"
@@ -474,7 +486,10 @@ export function StandardPage({
         </section>
       )}
       {!legal && !["request-quote", "contact"].includes(page.slug) && (
-        <QuoteCTA locale={locale} />
+        <QuoteCTA
+          locale={locale}
+          context={pageInquiryContext(page.slug, locale)}
+        />
       )}
     </>
   );
@@ -542,7 +557,13 @@ export function LocationsPage({
                 ? "Site access. Operating conditions. Training. Recovery. Support. Each belongs in the conversation."
                 : "Accès au site. Conditions d’utilisation. Formation. Récupération. Soutien. Chaque aspect compte."}
             </p>
-            <Link className="button" href={`/${locale}/request-quote`}>
+            <Link
+              className="button"
+              href={inquiryHref(locale, {
+                intent: "general",
+                province: region.code as InquiryContext["province"],
+              })}
+            >
               {ui[locale].quote}
               <Arrow />
             </Link>
@@ -563,7 +584,13 @@ export function LocationsPage({
         </section>
       )}
       <CityLinks locale={locale} region={region?.slug} />
-      <QuoteCTA locale={locale} />
+      <QuoteCTA
+        locale={locale}
+        context={{
+          intent: "general",
+          province: region?.code as InquiryContext["province"],
+        }}
+      />
     </>
   );
 }
