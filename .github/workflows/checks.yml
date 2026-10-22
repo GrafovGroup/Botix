@@ -35,9 +35,14 @@ jobs:
       - run: pnpm catalog:check
       - run: pnpm delivery:test
       - run: pnpm lint
-      - run: pnpm build
+      - run: pnpm build:release
       - run: pnpm typecheck
       - run: pnpm release:smoke
+      - run: pnpm package:release
+      - run: pnpm standalone:smoke
+      - run: SITE_ENV=preview SITE_URL=https://staging.example.test pnpm build:release
+      - run: pnpm package:release
+      - run: pnpm standalone:smoke
       - run: pnpm audit --prod --audit-level=high
   dependency-audit:
     runs-on: ubuntu-latest

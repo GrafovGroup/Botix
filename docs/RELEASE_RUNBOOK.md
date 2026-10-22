@@ -1,6 +1,6 @@
 # Controlled release runbook
 
-Provider-neutral; no provider selected, no deployment authorized. Phase 1D depends on open Phase 1C PR #2, which depends on Phase 1B PR #1. Review and land in that order only with owner authorization; retarget later PRs to main and rerun checks. Do not force-push shared branches or silently merge them. Final go/no-go is in GO_NO_GO.md.
+WHC Web Hosting Pro selected; Node capability verified, actual BOTIX compatibility still conditional. No deployment authorized. See WHC_DEPLOYMENT.md for the Phase 1E standalone build, staging and host acceptance procedure. Phase 1D depends on open Phase 1C PR #2, which depends on Phase 1B PR #1. Review and land in that order only with owner authorization; retarget later PRs to main and rerun checks. Do not force-push shared branches or silently merge them. Final go/no-go is in GO_NO_GO.md.
 
 ## 1. Establish a release candidate
 
@@ -21,8 +21,8 @@ Run the manual matrix in PHASE_1D_QA.md. Obtain signed visual/accessibility evid
 
 | Setting | Scope | Required decision |
 | --- | --- | --- |
-| SITE_ENV=production | Server runtime | Set only for approved public production; otherwise production server stays protected. |
-| SITE_URL=https://botix.ca | Server runtime | Exact request origin. If canonical host changes, update content siteUrl, sitemap, alternates and redirects together. |
+| SITE_ENV=production | Build and runtime | Set only for approved public production; otherwise production server stays protected. |
+| SITE_URL=https://botix.ca | Build and runtime | Exact request origin. If canonical host changes, update content siteUrl, sitemap, alternates and redirects together. |
 | INQUIRY_DELIVERY_ENABLED | Server runtime | false until explicit owner authorization and verified receiver/edge controls. |
 | INQUIRY_WEBHOOK_URL / SECRET | Server secrets | Owner-controlled HTTPS receiver and independent random bearer secret; no userinfo/fragments. |
 | INQUIRY_SIGNING_SECRET | Server secret | Stable random value across all replicas/restarts; separate from webhook secret. |
@@ -38,7 +38,7 @@ Security headers include nosniff, DENY framing, no-referrer, restricted camera/m
 
 ## 4. Owner go/no-go and release
 
-Resolve all GO_NO_GO.md gates, including legal/trademark review and source/media/phone approvals. Obtain separate authorization for merge, deployment, DNS and live delivery. Snapshot DNS/TTL/certificates, host configuration and previous working artifact. Deploy only the approved immutable SHA through the selected provider's controlled process; no deploy command is provided until that provider and authorization exist.
+Resolve all GO_NO_GO.md gates, including legal/trademark review and source/media/phone approvals. Obtain separate authorization for merge, deployment, DNS and live delivery. Snapshot DNS/TTL/certificates, host configuration and previous working artifact. Deploy only the approved immutable SHA through the selected provider's controlled process; use the conditional Phase 1E procedure only after provider validation and authorization.
 
 After authorized deployment, read-only checks: HTTPS/apex-www redirects, /en and /fr, /api/health, sitemap/robots/canonicals, headers, hidden/unhidden phone as approved, errors/404s and backend service health. Live synthetic inquiry acceptance requires the separate approved plan. Monitor without recording personal data. Do not put prelaunch/legal-review notices on public pages.
 

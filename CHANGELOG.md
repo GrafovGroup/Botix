@@ -1,3 +1,10 @@
+# 0.5.0 — Phase 1E deployment engineering
+
+- Add standalone output, build identity metadata, versioned packaging with public/static assets and checksums, runtime startup guards and packaged HTTP smoke checks.
+- Verify WHC plan/Node capability; document conditional Passenger support, protected staging, Linux build requirements, manual release/rollback and DNS/email coexistence.
+- Fix authenticated preview image rendering by serving protected originals; retain production image optimization.
+- Extend CI verification without deployment automation; preserve disabled inquiries, protected preview and all Phase 1D routes.
+
 # Changelog
 
 ## 0.4.0 — 2026-10-22

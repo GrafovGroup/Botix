@@ -1,3 +1,7 @@
+# Phase 1E hosting update — 2026-10-22
+
+WHC Web Hosting Pro, cPanel Node 24 capability and domain control are verified. Domain attachment and hosting nameservers were configured under the earlier owner request. Remaining: authorize a staging hostname/deployment; verify SSH access, Passenger startup/drain, Linux architecture/libc, shared resource headroom, TLS, private-origin/header controls, shared rate limits, log retention and restore. No new hosting purchase requested. Existing phone, brand, privacy/legal/receiver and real-browser gates below remain. See docs/WHC_COMPATIBILITY.md.
+
 # Owner actions
 
 1. **Lead destination:** choose the receiving CRM/email workflow and configure its HTTPS endpoint and bearer secret. Confirm durable acceptance, deduplication, retention and access controls. Set a stable inquiry signing secret and shared edge rate limiting for the chosen deployment.
@@ -7,7 +11,7 @@
 5. **Verified catalog:** review the six sourced editorial examples and supply any confirmed supplier relationships, inventory, rental availability and licensed product media. Published references do not assert BOTIX dealership or availability; no online transactions are enabled.
 6. **Trademark:** obtain BOTIX name/mark clearance and approved usage guidance; no clearance is claimed.
 7. **Visual acceptance:** complete desktop/tablet/mobile browser checks from docs/PHASE_1C_QA.md; policy blocked implementation-time browser access.
-8. **Publication:** choose hosting and authorize deployment/DNS changes. No production deployment or DNS change has been made.
+8. **Publication:** WHC selected and domain connection completed under earlier authorization. Validate BOTIX hosting and authorize app deployment separately; no production app is deployed.
 
 Image duplicate screening covered 2,108 locally available images across 10 other project directories. The closest perceptual matches were visually inspected and are unrelated scenes. Remote-only and otherwise unavailable inventories remain outside scope; no complete portfolio-wide verification is claimed.
 
@@ -15,4 +19,4 @@ Privacy review reference: [Office of the Privacy Commissioner of Canada — Priv
 
 Use docs/LAUNCH_CHECKLIST.md for the full owner signoff, receiver verification, deployment, monitoring and rollback sequence. Delivery defaults disabled; production requires explicit receiver/shared-edge attestations as well as secrets. Brand handoff requirements are in docs/BRAND_ASSETS.md.
 
-Phase 1D: select hosting and validate preview/HTTPS/CDN/origin controls; address the development-only braces advisory with owner/security review; complete the 375/768/1024/1440 browser matrix and actual bilingual receiver plan. Production remains NO-GO under docs/GO_NO_GO.md. CI is added, but a workflow file or local pass is not evidence that a GitHub-hosted run passed.
+Phase 1D/1E: WHC selected; verify hosting and validate preview/HTTPS/CDN/origin controls; address the development-only braces advisory with owner/security review; complete the 375/768/1024/1440 browser matrix and actual bilingual receiver plan. Production remains NO-GO under docs/GO_NO_GO.md. CI is added, but a workflow file or local pass is not evidence that a GitHub-hosted run passed.
