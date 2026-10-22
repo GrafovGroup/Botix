@@ -1,3 +1,9 @@
+# Phase 1E — WHC deployment engineering
+
+Branch `codex/phase-1e` from Phase 1D `b4fd3cf`; canonical main brief `075921a` recorded before execution. PRs #1–#3 remain open/unmerged. Adds Next standalone output, guarded build/start scripts, versioned asset packaging, both production/preview artifact verification and WHC compatibility/staging/release handoff.
+
+WHC Web Hosting Pro and Node 24 capability verified through authenticated cPanel; BOTIX Passenger runtime, SSL, resource load, ingress and restore are not yet verified. Earlier owner-authorized domain connection is separate from Phase 1E, which performs no deployment/DNS changes. Full dependency audit retains one high development-only braces finding; browser acceptance remains pending. Final verification: 35 unit tests, catalogue/synthetic receiver, lint, types, production and separate preview builds passed. Both source and packaged production HTTP checks passed all 144 routes; separately packaged preview passed startup, staging canonical, authenticated original images/JS, noindex, disabled delivery and missing-secret denial. Production audit: 0; full audit: 1 high development-only finding. See docs/PHASE_1E_QA.md. GitHub CI is checked separately after publication.
+
 # BOTIX implementation status
 
 ## Phase 1D — 2026-10-22

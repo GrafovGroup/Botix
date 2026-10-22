@@ -1,5 +1,8 @@
 import type { NextConfig } from "next";
 const config: NextConfig = {
+  output: "standalone",
+  // The optimizer cannot authenticate its internal source fetch in protected staging.
+  images: { unoptimized: process.env.SITE_ENV === "preview" },
   poweredByHeader: false,
   async headers() {
     return [

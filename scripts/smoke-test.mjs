@@ -94,7 +94,7 @@ const payload = {
   website: "",
   token,
 };
-const post = (data, origin = base) =>
+const post = (data, origin = process.env.TEST_ORIGIN || base) =>
   request("/api/inquiry", {
     method: "POST",
     headers: { "Content-Type": "application/json", Origin: origin },
