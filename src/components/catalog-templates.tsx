@@ -59,7 +59,16 @@ export function ProductTemplate({
   ];
   return (
     <>
-      <StructuredBreadcrumbs locale={locale} items={[{name:en?"Robot catalogue":"Catalogue de robots",path:"robots"},{name:p.name[locale],path:`products/${p.slug}`}]}/>
+      <StructuredBreadcrumbs
+        locale={locale}
+        items={[
+          {
+            name: en ? "Robot catalogue" : "Catalogue de robots",
+            path: "robots",
+          },
+          { name: p.name[locale], path: `products/${p.slug}` },
+        ]}
+      />
       <nav
         className="breadcrumbs"
         aria-label={en ? "Breadcrumb" : "Fil d’Ariane"}
@@ -260,7 +269,16 @@ export function ManufacturerTemplate({
 }) {
   return (
     <>
-      <StructuredBreadcrumbs locale={locale} items={[{name:locale==="en"?"Manufacturers":"Fabricants",path:"manufacturers"},{name:m.name,path:`manufacturers/${m.slug}`}]}/>
+      <StructuredBreadcrumbs
+        locale={locale}
+        items={[
+          {
+            name: locale === "en" ? "Manufacturers" : "Fabricants",
+            path: "manufacturers",
+          },
+          { name: m.name, path: `manufacturers/${m.slug}` },
+        ]}
+      />
       <nav
         className="breadcrumbs"
         aria-label={locale === "en" ? "Breadcrumb" : "Fil d’Ariane"}

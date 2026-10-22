@@ -65,6 +65,14 @@ test("rate limiter blocks sixth attempt and permits after window", () => {
   assert.equal(allowAttempt("test", now + 600001), true);
 });
 test("delivery never reports success without configuration or upstream acceptance", async () => {
+  const savedEnv = { ...process.env };
+  Object.assign(process.env, {
+    INQUIRY_DELIVERY_ENABLED: "true",
+    INQUIRY_SIGNING_SECRET: "test-signing-secret-32-characters-long",
+    INQUIRY_RECEIVER_VERIFIED: "true",
+    INQUIRY_EDGE_RATE_LIMIT_CONFIRMED: "true",
+    SITE_URL: "https://botix.ca",
+  });
   const previous = {
     url: process.env.INQUIRY_WEBHOOK_URL,
     key: process.env.INQUIRY_WEBHOOK_SECRET,
@@ -75,7 +83,8 @@ test("delivery never reports success without configuration or upstream acceptanc
     const inquiry = inquirySchema.parse(valid);
     assert.equal(await deliverInquiry(inquiry), "unconfigured");
     process.env.INQUIRY_WEBHOOK_URL = "https://example.com/inquiries";
-    process.env.INQUIRY_WEBHOOK_SECRET = "test-secret";
+    process.env.INQUIRY_WEBHOOK_SECRET =
+      "test-webhook-secret-32-characters-long";
     let calls = 0;
     const accepted: typeof fetch = async (_url, init) => {
       calls++;
@@ -104,6 +113,16 @@ test("delivery never reports success without configuration or upstream acceptanc
     process.env.INQUIRY_WEBHOOK_URL = "http://example.com";
     assert.equal(await deliverInquiry(inquiry, accepted), "unconfigured");
   } finally {
+    for (const key of [
+      "INQUIRY_DELIVERY_ENABLED",
+      "INQUIRY_SIGNING_SECRET",
+      "INQUIRY_RECEIVER_VERIFIED",
+      "INQUIRY_EDGE_RATE_LIMIT_CONFIRMED",
+      "SITE_URL",
+    ]) {
+      if (savedEnv[key] === undefined) delete process.env[key];
+      else process.env[key] = savedEnv[key];
+    }
     if (previous.url) process.env.INQUIRY_WEBHOOK_URL = previous.url;
     else delete process.env.INQUIRY_WEBHOOK_URL;
     if (previous.key) process.env.INQUIRY_WEBHOOK_SECRET = previous.key;

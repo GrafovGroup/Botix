@@ -1,6 +1,6 @@
 {
   "name": "botix-ca",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
-    "format": "prettier --write src tests"
+    "format": "prettier --write src tests",
+    "catalog:check": "tsx scripts/catalog-check.ts",
+    "delivery:check": "tsx scripts/check-readiness.ts",
+    "delivery:test": "tsx scripts/test-delivery.ts"
   },
   "dependencies": {
     "next": "16.4.2",

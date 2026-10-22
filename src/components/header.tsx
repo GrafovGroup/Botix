@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
+import { liveInquiryHref } from "./inquiry-context-link";
+import { Brand } from "./brand";
+import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { Suspense, useState } from "react";
 import { type Locale, ui } from "@/lib/content";
 export function Header({ locale }: { locale: Locale }) {
@@ -30,7 +32,7 @@ export function Header({ locale }: { locale: Locale }) {
           aria-label="BOTIX"
           onClick={() => setOpen(false)}
         >
-          BOTI<span className="brand-x">X</span>
+          <Brand />
           <small>
             {locale === "en" ? "COMMERCIAL ROBOTICS" : "ROBOTIQUE COMMERCIALE"}
           </small>
@@ -105,6 +107,7 @@ function LocaleLink({
   locale: Locale;
   close: () => void;
 }) {
+  const router = useRouter();
   const params = useSearchParams();
   const query = params.toString();
   return (
@@ -113,7 +116,23 @@ function LocaleLink({
       href={alternate + (query ? `?${query}` : "")}
       hrefLang={locale === "en" ? "fr-CA" : "en-CA"}
       lang={locale === "en" ? "fr" : "en"}
-      onClick={close}
+      onClick={(e) => {
+        close();
+        if (
+          e.button !== 0 ||
+          e.metaKey ||
+          e.ctrlKey ||
+          e.shiftKey ||
+          e.altKey ||
+          !alternate.endsWith("/request-quote")
+        )
+          return;
+        const destination = liveInquiryHref(locale === "en" ? "fr" : "en");
+        if (destination) {
+          e.preventDefault();
+          router.push(destination);
+        }
+      }}
     >
       {locale === "en" ? "FR" : "EN"}
     </Link>

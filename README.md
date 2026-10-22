@@ -38,7 +38,7 @@ For a local webhook test, set `SITE_URL=http://127.0.0.1:3000`; production canon
 
 ## Inquiry delivery
 
-Copy `.env.example` to `.env.local` and configure an owner-controlled HTTPS webhook plus bearer secret. The endpoint must return 2xx **only after durable acceptance**, respect the `Idempotency-Key` header, and protect personal information. Non-2xx, network failure, timeout or missing credentials never produce a success response. The form retains entries on errors and offers a phone fallback.
+Copy `.env.example` to `.env.local` and configure an owner-controlled HTTPS webhook plus bearer secret. Delivery defaults disabled; follow [the delivery contract](docs/INQUIRY_DELIVERY.md) before enabling it. Production checks require a stable signing secret, HTTPS site URL and receiver/shared-edge verification attestations. The endpoint must return 2xx **only after durable acceptance**, respect the `Idempotency-Key` header, and protect personal information. Non-2xx, network failure, timeout or missing credentials never produce a success response. The form retains entries on errors and offers local brief export; a phone fallback appears only after owner verification.
 
 Set `INQUIRY_SIGNING_SECRET` to a stable random value of at least 32 bytes in shared deployment secrets. The local fallback is process-specific and is not suitable across replicas. Tokens require 2 seconds before submission and expire after 2 hours. A retry of the same form uses the same delivery key, allowing the receiver to deduplicate an uncertain network result.
 
@@ -48,8 +48,19 @@ No live delivery service has been configured or tested. Tests use a mock accepti
 
 ## Content and operating constraints
 
-The standard phone placeholder is `(833) 696-9996`, linked as `tel:+18336969996`. Confirm ownership/routing or provide the project-specific number. No office addresses, customer logos, inventory, prices, partnerships, performance guarantees or completed deployment claims are fabricated.
+The standard phone placeholder `(833) 696-9996` is hidden from public links and structured data until owner verification. Set NEXT_PUBLIC_PHONE_VERIFIED=true with a verified NEXT_PUBLIC_PHONE_NUMBER and rebuild only after confirming ownership/routing. No office addresses, customer logos, inventory, prices, partnerships, performance guarantees or completed deployment claims are fabricated.
 
 Logo files described by the original brief were absent from the repository. The current header uses a typographic wordmark; the approved brand kit remains an owner input. Original generated photography is generic and unbranded. Internal provenance is never shown as customer-facing disclaimers.
 
 See [implementation status](IMPLEMENTATION_STATUS.md), [owner actions](OWNER_ACTIONS.md), the [phase index and specifications](docs/PHASE_INDEX.md), [brand handoff](docs/BRAND.md), [asset register](docs/ASSET_USAGE.md) and [changelog](CHANGELOG.md). Deployment and DNS changes require owner authorization under the repository brief.
+
+## Phase 1C operations
+
+- [Launch checklist and rollback](docs/LAUNCH_CHECKLIST.md)
+- [Catalogue editing and JSON validation](docs/CATALOGUE_OPERATIONS.md)
+- [Brand asset handoff](docs/BRAND_ASSETS.md)
+- [QA scope and pending visual acceptance](docs/PHASE_1C_QA.md)
+
+`pnpm catalog:check` validates the registry (or pass a candidate JSON path). `pnpm delivery:test` exercises a synthetic durable receiver with no network. `pnpm delivery:check` inspects exported production settings without sending data and exits nonzero when incomplete. It does not load .env files; inject environment values securely. Run HTTP smoke checks only on a local server with delivery disabled.
+
+Optional form analytics consent is separate from inquiry consent and defaults off. Only allowlisted event + locale is emitted as a local `botix:analytics` CustomEvent; no provider, cookies, URL or form values are transmitted. Brief download is local to the visitor's device and is not a submission. On the main quote page, normal workflow/language clicks preserve current project context (including typed dates/use case); contact fields are deliberately excluded from navigation URLs. Other navigation and modified/new-tab clicks retain only query-prefilled context.

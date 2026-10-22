@@ -1,3 +1,4 @@
+import { publicPhone } from "@/lib/contact";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -114,7 +115,7 @@ export default async function Page({ params }: { params: Promise<Params> }) {
         "@type": "Organization",
         name: "BOTIX",
         url: siteUrl,
-        telephone: "+18336969996",
+        ...(publicPhone ? { telephone: publicPhone.number } : {}),
         areaServed: { "@type": "Country", name: "Canada" },
       };
   return (

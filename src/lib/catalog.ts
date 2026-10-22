@@ -57,7 +57,12 @@ const https = z
   );
 export const verificationSchema = z.object({
   sourceUrl: https,
-  checkedOn: z.iso.date(),
+  checkedOn: z.iso
+    .date()
+    .refine(
+      (d) => d <= new Date().toISOString().slice(0, 10),
+      "Review date cannot be in the future",
+    ),
   approvedForPublication: z.boolean(),
 });
 export type Verification = z.infer<typeof verificationSchema>;
@@ -138,7 +143,19 @@ export const productSchema = z.object({
   evidence: verificationSchema,
 });
 export type Product = z.infer<typeof productSchema>;
+export const relationshipSchema = z.discriminatedUnion("status", [
+  z.object({ status: z.literal("not-confirmed") }),
+  z.object({
+    status: z.literal("verified"),
+    description: localized,
+    evidence: verificationSchema.refine(
+      (e) => e.approvedForPublication,
+      "Relationship needs publication approval",
+    ),
+  }),
+]);
 export const manufacturerSchema = z.object({
+  relationship: relationshipSchema,
   slug,
   name: z.string().min(1),
   summary: localized,
@@ -167,6 +184,7 @@ const fact = (
 ): VerifiedFact => ({ label, value, evidence: evidence(source) });
 export const manufacturers: Manufacturer[] = [
   {
+    relationship: { status: "not-confirmed" },
     slug: "unitree",
     name: "Unitree Robotics",
     summary: bi(
@@ -177,6 +195,7 @@ export const manufacturers: Manufacturer[] = [
     evidence: evidence(sources.g1),
   },
   {
+    relationship: { status: "not-confirmed" },
     slug: "pudu",
     name: "PUDU Robotics",
     summary: bi(
@@ -187,6 +206,7 @@ export const manufacturers: Manufacturer[] = [
     evidence: evidence(sources.cc1),
   },
   {
+    relationship: { status: "not-confirmed" },
     slug: "mir",
     name: "Mobile Industrial Robots",
     summary: bi(
@@ -197,6 +217,7 @@ export const manufacturers: Manufacturer[] = [
     evidence: evidence(sources.mir),
   },
   {
+    relationship: { status: "not-confirmed" },
     slug: "universal-robots",
     name: "Universal Robots",
     summary: bi(
@@ -207,6 +228,7 @@ export const manufacturers: Manufacturer[] = [
     evidence: evidence(sources.ur),
   },
   {
+    relationship: { status: "not-confirmed" },
     slug: "boston-dynamics",
     name: "Boston Dynamics",
     summary: bi(
@@ -599,5 +621,6 @@ export function quoteHref(locale: Locale, intent: string, product?: Product) {
   return `/${locale}/request-quote?${params}`;
 }
 
-const catalogErrors=validateCatalog(products);
-if(catalogErrors.length) throw new Error(`Catalogue validation failed: ${catalogErrors.join("; ")}`);
+const catalogErrors = validateCatalog(products);
+if (catalogErrors.length)
+  throw new Error(`Catalogue validation failed: ${catalogErrors.join("; ")}`);

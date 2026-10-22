@@ -24,7 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      title:locale==="fr"?"BOTIX | Catalogue de robots":"BOTIX | Robot catalogue",
+      title:
+        locale === "fr"
+          ? "BOTIX | Catalogue de robots"
+          : "BOTIX | Robot catalogue",
       type: "website",
       url: `${siteUrl}/${locale}/robots`,
       locale: locale === "fr" ? "fr_CA" : "en_CA",
@@ -49,7 +52,15 @@ export default async function Page({ params, searchParams }: Props) {
   }
   return (
     <>
-      <StructuredBreadcrumbs locale={locale} items={[{name:locale==="en"?"Robot catalogue":"Catalogue de robots",path:"robots"}]}/>
+      <StructuredBreadcrumbs
+        locale={locale}
+        items={[
+          {
+            name: locale === "en" ? "Robot catalogue" : "Catalogue de robots",
+            path: "robots",
+          },
+        ]}
+      />
       <section className="section page-intro catalogue-intro">
         <p className="eyebrow">
           {locale === "en"

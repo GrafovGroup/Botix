@@ -12,8 +12,16 @@ export async function generateMetadata({
   const { locale } = await params;
   return {
     title: `${locale === "fr" ? "Fabricants" : "Manufacturers"} | BOTIX`,
-    description:locale==="fr"?"Références de fabricants et profils robotiques documentés pour la recherche de solutions.":"Manufacturer references and sourced robot profiles for solution research.",
-    openGraph:{title:locale==="fr"?"Fabricants | BOTIX":"Manufacturers | BOTIX",type:"website",locale:locale==="fr"?"fr_CA":"en_CA",url:`${siteUrl}/${locale}/manufacturers`},
+    description:
+      locale === "fr"
+        ? "Références de fabricants et profils robotiques documentés pour la recherche de solutions."
+        : "Manufacturer references and sourced robot profiles for solution research.",
+    openGraph: {
+      title: locale === "fr" ? "Fabricants | BOTIX" : "Manufacturers | BOTIX",
+      type: "website",
+      locale: locale === "fr" ? "fr_CA" : "en_CA",
+      url: `${siteUrl}/${locale}/manufacturers`,
+    },
     alternates: {
       canonical: `${siteUrl}/${locale}/manufacturers`,
       languages: {
@@ -33,7 +41,15 @@ export default async function Page({
   if (!isLocale(locale) || !manufacturers.length) notFound();
   return (
     <>
-      <StructuredBreadcrumbs locale={locale} items={[{name:locale==="en"?"Manufacturers":"Fabricants",path:"manufacturers"}]}/>
+      <StructuredBreadcrumbs
+        locale={locale}
+        items={[
+          {
+            name: locale === "en" ? "Manufacturers" : "Fabricants",
+            path: "manufacturers",
+          },
+        ]}
+      />
       <section className="section page-intro">
         <h1>{locale === "en" ? "Manufacturers" : "Fabricants"}</h1>
       </section>
