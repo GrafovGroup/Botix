@@ -9,7 +9,7 @@ Website: BOTIX.ca. Both assets were created specifically for this implementation
 
 Originals remain in `/Users/grafov/.codex/generated_images/01a16539-0af9-7373-b1fe-d60b972f5203/`. The project uses only the copied WebP files. Next Image responsive exports belong to the same single placement. Neither photo appears on category pages, location pages, cards, backgrounds elsewhere or social metadata.
 
-The two source compositions were inspected: one robot has lowered arms and angular shoulder joints; the other has a bent arm, oval faceplate and illuminated ceiling. They are separate generations, not crops or recolourings. SHA-256 and perceptual comparison results are recorded in IMPLEMENTATION_STATUS.md.
+The two source compositions were inspected: one robot has lowered arms and angular shoulder joints; the other has a bent arm, oval faceplate and illuminated ceiling. They are separate generations, not crops or recolourings. SHA-256 and perceptual comparison results are recorded in [asset-audit.json](asset-audit.json), with verification scope in [IMPLEMENTATION_STATUS.md](../IMPLEMENTATION_STATUS.md).
 
 Code-drawn line icons, arrows and typographic wordmark are reusable interface symbols, not photography. No provisional vector logo files were available in the source repository.
 

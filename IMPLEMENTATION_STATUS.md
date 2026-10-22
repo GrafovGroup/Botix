@@ -2,7 +2,7 @@
 
 ## Phase 1B — 2026-10-22
 
-Implemented from the GitHub Phase 1B specification and governance commits through `4130483` on `codex/phase-1b`. This branch also contains completed Phase 1A (`be26bbf`), which was not yet on main. No merge, deployment or DNS change.
+Implemented from the GitHub Phase 1B specification and governance commits through `4130483` on `codex/phase-1b`. GitHub implementation commit `3846713` includes the completed Phase 1A foundation, which was not yet on main. Original local Phase 1A commit `be26bbf` and tested Phase 1B history are preserved on local branches `codex/phase-1a` and `codex/phase-1b-local`; they are not ancestors of the GitHub implementation commit. No merge, deployment or DNS change.
 
 - Six sourced editorial products, five manufacturer references, typed publication/evidence/rights gates and import-time catalogue validation. Source links and review dates are attached to each fact. No stock, rental availability or dealer claims; no online transactions.
 - English/French catalogue search, combined filters, sorting, reset and empty states; product benefits, specifications, FAQ, related options and contextual calls to action. Product galleries require licensed media and unique locale placements; no manufacturer media was supplied or copied.

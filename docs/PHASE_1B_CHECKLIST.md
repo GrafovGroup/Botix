@@ -1,7 +1,7 @@
 # Phase 1B execution checklist
 
 Canonical scope: `docs/PHASE_1B_CODEX.md`; governance: `docs/PHASE_GOVERNANCE.md`.
-Prerequisite: completed Phase 1A commit `be26bbf`. Branch `codex/phase-1b` includes GitHub specification commits through `4130483`. Phase 1A remains intact.
+Prerequisite: completed local Phase 1A commit `be26bbf`, preserved on `codex/phase-1a`. Branch `codex/phase-1b` includes GitHub specification commits through `4130483`; GitHub implementation commit `3846713` contains the Phase 1A foundation and Phase 1B implementation. Original tested history remains on local `codex/phase-1b-local`.
 
 ## Assumptions
 

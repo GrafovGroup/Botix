@@ -52,4 +52,4 @@ The standard phone placeholder is `(833) 696-9996`, linked as `tel:+18336969996`
 
 Logo files described by the original brief were absent from the repository. The current header uses a typographic wordmark; the approved brand kit remains an owner input. Original generated photography is generic and unbranded. Internal provenance is never shown as customer-facing disclaimers.
 
-See `IMPLEMENTATION_STATUS.md` and `OWNER_ACTIONS.md`. Deployment and DNS changes require owner authorization under the repository brief.
+See [implementation status](IMPLEMENTATION_STATUS.md), [owner actions](OWNER_ACTIONS.md), the [phase index and specifications](docs/PHASE_INDEX.md), [brand handoff](docs/BRAND.md), [asset register](docs/ASSET_USAGE.md) and [changelog](CHANGELOG.md). Deployment and DNS changes require owner authorization under the repository brief.
