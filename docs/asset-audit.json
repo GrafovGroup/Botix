@@ -1,0 +1,82 @@
+{
+  "scope": "/Users/grafov/Documents/ChatGPT",
+  "compared_images": 2108,
+  "projects": [
+    "BarrierRentals.ca",
+    "BearTraps.ca",
+    "Dispensers.ca",
+    "HighDusting.ca",
+    "Move.ca",
+    "NationalRentals.ca",
+    "NiceRack.ca",
+    "NursingPods.ca",
+    "SmartRentals.ca",
+    "What sites were built with this chatgpt account (dimagrafov)_"
+  ],
+  "unreadable": [],
+  "assets": {
+    "home-en.webp": {
+      "sha256": "ce44b23f71c05a9d61e0ac33a714c7e7486bf862aa18ea3b3f202ae1af9ed648",
+      "dhash": "c080a4a4e4c4c8cc",
+      "closest": [
+        {
+          "file": "Move.ca/dist/client/assets/photos/office-night-sequence-v2-1536.webp",
+          "distance": 13,
+          "exact": false
+        },
+        {
+          "file": "Move.ca/dist/client/assets/photos/office-night-sequence-v2-768.webp",
+          "distance": 13,
+          "exact": false
+        },
+        {
+          "file": "Move.ca/assets/photos/office-night-sequence-v2-1536.webp",
+          "distance": 13,
+          "exact": false
+        },
+        {
+          "file": "Move.ca/assets/photos/office-night-sequence-v2-768.webp",
+          "distance": 13,
+          "exact": false
+        },
+        {
+          "file": "HighDusting.ca/dist/assets/services/warehouse-rack-top-cleaning.webp",
+          "distance": 14,
+          "exact": false
+        }
+      ]
+    },
+    "home-fr.webp": {
+      "sha256": "408ef54f9b79eccaa149fbaf7843504d4e1861e196858f2efa5c5184a843092b",
+      "dhash": "40446484e4e64ec6",
+      "closest": [
+        {
+          "file": "What sites were built with this chatgpt account (dimagrafov)_/tiling/dist/client/commercial/home-business.webp",
+          "distance": 13,
+          "exact": false
+        },
+        {
+          "file": "What sites were built with this chatgpt account (dimagrafov)_/tiling/public/commercial/home-business.webp",
+          "distance": 13,
+          "exact": false
+        },
+        {
+          "file": "Dispensers.ca/site/public/assets/city-alberta-grande-prairie-fr.jpg",
+          "distance": 16,
+          "exact": false
+        },
+        {
+          "file": "Dispensers.ca/site/src/images/city-alberta-grande-prairie-fr.jpg",
+          "distance": 16,
+          "exact": false
+        },
+        {
+          "file": "NursingPods.ca/public/images/pages/metro-kamloops-en.webp",
+          "distance": 16,
+          "exact": false
+        }
+      ]
+    }
+  },
+  "notes": "dHash is candidate screening, not proof of visual uniqueness. Remote-only inventories are outside scope."
+}
