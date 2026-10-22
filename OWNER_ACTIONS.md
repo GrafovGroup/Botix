@@ -14,3 +14,5 @@ Image duplicate screening covered 2,108 locally available images across 10 other
 Privacy review reference: [Office of the Privacy Commissioner of Canada — Privacy Guide for Businesses](https://www.priv.gc.ca/media/2038/guide_org_e.pdf). Counsel should align the final notices with the actual entity, providers, practices and applicable provincial rules; this implementation does not claim legal compliance certification.
 
 Use docs/LAUNCH_CHECKLIST.md for the full owner signoff, receiver verification, deployment, monitoring and rollback sequence. Delivery defaults disabled; production requires explicit receiver/shared-edge attestations as well as secrets. Brand handoff requirements are in docs/BRAND_ASSETS.md.
+
+Phase 1D: select hosting and validate preview/HTTPS/CDN/origin controls; address the development-only braces advisory with owner/security review; complete the 375/768/1024/1440 browser matrix and actual bilingual receiver plan. Production remains NO-GO under docs/GO_NO_GO.md. CI is added, but a workflow file or local pass is not evidence that a GitHub-hosted run passed.

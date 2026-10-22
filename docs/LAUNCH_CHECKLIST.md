@@ -4,7 +4,7 @@ Internal operational runbook. Phase 1C implements readiness controls; it does no
 
 ## Release and environment
 
-- [ ] Owner approves Phase 1B and 1C PRs and authorizes merge separately from deployment. Phase 1C is stacked on Phase 1B; after 1B lands, retarget/rebase non-destructively and rerun checks.
+- [ ] Owner approves Phase 1B, 1C and 1D PRs and authorizes merge separately from deployment. Phase 1C is stacked on Phase 1B; after 1B lands, retarget/rebase non-destructively and rerun checks.
 - [ ] Choose hosting, production hostname, account owner, billing and access controls. No services purchased by this phase.
 - [ ] Record current DNS zone, TTL, certificates, redirect rules and previous release before any authorized change. Test apex/www HTTPS redirect to the chosen canonical hostname; keep SITE_URL aligned with `https://botix.ca` metadata or change both deliberately.
 - [ ] Set deployment secrets through the host secret manager, never Git: webhook URL/secret, stable signing secret, SITE_URL. Generate independent random secrets of at least 32 bytes. Rotate with a documented receiver transition; old form challenges become invalid and visitors must retry.
@@ -27,10 +27,10 @@ Internal operational runbook. Phase 1C implements readiness controls; it does no
 - [ ] Run pnpm delivery:test locally. This uses a synthetic persisted receiver with injected transport, not a live CRM or TLS test.
 - [ ] With owner authorization, run synthetic end-to-end tests against the actual destination in EN and FR: purchase, rental, pilot and general; check contextual model/site/dates, received record and routing, consent, duplicate retry, outage, timeout, invalid fields and rate limits. Do not send real leads as a test.
 - [ ] Confirm failed or unavailable submissions retain form data, permit local brief download and never show success. Confirm verified telephone only. Confirm private data does not enter analytics or application logs.
-- [ ] Capture real-browser screenshots at 375px, 768px and 1440px: home, catalogue (filters/empty state), product, rental, industry, location and quote in both languages. Check keyboard order, mobile menu, focus, errors, loading, download, language/query retention, overflow, image crops and reduced motion. Browser access was policy-blocked during implementation; no bypass or screenshot evidence exists.
+- [ ] Capture real-browser screenshots at 375px, 768px, 1024px and 1440px: home, catalogue (filters/empty state), product, rental, industry, location and quote in both languages. Check keyboard order, mobile menu, focus, errors, loading, download, language/query retention, overflow, image crops and reduced motion. Browser access was policy-blocked during implementation; no bypass or screenshot evidence exists.
 - [ ] Measure LCP/CLS/INP with browser tooling under a documented device/network profile; inspect contrast and accessibility with tools and manual checks. No measured Web Vitals are reported by this phase.
 - [ ] Run pnpm test, pnpm catalog:check, pnpm lint, pnpm build, pnpm typecheck. On an isolated local server with delivery disabled run node scripts/smoke-test.mjs. It refuses submissions when the API reports delivery enabled.
-- [ ] Confirm canonical/hreflang, sitemap, robots, 404s, social metadata and all 144 URLs. Staging must be access-controlled/noindexed by the hosting environment; public robots currently permits production indexing.
+- [ ] Confirm canonical/hreflang, sitemap, robots, 404s, social metadata and all 144 URLs. Preview requires SITE_ENV=preview and a server-side secret; app authentication/noindex must be backed by host-level controls. Only explicit production mode permits indexing.
 
 ## Analytics, monitoring and rollback
 
@@ -39,3 +39,9 @@ Internal operational runbook. Phase 1C implements readiness controls; it does no
 - [ ] Back up receiver records under approved encryption, retention and restore policies; test restoration. The website itself stores no inquiry database. Retain the previous release artifact, source SHA and host configuration snapshot.
 - [ ] Rollback procedure: disable delivery via INQUIRY_DELIVERY_ENABLED=false if acceptance is uncertain; preserve receiver evidence; redeploy the previous approved artifact; restore DNS only if a DNS change was the cause and owner authorizes it. Verify HTTPS, EN/FR routes and disabled-submission handling, then reconcile accepted/duplicate records before re-enabling. Never roll back by deleting lead records.
 - [ ] Owner signs off launch, schedules monitoring and authorizes deployment/DNS explicitly. Review owner checklist after every provider, legal, phone or infrastructure change.
+
+## Phase 1D release gates
+
+- [ ] Resolve or explicitly review the unpatched high development-only dependency finding; full CI audit is intentionally not suppressed.
+- [ ] Confirm GitHub checks at the exact release SHA, protected-preview coverage, CDN/origin access controls and /api/health monitoring.
+- [ ] Complete docs/PHASE_1D_QA.md and docs/RELEASE_RUNBOOK.md, and change docs/GO_NO_GO.md only after documented owner evidence and authorization.

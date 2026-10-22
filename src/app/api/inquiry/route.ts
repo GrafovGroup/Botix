@@ -1,3 +1,4 @@
+import { inquiryRateKey } from "@/lib/inquiry-rate-key";
 import { deliveryReadiness } from "@/lib/delivery-config";
 import { NextRequest, NextResponse } from "next/server";
 import { inquirySchema } from "@/lib/inquiry";
@@ -63,10 +64,11 @@ export async function POST(req: NextRequest) {
   if (!verifyToken(parsed.data.token))
     return NextResponse.json({ error: "token" }, { status: 400 });
   // Trust forwarded IP only when a deployment's reverse proxy overwrites it.
-  const rateKey =
-    process.env.TRUST_PROXY === "true"
-      ? req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown"
-      : parsed.data.token;
+  const rateKey = inquiryRateKey(
+    parsed.data.token,
+    req.headers.get("x-forwarded-for"),
+    process.env.TRUST_PROXY === "true",
+  );
   if (!allowAttempt(rateKey))
     return NextResponse.json(
       { error: "rate" },
