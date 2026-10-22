@@ -8,4 +8,6 @@
 | 1D | [Controlled release](PHASE_1D_CODEX.md) | Completed 1C 42d6e82 | `codex/phase-1d`; [checklist](PHASE_1D_CHECKLIST.md) | Implemented; 31 tests/144-route checks passed; full audit/browser/owner gates unresolved, NO-GO |
 | 1E | [WHC deployment engineering](PHASE_1E_CODEX.md) | Completed 1D b4fd3cf | `codex/phase-1e`; [compatibility](WHC_COMPATIBILITY.md) | Implemented; 35 tests, 144-route production smoke and separately built preview artifact checks passed; host/browser/owner gates remain |
 
+| 1F | [Protected staging](PHASE_1F_CODEX.md) | Completed 1E 24d232c | `codex/phase-1f`; [QA](PHASE_1F_QA.md), [acceptance](WHC_STAGING_ACCEPTANCE.md) | Repository preparation; hosted staging NO-GO pending explicit authorization, dependency gate and actual acceptance |
+
 Owner reviews PRs before merge; deployment requires explicit authorization. See [governance](PHASE_GOVERNANCE.md), [implementation status](../IMPLEMENTATION_STATUS.md) and [owner actions](../OWNER_ACTIONS.md).

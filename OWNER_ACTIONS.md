@@ -1,3 +1,7 @@
+# Phase 1F approval boundary
+
+Review docs/WHC_STAGING_ACCEPTANCE.md and the stacked Phase 1F PR. Explicit authorization is required for staging.botix.ca creation/DNS, isolated WHC app and TLS configuration, Linux candidate upload and staging-only acceptance tests. The brief explicitly excludes these from a generic request to continue phases. Full dependency audit must pass before the proposed candidate workflow publishes an artifact. Passenger/port compatibility, Linux libc/architecture, host-wide protection, restart/drain, capacity, logs, backup restore and browser acceptance remain unverified. Production/apex/www/mail changes, live inquiries, merges and purchases remain outside approval scope.
+
 # Phase 1E hosting update — 2026-10-22
 
 WHC Web Hosting Pro, cPanel Node 24 capability and domain control are verified. Domain attachment and hosting nameservers were configured under the earlier owner request. Remaining: authorize a staging hostname/deployment; verify SSH access, Passenger startup/drain, Linux architecture/libc, shared resource headroom, TLS, private-origin/header controls, shared rate limits, log retention and restore. No new hosting purchase requested. Existing phone, brand, privacy/legal/receiver and real-browser gates below remain. See docs/WHC_COMPATIBILITY.md.

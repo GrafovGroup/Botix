@@ -25,7 +25,7 @@ The smoke commands start loopback-only processes, clear receiver secrets and nev
 
 Check release.json sourceSha, dirty=false, buildId, mode, siteUrl, OS/architecture/Node. Packaging alone does not certify a clean source tree, freshness or authorization: run build and package together from the immutable clean checkout. SHA256SUMS.json records copied regular-file hashes; an outer archive SHA256 protects the manifest and symlink structure in transit. Preserve symlinks when archiving/extracting and verify they remain internal. Keep the deployment archive private; never publish its source/modules as static downloads. Native modules require a matching target; no macOS-to-Linux promotion.
 
-CI builds and tests on Linux with pinned Actions, no app secrets and contents-read permissions. It does not upload or deploy artifacts. The separate full dependency audit remains unsuppressed. Local and GitHub CI outcomes must be recorded separately.
+CI builds and tests on Linux with pinned Actions, no app secrets and contents-read permissions. The automatic verification workflow does not upload or deploy artifacts. Phase 1F adds a manual staging-candidate workflow that can publish a three-day GitHub artifact after the full dependency audit passes; it does not connect to WHC or deploy. Dispatch and hosted testing require the approvals in WHC_STAGING_ACCEPTANCE.md. The separate full dependency audit remains unsuppressed. Local and GitHub CI outcomes must be recorded separately.
 
 ## Start and supervision
 

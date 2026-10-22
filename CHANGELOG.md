@@ -1,3 +1,10 @@
+# 0.6.0 — Phase 1F protected staging preparation
+
+- Add GET-only staging acceptance for 144 bilingual routes, authentication, headers, original images, assets and disabled inquiries; reject production/cross-origin targets.
+- Integrate acceptance into local preview smoke and add target/archive safety tests.
+- Prepare manual Linux candidate archive workflow with full dependency audit gate and short artifact retention; no hosting deployment.
+- Document exact staging-only WHC change/rollback plan, approval boundaries and outstanding host/browser checks.
+
 # 0.5.0 — Phase 1E deployment engineering
 
 - Add standalone output, build identity metadata, versioned packaging with public/static assets and checksums, runtime startup guards and packaged HTTP smoke checks.

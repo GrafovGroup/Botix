@@ -4,6 +4,7 @@ import { once } from "node:events";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { acceptStaging } from "./staging-acceptance.mjs";
 const artifact =
   process.env.BOTIX_STANDALONE === "true"
     ? JSON.parse(await readFile("artifacts/latest.json", "utf8")).directory
@@ -126,6 +127,16 @@ if (!build || build.siteEnv === "production")
     assert.equal(code, 0, "Production route smoke");
   });
 await run("preview", async () => {
+  if (build?.siteEnv === "preview") {
+    const result = await acceptStaging({
+      target: base,
+      canonicalOrigin: build.siteUrl,
+      secret,
+    });
+    console.log(
+      `Staging acceptance: ${result.routes} authenticated routes passed (GET only).`,
+    );
+  }
   for (const path of [
     "/",
     "/en",

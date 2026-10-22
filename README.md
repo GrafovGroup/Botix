@@ -74,3 +74,7 @@ The GitHub workflow runs tests/catalogue/synthetic delivery/lint/build/typecheck
 ## WHC deployment engineering (Phase 1E)
 
 Start with [WHC compatibility](docs/WHC_COMPATIBILITY.md), [protected staging](docs/WHC_STAGING.md) and [manual deployment/rollback](docs/WHC_DEPLOYMENT.md). `pnpm build:release` requires explicit SITE_ENV and HTTPS SITE_URL, refuses .env files and records whether the checkout is dirty; release candidates must come from a clean checkout. `pnpm package:release` assembles the standalone artifact; `pnpm standalone:smoke` tests the selected production or preview package locally. See the [runtime environment template](deploy/runtime.env.example) for runtime names. WHC Node support is verified, but BOTIX/Passenger compatibility and HTTPS remain acceptance gates. No workflow deploys automatically.
+
+## Protected staging preparation
+
+Phase 1F adds `pnpm staging:acceptance` (GET-only, exact authorized staging hostname or loopback) and `pnpm archive:staging` (clean Linux x64 preview only). See [WHC staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) for authorization, environment, manual candidate workflow, rollback and outstanding acceptance gates. Neither command authorizes deployment; no staging credentials belong in Git or command arguments.
