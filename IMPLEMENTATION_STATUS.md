@@ -1,3 +1,7 @@
+# Authorized staging execution — 2026-10-22
+
+Read canonical handoff 564878f and authorization 5548add from main; committed both before execution on `codex/staging-execution`, based on Phase 1F f5cfaf8. PRs #1–#5 remain open/unmerged. Fresh audit confirms unpatched high braces finding with no supported dependency upgrade path; production audit zero. Actual Phase 1F CI Linux verify passed, full audit failed. Public Cloudflare DNS now returns staging WHC IP; local resolver lags. TLS check and authenticated cPanel confirm self-signed staging certificate. No new hosting changes or deployment this attempt; security prerequisites failed. See docs/WHC_STAGING_ACCEPTANCE.md. Staging authorization is fulfilled, staging GO is not.
+
 # Phase 1F — protected staging preparation
 
 Prepared on `codex/phase-1f` from Phase 1E `24d232c`. Canonical brief from main `85d0c23` was recorded before implementation. PRs #1–#4 remain open drafts; merge order is 1B → 1C → 1D → 1E → 1F. Adds a GET-only, origin-restricted 144-route staging acceptance runner, local preview integration, guarded Linux archive packaging and a manual audit-gated GitHub candidate workflow. Exact WHC change/rollback plan: docs/WHC_STAGING_ACCEPTANCE.md. Verified: 38 tests, catalogue, synthetic delivery, lint/types, both builds, production source/packaged 144-route checks and preview 144-route authenticated acceptance passed. Results: docs/PHASE_1F_QA.md. Hosted staging and production remain NO-GO; no Phase 1F DNS, WHC, uploads, deployment or lead transmission occurred.
