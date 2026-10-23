@@ -1,10 +1,10 @@
 # BOTIX — current owner checklist
 
-Updated 2026-10-22. Staging is already authorized. The site implementation is reviewable, but the staging application is not running yet and production launch is not verified. Technical work and test evidence belong to Codex; see [staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) and [framework mapping](docs/UNIVERSAL_PHASE_MAPPING.md).
+Updated 2026-10-22. Staging is already authorized. The site implementation is reviewable and the WHC staging application is registered, but successful startup and production launch are not verified. Technical work and test evidence belong to Codex; see [staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) and [framework mapping](docs/UNIVERSAL_PHASE_MAPPING.md).
 
 ## 1. Finish staging credential handoff — needed now
 
-- [ ] In the open cPanel Directory Privacy form for `botix-staging-public`, create username `botix` with a unique password of at least 32 characters and save it. Keep the password in your password manager; never paste it into chat or GitHub.
+- [x] cPanel confirmed the owner saved the password for staging user `botix` on 2026-10-22. Keep it in your password manager; never paste it into chat or GitHub.
 - [ ] Configure the same value privately as the staging application's `PREVIEW_ACCESS_SECRET` when the prepared environment form is ready. Browser control requires the owner to enter and submit new authentication credentials.
 
 No additional staging approval or hosting purchase is requested. Codex then completes runtime setup, authenticated EN/FR checks, mobile/desktop visual and keyboard checks, performance and restart/restore verification, and presents the actual preview.
