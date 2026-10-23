@@ -1,3 +1,7 @@
+## Production launch — 2026-10-22
+
+BOTIX is live at https://botix.ca in English and French. All 144 public content routes passed hosted GET-only acceptance; HTTPS, canonical redirects, indexing, assets and disabled-delivery behavior verified. Focused desktop/mobile browser checks completed. Deployed source `93673ec63eaf51497ae00b17a5657f6b84a66798`. See [production evidence](docs/PRODUCTION_DEPLOYMENT.md). Historical entries below describe their original checkpoints.
+
 # Protected staging running — 2026-10-22 (Toronto)
 
 The uploaded application now serves authenticated HTTPS successfully. The existing GET-only staging acceptance runner passed all **144 routes** with exit 0, including bilingual metadata, asset protection, filters, security headers and disabled inquiry delivery. A subsequent authenticated homepage check returned 200. No real inquiries were sent.

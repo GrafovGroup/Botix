@@ -1,6 +1,6 @@
 # BOTIX — current owner checklist
 
-Updated 2026-10-22. Staging is already authorized. The protected staging application is running and its 144-route HTTP acceptance passed. Visual/manual operational acceptance and production approval remain outstanding. Technical work and test evidence belong to Codex; see [staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) and [framework mapping](docs/UNIVERSAL_PHASE_MAPPING.md).
+Updated 2026-10-22. Staging is already authorized. The protected staging application is running and its 144-route HTTP acceptance passed. Production launch was authorized and completed at https://botix.ca; focused desktop/mobile and public 144-route checks passed. See docs/PRODUCTION_DEPLOYMENT.md. Technical work and test evidence belong to Codex; see [staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) and [framework mapping](docs/UNIVERSAL_PHASE_MAPPING.md).
 
 ## 1. Finish staging credential handoff — needed now
 
@@ -9,7 +9,7 @@ Updated 2026-10-22. Staging is already authorized. The protected staging applica
 
 No additional staging approval or hosting purchase is requested. Codex then completes runtime setup, authenticated EN/FR checks, mobile/desktop visual and keyboard checks, performance and restart/restore verification, and presents the actual preview.
 
-## 2. Supply or approve business and brand inputs — before launch
+## 2. Remaining business and brand inputs
 
 - [ ] Supply approved BOTIX Signature vector files and approve the visual preview. The typographic fallback remains until actual approved assets arrive; see [brand asset handoff](docs/BRAND_ASSETS.md).
 - [ ] Verify `(833) 696-9996` routes to BOTIX, or provide the project-specific number. Until then it stays out of public links and structured data.
@@ -17,12 +17,13 @@ No additional staging approval or hosting purchase is requested. Codex then comp
 - [ ] Confirm operating entity, privacy contact, actual providers/processing practices and business scope; obtain appropriate privacy/terms and trademark review. No legal clearance is claimed.
 - [ ] Review editorial product references; supply evidence for any supplier relationship, rental availability, inventory or licensed media to be added. Existing content does not assert dealership or stock.
 
-## 3. Review the verified release — after acceptance
+## 3. Review the live release
 
 - [ ] Approve the customer-facing design and business content following the real preview.
-- [ ] Review the stacked PRs and give explicit merge/production-launch authorization when the release evidence is complete. Live inquiry delivery requires verified receiving workflow and explicit enablement approval.
+- [x] Production launch authorized by “make the site live” and verified at botix.ca.
+- [ ] Review the stacked PRs before separate merge authorization. Live inquiry delivery requires a verified receiving workflow and explicit enablement approval.
 
-Codex owns remaining hosting, security, browser, accessibility, performance, monitoring and rollback work. Do not return routine technical checks to the owner as manual tasks. Production DNS/email changes, purchases and live inquiries are outside the existing staging authorization.
+Codex owns remaining hosting, security, browser, accessibility, performance, monitoring and rollback work. Do not return routine technical checks to the owner as manual tasks. Email/DNS changes, purchases and live inquiry delivery were not part of this production deployment.
 
 ## Asset inventory limitation
 
