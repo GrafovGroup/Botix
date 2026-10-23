@@ -18,7 +18,9 @@
     "package:release": "node scripts/package-standalone.mjs",
     "standalone:smoke": "BOTIX_STANDALONE=true node scripts/release-smoke.mjs",
     "staging:acceptance": "node scripts/staging-acceptance.mjs",
-    "archive:staging": "node scripts/archive-staging.mjs"
+    "archive:staging": "node scripts/archive-staging.mjs",
+    "images:check": "tsx scripts/check-image-coverage.ts",
+    "mailbox:worker": "tsx scripts/mailbox-worker.ts"
   },
   "dependencies": {
     "next": "16.4.2",

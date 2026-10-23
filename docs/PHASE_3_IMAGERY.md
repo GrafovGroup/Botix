@@ -1,0 +1,5 @@
+# Phase 3 imagery acceptance
+
+Owner instruction 2026-10-22: enrich every page with relevant imagery and never repeat an image across the site. Apply to every EN/FR route independently. Retain the existing two unique homepage heroes. Add distinct contextual imagery to remaining routes and supporting placements on major commercial journeys. Never depict a generic generated robot as a named manufacturer product. Product and manufacturer pages may use clearly contextual task environments, outside the product gallery, while verified licensed product media remains unavailable.
+
+Keep a route/placement/source/prompt/alt-text register, exact hashes and perceptual duplicate screening. Inspect assets for relevance and accidental claims, optimize WebP and responsive loading, and test coverage across all 144 routes. Audit accessible neighbouring website inventories; disclose unavailable inventories internally. No image provenance disclaimers in customer copy. No production deployment is included in this phase implementation request.

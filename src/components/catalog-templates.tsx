@@ -1,3 +1,4 @@
+import { PageVisuals } from "./page-visuals";
 import Link from "next/link";
 import Image from "next/image";
 import { type Locale, bi } from "@/lib/content";
@@ -121,6 +122,7 @@ export function ProductTemplate({
           </span>
         </aside>
       </section>
+      <PageVisuals locale={locale} path={`products/${p.slug}`} />
       {p.media.some((m) => m.locale === locale) && (
         <section
           className="section product-gallery"
@@ -309,6 +311,7 @@ export function ManufacturerTemplate({
           {locale === "en" ? "Manufacturer website" : "Site du fabricant"} ↗
         </a>
       </section>
+      <PageVisuals locale={locale} path={`manufacturers/${m.slug}`} />
       <section className="section product-grid">
         {publishableProducts()
           .filter((p) => p.manufacturer === m.slug)

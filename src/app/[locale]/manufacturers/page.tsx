@@ -1,3 +1,4 @@
+import { PageVisuals } from "@/components/page-visuals";
 import { StructuredBreadcrumbs } from "@/components/structured-breadcrumbs";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -53,6 +54,7 @@ export default async function Page({
       <section className="section page-intro">
         <h1>{locale === "en" ? "Manufacturers" : "Fabricants"}</h1>
       </section>
+      <PageVisuals locale={locale} path="manufacturers" />
       <ManufacturerDirectory manufacturers={manufacturers} locale={locale} />
     </>
   );

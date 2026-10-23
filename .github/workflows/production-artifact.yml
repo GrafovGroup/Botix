@@ -2,13 +2,13 @@ name: Prepare Linux production release
 on:
   workflow_dispatch:
   pull_request:
-    branches: [codex/whc-safe-launcher, codex/production-deployment]
+    branches: [codex/whc-safe-launcher, codex/production-deployment, codex/phase-2-combined]
     types: [opened, synchronize, reopened]
 permissions:
   contents: read
 jobs:
   candidate:
-    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && (github.head_ref == 'codex/production-deployment' || github.head_ref == 'codex/phase-2-combined'))
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && (github.head_ref == 'codex/production-deployment' || github.head_ref == 'codex/phase-2-combined' || github.head_ref == 'codex/phase-3-commercial-activation'))
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
@@ -34,6 +34,7 @@ jobs:
       - run: pnpm test
       - run: python3 -B -m unittest discover -s deploy -p 'test_*.py'
       - run: pnpm catalog:check
+      - run: pnpm images:check
       - run: pnpm delivery:test
       - run: pnpm lint
       # No ignored advisory or continue-on-error; publication requires a clean audit.

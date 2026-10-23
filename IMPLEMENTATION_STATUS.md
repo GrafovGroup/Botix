@@ -136,3 +136,7 @@ Implemented locally from `grafovgroup/botix` on branch `codex/phase-1a`, 2026-10
 ## Dependency compatibility
 
 TypeScript 5.9.3 and ESLint 9.39.5 are pinned because the installed Next.js lint plugins do not yet support TypeScript 7 / ESLint 10 together. ESLint 9 is a compatibility dependency and should be revisited when those plugins support ESLint 10. Next.js implementation follows its bundled layout, route handler and image documentation.
+
+## Current Phase 3 checkpoint (2026-10-23)
+
+Production remains Phase 2 (7a0fdd05b07a). Google sitemap processed 144 URLs; Bing submitted/processing. Phase 3 has 125 new optimized image placements, with 161 remaining, and a tested private mailbox worker/operations kit. 52 tests, catalogue, offline receiver harness, launcher tests and dependency audit pass. Disk space and intended mailbox-provider clarification block final completion. Website publication is authorized; no mailbox test or public delivery activation has occurred. Phase 4 preparation is isolated. See docs/PHASE_3_STATUS.md.

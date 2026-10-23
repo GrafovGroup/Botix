@@ -54,3 +54,10 @@
 - Include the Phase 1A Next.js foundation, bilingual content, inquiry adapter and original homepage assets.
 
 Browser visual acceptance and live delivery configuration remain outstanding.
+
+## Unreleased — Phase 3
+
+- Prepare private idempotent mailbox processing, internal triage and bilingual operations; keep live delivery disabled.
+- Preserve numeric quantities in downloaded briefs and distinguish durable receipt from inbox delivery.
+- Add explicit per-route imagery with 125 unique new assets so far; complete coverage remains required before deployment.
+- Verify Google/Bing ownership and submit the live 144-URL sitemap.
