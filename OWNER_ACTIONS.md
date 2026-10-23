@@ -41,3 +41,7 @@ The existing image audit covered 2,108 locally available images across 10 other 
 ## Combined Phase 2 review
 
 Combined Phase 2 is deployed and verified at https://botix.ca from `7a0fdd05b07a`; see [deployment evidence](docs/PHASE_2_DEPLOYMENT.md) and [status](docs/PHASE_2_COMBINED_STATUS.md). All 144 public bilingual routes and new comparison/buyer pathways passed. Review PR #12 before separate merge authorization. No new staging app, live email, DNS change, purchase or merge was performed.
+
+## Phase 4 owner gates
+
+Phase 3 needs disk space and the intended info@botix.ca provider resolved. Public delivery activation follows verified receipt. Supplier outreach remains drafted and requires exact-recipient approval before sending. Review the growth PR; no additional subscription, DNS change or campaign is required to review the prepared content.

@@ -140,3 +140,7 @@ TypeScript 5.9.3 and ESLint 9.39.5 are pinned because the installed Next.js lint
 ## Current Phase 3 checkpoint (2026-10-23)
 
 Production remains Phase 2 (7a0fdd05b07a). Google sitemap processed 144 URLs; Bing submitted/processing. Phase 3 has 125 new optimized image placements, with 161 remaining, and a tested private mailbox worker/operations kit. 52 tests, catalogue, offline receiver harness, launcher tests and dependency audit pass. Disk space and intended mailbox-provider clarification block final completion. Website publication is authorized; no mailbox test or public delivery activation has occurred. Phase 4 preparation is isolated. See docs/PHASE_3_STATUS.md.
+
+## Phase 4 preparation — 2026-10-23
+
+Six original bilingual guides extend existing buyer routes. Supplier prospects, EN/FR draft outreach and proposals, private CRM qualification and 90-day organic plan are prepared. Typecheck and lint passed; build/browser and integrated Phase 3 acceptance pending disk space. No outreach, activation, merge or deployment occurred. See docs/PHASE_4_STATUS.md.

@@ -61,3 +61,9 @@ Browser visual acceptance and live delivery configuration remain outstanding.
 - Preserve numeric quantities in downloaded briefs and distinguish durable receipt from inbox delivery.
 - Add explicit per-route imagery with 125 unique new assets so far; complete coverage remains required before deployment.
 - Verify Google/Bing ownership and submit the live 144-URL sitemap.
+
+## Unreleased — Phase 4
+
+- Add six bilingual buyer guides and contextual inquiry links on existing routes.
+- Prepare sourced supplier prospecting, bilingual discovery/proposal drafts, human-reviewed qualification and 90-day organic acquisition plan.
+- Retain unconfirmed relationship states and consent/activation gates; no campaign or deployment is claimed.

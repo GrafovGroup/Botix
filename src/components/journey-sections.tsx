@@ -1,4 +1,5 @@
 import { PageVisuals } from "./page-visuals";
+import { BuyerGuide } from "./buyer-guide";
 import { BuyerPathways, LocationPathways } from "./buyer-pathways";
 import { regions } from "@/lib/locations";
 import { inquiryHref, type InquiryContext } from "@/lib/inquiry-context";
@@ -85,6 +86,7 @@ export function JourneySections({
           ))}
         </section>
       )}
+      <BuyerGuide route={slug} locale={locale} />
       {journey && (
         <section className="section form-section" id="inquiry">
           <aside>

@@ -17,3 +17,5 @@ Owner reviews PRs before merge; deployment requires explicit authorization. See 
 
 | 3 | [Commercial activation](PHASE_3_COMMERCIAL_ACTIVATION.md) and [imagery](PHASE_3_IMAGERY.md) | Verified Phase 2 | codex/phase-3-commercial-activation | In progress; 125/286 new images, offline checks passed, mail/provider and disk blockers; not deployed |
 | 4 | GitHub main docs/PHASE_4_CODEX.md | Compatible Phase 3 code | codex/phase-4-growth, isolated worktree | Buyer guides and growth operations prepared; final checks and PR pending; not deployed |
+
+| 4 | [Growth](PHASE_4_CODEX.md) | Compatible Phase 3 e9c8c50; not yet complete | codex/phase-4-growth | Six bilingual buyer guides and supplier/lead/growth kit prepared; typecheck/lint passed; full release checks pending |
