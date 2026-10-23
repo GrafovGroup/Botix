@@ -21,7 +21,7 @@ Implementation branch: `codex/phase-2-combined`, based on production evidence he
 - [x] Private durable HTTPS receiver prepared for info@botix.ca with authenticated bounded input, consent/schema checks, atomic deduplication, fsync before acknowledgement, routing/reply-to fields and safe failures. Adapter requires matching receipt and makes one bounded retry after ambiguous failure. Offline synthetic tests only.
 - [x] Keep live delivery disabled; private receiver is not started by the website. Existing anti-spam challenge/honeypot/attempt controls and production verification gates remain. Shared edge limits, mailbox transport, credential provisioning and external receipt verification are separate activation requirements.
 - [x] Operator setup, retention/access/logging/alert guidance, synthetic-to-authorized-mailbox test sequence and bilingual supplier drafts documented.
-- [ ] Final automated build/smoke and browser evidence recorded below before handoff.
+- [x] Automated build/smoke and focused browser evidence recorded below.
 
 ## Changed routes and release scope
 
@@ -29,7 +29,13 @@ Implementation branch: `codex/phase-2-combined`, based on production evidence he
 
 ## Test evidence
 
-45 unit/integration tests passed, including concurrent receiver deduplication/restart, storage failure, EN/FR receipts, invalid/oversize/auth/consent rejection, ambiguous accepted-response retry and disabled-delivery guard. Catalogue validates six products/five manufacturers. Offline delivery harness passes. Full audit reports no known vulnerabilities. Final build, route smoke and browser results follow after verification.
+45 unit/integration tests passed, including concurrent receiver deduplication/restart, storage failure, EN/FR receipts, invalid/oversize/auth/consent rejection, ambiguous accepted-response retry and disabled-delivery guard. Catalogue validates six products/five manufacturers. Offline delivery harness passes. Full audit reports no known vulnerabilities. GitHub Actions run `39889230523` passed both verify and full dependency-audit jobs for implementation `da5c42bbcd2e9f12eef501a9ab26e35452a77fa4`: tests, 3 launcher tests, catalogue, offline delivery, lint, production build/typecheck, 144-route production smoke, packaged production smoke, separate preview build and 144-route protected preview acceptance. Local production build and packaged smoke also passed. Later documentation-only evidence updates do not change the tested application source.
+
+Browser evidence (local optimized production-mode build, delivery disabled): desktop 1440px comparison, selecting a third profile with keyboard submission, EN→FR retaining all three selections, French rental link prefilled with Unitree G1/humanoid/rental and disabled submit, mobile 390px comparison region keyboard scrolling with visible focus, and mobile humanoid purchase/pilot/rental cards. Page width remained 390px while the table scrolled inside a 340px region; no page overflow. Browser captured no console errors. New UI is server-rendered and adds no client interaction bundle. Existing image placements and reduced-motion styles are unchanged; no new animation. This is focused acceptance, not a full WCAG certification or a field Web Vitals report.
+
+Observed local warm comparison request: HTTP 200, first byte 0.040367s, total 0.040562s, 39,616 HTML bytes. This single loopback sample is diagnostic only, not a production/mobile performance claim. No real-user performance or Search Console baseline is available.
+
+Screenshots saved privately in the task hosting evidence directory: `phase2-comparison-desktop.png`, `phase2-comparison-mobile.png`, `phase2-buyer-mobile.png`. Local preview: http://127.0.0.1:3102/en/robots?compare=unitree-g1&compare=pudu-cc1#compare. Review PR: https://github.com/GrafovGroup/Botix/pull/12.
 
 ## Limitations / owner decisions
 
