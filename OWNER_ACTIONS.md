@@ -1,34 +1,29 @@
-# Current staging next steps
+# BOTIX — current owner checklist
 
-No repeated staging authorization is needed. Dependency remediation and trusted TLS have been implemented; see docs/STAGING_SECURITY_FIX.md. Remaining deployment work is the clean Linux candidate, host/runtime compatibility and protected application acceptance. Previous dependency/TLS blocker statements below are historical.
+Updated 2026-10-22. Staging is already authorized. The site implementation is reviewable, but the staging application is not running yet and production launch is not verified. Technical work and test evidence belong to Codex; see [staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) and [framework mapping](docs/UNIVERSAL_PHASE_MAPPING.md).
 
-# Current staging dependencies — 2026-10-22
+## 1. Finish staging credential handoff — needed now
 
-Staging is already authorized; no repeated approval is needed. The execution attempt is blocked by an unpatched high dependency advisory and untrusted staging TLS. A reviewed dependency remediation must pass the full audit, and WHC must issue a valid certificate before a protected artifact is uploaded. Existing supported dependency upgrades do not remove braces. See docs/WHC_STAGING_ACCEPTANCE.md for exact evidence and remaining host checks. No purchase or production release is requested. Earlier approval requests below are historical.
+- [ ] In the open cPanel Directory Privacy form for `botix-staging-public`, create username `botix` with a unique password of at least 32 characters and save it. Keep the password in your password manager; never paste it into chat or GitHub.
+- [ ] Configure the same value privately as the staging application's `PREVIEW_ACCESS_SECRET` when the prepared environment form is ready. Browser control requires the owner to enter and submit new authentication credentials.
 
-# Phase 1F approval boundary
+No additional staging approval or hosting purchase is requested. Codex then completes runtime setup, authenticated EN/FR checks, mobile/desktop visual and keyboard checks, performance and restart/restore verification, and presents the actual preview.
 
-Review docs/WHC_STAGING_ACCEPTANCE.md and the stacked Phase 1F PR. Explicit authorization is required for staging.botix.ca creation/DNS, isolated WHC app and TLS configuration, Linux candidate upload and staging-only acceptance tests. The brief explicitly excludes these from a generic request to continue phases. Full dependency audit must pass before the proposed candidate workflow publishes an artifact. Passenger/port compatibility, Linux libc/architecture, host-wide protection, restart/drain, capacity, logs, backup restore and browser acceptance remain unverified. Production/apex/www/mail changes, live inquiries, merges and purchases remain outside approval scope.
+## 2. Supply or approve business and brand inputs — before launch
 
-# Phase 1E hosting update — 2026-10-22
+- [ ] Supply approved BOTIX Signature vector files and approve the visual preview. The typographic fallback remains until actual approved assets arrive; see [brand asset handoff](docs/BRAND_ASSETS.md).
+- [ ] Verify `(833) 696-9996` routes to BOTIX, or provide the project-specific number. Until then it stays out of public links and structured data.
+- [ ] Select the receiving CRM/email workflow and provide credentials securely. Confirm responsible recipients, retention and access rules; Codex owns implementation and end-to-end technical verification.
+- [ ] Confirm operating entity, privacy contact, actual providers/processing practices and business scope; obtain appropriate privacy/terms and trademark review. No legal clearance is claimed.
+- [ ] Review editorial product references; supply evidence for any supplier relationship, rental availability, inventory or licensed media to be added. Existing content does not assert dealership or stock.
 
-WHC Web Hosting Pro, cPanel Node 24 capability and domain control are verified. Domain attachment and hosting nameservers were configured under the earlier owner request. Remaining: authorize a staging hostname/deployment; verify SSH access, Passenger startup/drain, Linux architecture/libc, shared resource headroom, TLS, private-origin/header controls, shared rate limits, log retention and restore. No new hosting purchase requested. Existing phone, brand, privacy/legal/receiver and real-browser gates below remain. See docs/WHC_COMPATIBILITY.md.
+## 3. Review the verified release — after acceptance
 
-# Owner actions
+- [ ] Approve the customer-facing design and business content following the real preview.
+- [ ] Review the stacked PRs and give explicit merge/production-launch authorization when the release evidence is complete. Live inquiry delivery requires verified receiving workflow and explicit enablement approval.
 
-1. **Lead destination:** choose the receiving CRM/email workflow and configure its HTTPS endpoint and bearer secret. Confirm durable acceptance, deduplication, retention and access controls. Set a stable inquiry signing secret and shared edge rate limiting for the chosen deployment.
-2. **Phone:** confirm that the supplied standard placeholder `(833) 696-9996` routes to BOTIX, or provide the project-specific number. Phase 1C hides the number in links and structured data until NEXT_PUBLIC_PHONE_VERIFIED=true with a verified number and a rebuild.
-3. **Brand:** supply the approved Signature vector logo files and approve the original humanoid imagery. The repository contained no `public/brand/` assets despite the initial README reference.
-4. **Business/legal particulars:** confirm legal operating entity, privacy contact, actual hosting/delivery providers, retention period and any cross-border processing. Obtain counsel review of the English/French privacy and terms copy. No public “legal review” or pre-launch notices are present.
-5. **Verified catalog:** review the six sourced editorial examples and supply any confirmed supplier relationships, inventory, rental availability and licensed product media. Published references do not assert BOTIX dealership or availability; no online transactions are enabled.
-6. **Trademark:** obtain BOTIX name/mark clearance and approved usage guidance; no clearance is claimed.
-7. **Visual acceptance:** complete desktop/tablet/mobile browser checks from docs/PHASE_1C_QA.md; policy blocked implementation-time browser access.
-8. **Publication:** WHC selected and domain connection completed under earlier authorization. Validate BOTIX hosting and authorize app deployment separately; no production app is deployed.
+Codex owns remaining hosting, security, browser, accessibility, performance, monitoring and rollback work. Do not return routine technical checks to the owner as manual tasks. Production DNS/email changes, purchases and live inquiries are outside the existing staging authorization.
 
-Image duplicate screening covered 2,108 locally available images across 10 other project directories. The closest perceptual matches were visually inspected and are unrelated scenes. Remote-only and otherwise unavailable inventories remain outside scope; no complete portfolio-wide verification is claimed.
+## Asset inventory limitation
 
-Privacy review reference: [Office of the Privacy Commissioner of Canada — Privacy Guide for Businesses](https://www.priv.gc.ca/media/2038/guide_org_e.pdf). Counsel should align the final notices with the actual entity, providers, practices and applicable provincial rules; this implementation does not claim legal compliance certification.
-
-Use docs/LAUNCH_CHECKLIST.md for the full owner signoff, receiver verification, deployment, monitoring and rollback sequence. Delivery defaults disabled; production requires explicit receiver/shared-edge attestations as well as secrets. Brand handoff requirements are in docs/BRAND_ASSETS.md.
-
-Phase 1D/1E: WHC selected; verify hosting and validate preview/HTTPS/CDN/origin controls; address the development-only braces advisory with owner/security review; complete the 375/768/1024/1440 browser matrix and actual bilingual receiver plan. Production remains NO-GO under docs/GO_NO_GO.md. CI is added, but a workflow file or local pass is not evidence that a GitHub-hosted run passed.
+The existing image audit covered 2,108 locally available images across 10 other project directories. Remote-only or inaccessible inventories were not verified. No new imagery is introduced by framework alignment; maintain [ASSET_USAGE.md](docs/ASSET_USAGE.md) for future changes.

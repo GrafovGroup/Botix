@@ -1,3 +1,11 @@
+# Current status — universal framework alignment
+
+The approved framework from main `6fe602b` is adopted in AGENTS.md and mapped to existing Phase 1A–1F delivery in [UNIVERSAL_PHASE_MAPPING.md](docs/UNIVERSAL_PHASE_MAPPING.md). Existing functionality is preserved; no phases are renamed or recreated. OWNER_ACTIONS.md is the consolidated current owner checklist. Earlier entries below are historical.
+
+The bilingual catalogue, national guides and contextual inquiry journeys are implemented and reviewable. Staging's clean Linux artifact `1d4285d` passed both GitHub workflows, was uploaded to WHC and passed all 2,181 file hashes. HTTPS and host protection are configured. The application is not running: owner credential entry, actual runtime and hosted/browser acceptance remain outstanding. See [staging evidence](docs/WHC_STAGING_ACCEPTANCE.md). Production and live inquiry delivery remain unauthorized.
+
+Framework adoption changes documentation and operating instructions only. Original universal master-prompt wording is unavailable; no verbatim reconciliation is claimed. Approved vector assets remain absent, so the safe fallback stays.
+
 # Staging security remediation
 
 On `codex/staging-security-fix`, based on execution commit cf9b87f: replaced the Next lint plugin’s fast-glob dependency with pinned tinyglobby and a path-compatibility patch, preserving lint rules and removing braces from the lockfile. Issued free staging TLS in WHC; validated HTTPS successfully. No app deployed or merged. See docs/STAGING_SECURITY_FIX.md and the fix PR for verification.
