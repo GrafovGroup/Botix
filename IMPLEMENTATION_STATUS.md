@@ -1,3 +1,19 @@
+# Staging app registration — 2026-10-22 20:54 Toronto
+
+cPanel confirmed the owner saved the password for user `botix`. Created the isolated Node 24.21.0 staging application at `botix-staging/releases/1d4285d0d242`, URL `staging.botix.ca/`, startup `start.cjs`, production Node mode with `SITE_ENV=preview`, exact staging origin, disabled inquiry delivery, `TRUST_PROXY=false`, loopback hostname and port 3000. No other application was changed.
+
+Post-creation verification: all 2,181 release hashes still match; dependencies exist; the staging public `.htaccess` retains authentication and noindex and now contains Passenger configuration. HTTPS `/en` still returns 401 with the expected Basic realm and private/no-store + noindex headers.
+
+**Startup and authenticated acceptance are not yet verified.** The prepared `PREVIEW_ACCESS_SECRET` value field requires owner entry of the same saved password, then row Done and application Save. No secret was read or recorded. The credential handoff is the only owner action needed to continue staging tests. Previous statements that the application has not been created are historical; registration alone is not successful deployment. Exact uploaded source remains `1d4285d0d2421cb9caf26c0ca643472be4e5b436`.
+
+# Current status — universal framework alignment
+
+The approved framework from main `6fe602b` is adopted in AGENTS.md and mapped to existing Phase 1A–1F delivery in [UNIVERSAL_PHASE_MAPPING.md](docs/UNIVERSAL_PHASE_MAPPING.md). Existing functionality is preserved; no phases are renamed or recreated. OWNER_ACTIONS.md is the consolidated current owner checklist. Earlier entries below are historical.
+
+The bilingual catalogue, national guides and contextual inquiry journeys are implemented and reviewable. Staging's clean Linux artifact `1d4285d` passed both GitHub workflows, was uploaded to WHC and passed all 2,181 file hashes. HTTPS and host protection are configured. The application is not running: owner credential entry, actual runtime and hosted/browser acceptance remain outstanding. See [staging evidence](docs/WHC_STAGING_ACCEPTANCE.md). Production and live inquiry delivery remain unauthorized.
+
+Framework adoption changes documentation and operating instructions only. Original universal master-prompt wording is unavailable; no verbatim reconciliation is claimed. Approved vector assets remain absent, so the safe fallback stays.
+
 # Staging security remediation
 
 On `codex/staging-security-fix`, based on execution commit cf9b87f: replaced the Next lint plugin’s fast-glob dependency with pinned tinyglobby and a path-compatibility patch, preserving lint rules and removing braces from the lockfile. Issued free staging TLS in WHC; validated HTTPS successfully. No app deployed or merged. See docs/STAGING_SECURITY_FIX.md and the fix PR for verification.
