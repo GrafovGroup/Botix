@@ -60,5 +60,5 @@ jobs:
           version: 11.25.0
           run_install: false
       - run: pnpm install --frozen-lockfile
-      # No ignored advisories: currently expected to flag unpatched dev-only braces.
+      # Full dependency audit remains unsuppressed after the scoped lint dependency fix.
       - run: pnpm audit --audit-level=high

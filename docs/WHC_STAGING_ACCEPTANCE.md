@@ -1,3 +1,7 @@
+# Current security remediation
+
+The dependency and self-signed TLS blockers below are superseded by [STAGING_SECURITY_FIX.md](STAGING_SECURITY_FIX.md). The scoped lint dependency replacement removes braces; trusted staging TLS is installed and independently verified. Staging authorization remains complete. Actual app deployment/runtime/access-control acceptance is still outstanding. Earlier execution results below are historical.
+
 # WHC staging change plan and acceptance — Phase 1F
 
 ## Authorized execution attempt — 2026-10-22

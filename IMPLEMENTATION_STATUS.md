@@ -1,3 +1,7 @@
+# Staging security remediation
+
+On `codex/staging-security-fix`, based on execution commit cf9b87f: replaced the Next lint plugin’s fast-glob dependency with pinned tinyglobby and a path-compatibility patch, preserving lint rules and removing braces from the lockfile. Issued free staging TLS in WHC; validated HTTPS successfully. No app deployed or merged. See docs/STAGING_SECURITY_FIX.md and the fix PR for verification.
+
 # Authorized staging execution — 2026-10-22
 
 Read canonical handoff 564878f and authorization 5548add from main; committed both before execution on `codex/staging-execution`, based on Phase 1F f5cfaf8. PRs #1–#5 remain open/unmerged. Fresh audit confirms unpatched high braces finding with no supported dependency upgrade path; production audit zero. Actual Phase 1F CI Linux verify passed, full audit failed. Public Cloudflare DNS now returns staging WHC IP; local resolver lags. TLS check and authenticated cPanel confirm self-signed staging certificate. No new hosting changes or deployment this attempt; security prerequisites failed. See docs/WHC_STAGING_ACCEPTANCE.md. Staging authorization is fulfilled, staging GO is not.
