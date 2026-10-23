@@ -1,3 +1,24 @@
+# Staging deployment checkpoint — 2026-10-22 (Toronto)
+
+**Application start and hosted acceptance pending; staging is not yet complete.** Staging authorization is already recorded. No additional deployment approval is needed.
+
+- Exact uploaded source: `1d4285d0d2421cb9caf26c0ca643472be4e5b436`, PR [#8](https://github.com/GrafovGroup/Botix/pull/8), stacked on security fix #7. No merges.
+- GitHub Linux candidate run [39876405864](https://github.com/GrafovGroup/Botix/actions/runs/39876405864) and release checks [39876405865](https://github.com/GrafovGroup/Botix/actions/runs/39876405865) both completed successfully. Includes full unsuppressed audit, tests, build and 144-route preview smoke.
+- Artifact `12468028021`: Linux x64, Node 24.21.0, clean source, preview origin `https://staging.botix.ca`. Archive SHA256 `707c217fcc68cd1e4cfb3ed8de646f96da4ac4b4cb52a900a89c5a73dfa932da`.
+- Uploaded and unpacked in private WHC release `~/botix-staging/releases/1d4285d0d242`. Server checksum matches. All 2,181 extracted file hashes match; no missing or escaping dependency symlinks.
+- WHC reports x86_64, glibc 2.28 and `/opt/alt/alt-nodejs24/root/usr/bin/node` v24.21.0. Actual Passenger startup remains untested.
+- Directory Privacy enabled only for `~/botix-staging-public`; original protected `.htaccess` copied to `~/botix-staging/rollback/pre-app.htaccess`. Added staging-only noindex/no-store, directory-listing denial and HTTP-to-HTTPS redirect.
+- Verified HTTPS with normal certificate validation using explicit origin resolution: `/en` returns 401 with Basic challenge, `X-Robots-Tag: noindex, nofollow, noarchive` and `Cache-Control: private, no-store`. Empty root returns 403 with listing disabled. HTTP redirects to HTTPS with 302. These prove host protection, not app readiness.
+- Node application form prepared with preview origin, disabled delivery, `TRUST_PROXY=false`, loopback hostname, port 3000 and `start.cjs`. It has NOT been submitted or started.
+
+## Remaining user action and acceptance
+
+The cPanel Create User form is open. Owner must create username `botix` with a unique password of at least 32 characters, keep it in a password manager, and submit the form. The browser tool requires user handoff for new credential entry and submission. Never paste the password into chat or GitHub. The same value must be configured privately as `PREVIEW_ACCESS_SECRET` for application authentication.
+
+After that handoff: complete Node/Passenger configuration, verify runtime binding and protection of all routes/assets, run hosted 144-route and visual acceptance, and record restart/restore/resource checks. No hosted app acceptance is claimed. Production, mail, other sites and live inquiry delivery remain untouched.
+
+Earlier status sections below are historical and superseded where this checkpoint gives newer evidence.
+
 # Current security remediation
 
 The dependency and self-signed TLS blockers below are superseded by [STAGING_SECURITY_FIX.md](STAGING_SECURITY_FIX.md). The scoped lint dependency replacement removes braces; trusted staging TLS is installed and independently verified. Staging authorization remains complete. Actual app deployment/runtime/access-control acceptance is still outstanding. Earlier execution results below are historical.
