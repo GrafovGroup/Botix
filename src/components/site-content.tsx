@@ -1,3 +1,4 @@
+import { LocationPathways } from "./buyer-pathways";
 import {
   inquiryHref,
   pageInquiryContext,
@@ -584,6 +585,7 @@ export function LocationsPage({
         </section>
       )}
       <CityLinks locale={locale} region={region?.slug} />
+      <LocationPathways locale={locale} />
       <QuoteCTA
         locale={locale}
         context={{

@@ -1710,3 +1710,17 @@ details p {
   opacity: 0.65;
 }
 .inquiry-form fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+
+/* Accessible comparison keeps wide content inside its own keyboard-scrollable region. */
+.comparison-options { display: flex; flex-wrap: wrap; gap: 1.25rem; padding: 1.5rem 0; border: 0; }
+.comparison-options label { display: flex; align-items: center; gap: .6rem; min-height: 44px; }
+.comparison-options input { width: 20px; height: 20px; accent-color: #bfc3c9; }
+.comparison-scroll { overflow-x: auto; margin-top: 2rem; border: 1px solid #454b53; }
+.comparison-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.comparison-table caption { text-align: left; padding: 1rem; }
+.comparison-table th, .comparison-table td { padding: 1rem; text-align: left; vertical-align: top; border: 1px solid #454b53; min-width: 180px; }
+.comparison-table a { text-decoration: underline; text-underline-offset: .2em; }
+.buyer-paths { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.5rem; margin-top: 2rem; }
+.buyer-paths article { border: 1px solid #454b53; padding: 1.5rem; }
+.buyer-paths p { margin: 1rem 0; }
+@media(max-width: 760px) { .buyer-paths { grid-template-columns: 1fr; } }

@@ -125,6 +125,9 @@ export function CatalogExplorer({
       </form>
       <div className="catalogue-results">
         <div className="results-heading">
+          <a className="text-link" href="#compare">
+            {en ? "Compare profiles" : "Comparer les profils"} ↗
+          </a>
           <p className="eyebrow">
             {results.length} {en ? "PROFILES" : "PROFILS"}
           </p>

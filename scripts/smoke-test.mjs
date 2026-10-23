@@ -170,3 +170,14 @@ assert.ok(dates.includes("Enregistrer mon projet"));
 console.log(
   "Passed: verified-only phone, disabled-delivery guard and contextual rental dates.",
 );
+
+for (const locale of ['en','fr']) {
+ const comparison=await (await request(`/${locale}/robots?compare=unitree-g1&compare=pudu-cc1`)).text();
+ assert.ok(comparison.includes('comparison-table') && comparison.includes('Unitree G1') && comparison.includes('PUDU CC1'));
+ assert.ok(comparison.includes(`/${locale}/request-quote?intent=pilot`));
+ const local=await (await request(`/${locale}/locations/cities/toronto-gta`)).text();
+ assert.ok(local.includes(`/${locale}/commercial-robots/cleaning`));
+ const hub=await (await request(`/${locale}/humanoid-robots`)).text();
+ assert.ok(hub.includes('buyer-paths'));
+}
+console.log('Passed: bilingual comparison, contextual buyer pathways and local-to-category links.');

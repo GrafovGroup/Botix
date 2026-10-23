@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import sys
 
-APP_ROOT = "botix-production/releases/93673ec63eaf"
+APP_ROOT = "botix-production/app"
 NODE = "/opt/alt/alt-nodejs24/root/usr/bin/node"
 
 

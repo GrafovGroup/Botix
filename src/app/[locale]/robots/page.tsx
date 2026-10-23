@@ -1,3 +1,4 @@
+import { ProductComparison } from "@/components/product-comparison";
 import { StructuredBreadcrumbs } from "@/components/structured-breadcrumbs";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -79,6 +80,11 @@ export default async function Page({ params, searchParams }: Props) {
         </p>
       </section>
       <CatalogExplorer locale={locale} filters={filters} />
+      <ProductComparison
+        locale={locale}
+        selected={query.compare}
+        filters={filters}
+      />
     </>
   );
 }
