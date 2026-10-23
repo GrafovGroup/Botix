@@ -1,3 +1,11 @@
+# Protected staging running — 2026-10-22 (Toronto)
+
+The uploaded application now serves authenticated HTTPS successfully. The existing GET-only staging acceptance runner passed all **144 routes** with exit 0, including bilingual metadata, asset protection, filters, security headers and disabled inquiry delivery. A subsequent authenticated homepage check returned 200. No real inquiries were sent.
+
+A WHC environment-loader defect altered shell-sensitive password characters. The isolated staging application now uses the tested direct-exec launcher in `deploy/whc-node-launcher.py`. See [launcher implementation and limitations](docs/WHC_SAFE_LAUNCHER.md). App source/archive remain `1d4285d0d2421cb9caf26c0ca643472be4e5b436`; deployment launcher is separately versioned. No secrets are committed.
+
+**Still pending:** real-browser mobile/desktop/keyboard and performance review, resource/load and restore acceptance. The in-app browser returned `ERR_INVALID_AUTH_CREDENTIALS` when opening the protected preview; a regular-browser check was requested. HTTP success is not visual acceptance or production authorization. Prior credential/startup-blocked statements below are historical.
+
 # Staging app registration — 2026-10-22 20:54 Toronto
 
 cPanel confirmed the owner saved the password for user `botix`. Created the isolated Node 24.21.0 staging application at `botix-staging/releases/1d4285d0d242`, URL `staging.botix.ca/`, startup `start.cjs`, production Node mode with `SITE_ENV=preview`, exact staging origin, disabled inquiry delivery, `TRUST_PROXY=false`, loopback hostname and port 3000. No other application was changed.
