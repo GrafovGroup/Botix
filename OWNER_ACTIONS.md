@@ -32,4 +32,4 @@ The existing image audit covered 2,108 locally available images across 10 other 
 
 ## Combined Phase 2 review
 
-Repository implementation is prepared in `codex/phase-2-combined`; see [status](docs/PHASE_2_COMBINED_STATUS.md). Review before separately authorizing deployment. No new staging app, live email, DNS change, purchase or merge was performed.
+Combined Phase 2 is deployed and verified at https://botix.ca from `7a0fdd05b07a`; see [deployment evidence](docs/PHASE_2_DEPLOYMENT.md) and [status](docs/PHASE_2_COMBINED_STATUS.md). All 144 public bilingual routes and new comparison/buyer pathways passed. Review PR #12 before separate merge authorization. No new staging app, live email, DNS change, purchase or merge was performed.

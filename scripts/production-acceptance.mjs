@@ -69,3 +69,26 @@ assert.ok(image.headers.get("content-type").startsWith("image/"));
 console.log(
   "PASS: 144 public bilingual routes, metadata, indexing, assets, optimized image, filters, 404s and disabled delivery. GET only.",
 );
+
+for (const locale of ["en", "fr"]) {
+  const response = await get(
+    `/${locale}/robots?compare=unitree-g1&compare=pudu-cc1`,
+  );
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.ok(
+    html.includes("comparison-table") &&
+      html.includes("Unitree G1") &&
+      html.includes("PUDU CC1"),
+  );
+  assert.ok(html.includes(`/${locale}/request-quote?intent=pilot`));
+  const hub = await (await get(`/${locale}/humanoid-robots`)).text();
+  assert.ok(hub.includes("buyer-paths"));
+  const city = await (
+    await get(`/${locale}/locations/cities/toronto-gta`)
+  ).text();
+  assert.ok(city.includes(`/${locale}/commercial-robots/cleaning`));
+}
+console.log(
+  "PASS: hosted Phase 2 comparison, contextual inquiry links, buyer pathways and local category links.",
+);

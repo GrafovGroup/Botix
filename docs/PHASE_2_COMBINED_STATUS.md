@@ -1,6 +1,6 @@
 # Combined Phase 2 status
 
-Implementation branch: `codex/phase-2-combined`, based on production evidence head `1a2c31d`; deployed application remains `93673ec63eaf51497ae00b17a5657f6b84a66798`. Canonical combined prompt and supplements copied from GitHub main `8f2d577` and committed before implementation. Main still contains specifications, not the running application. Existing phase, staging, framework and production branch history inspected and preserved; no merges or hosting changes.
+Implementation branch: `codex/phase-2-combined`, based on production evidence head `1a2c31d`; deployed application is `7a0fdd05b07a60670c325bd7e766389dda38c2dc`. Canonical combined prompt and supplements copied from GitHub main `8f2d577` and committed before implementation. Main still contains specifications, not the running application. Existing phase, staging, framework and production branch history inspected and preserved; no merges. Owner-authorized Phase 2 hosting deployment is complete; see [deployment evidence](PHASE_2_DEPLOYMENT.md).
 
 ## 2A — Catalogue and buyer pathways
 
