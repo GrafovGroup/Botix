@@ -25,7 +25,10 @@ export function buildBrief(
 ) {
   const t = formText[locale];
   const lines = fields.map((key) => {
-    let value = typeof values[key] === "string" ? (values[key] as string) : "";
+    let value =
+      typeof values[key] === "string" || typeof values[key] === "number"
+        ? String(values[key])
+        : "";
     if (key === "intent")
       value = t.intents[intents.findIndex((i) => i === value)] || value;
     if (key === "category")

@@ -1,3 +1,4 @@
+import { PageVisuals } from "@/components/page-visuals";
 import { ProductComparison } from "@/components/product-comparison";
 import { StructuredBreadcrumbs } from "@/components/structured-breadcrumbs";
 import type { Metadata } from "next";
@@ -79,6 +80,7 @@ export default async function Page({ params, searchParams }: Props) {
             : "De la recherche humanoïde à l’automatisation quotidienne. Comparez la tâche, explorez la plateforme, puis définissez votre projet."}
         </p>
       </section>
+      <PageVisuals locale={locale} path="robots" />
       <CatalogExplorer locale={locale} filters={filters} />
       <ProductComparison
         locale={locale}

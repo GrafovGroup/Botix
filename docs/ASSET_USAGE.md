@@ -22,3 +22,7 @@ No new photographic assets or manufacturer logos were added. Product cards use t
 ## Phase 1C
 
 No new images or approved vector files were supplied or added. Existing homepage placements are unchanged; brand asset slots are null and retain typography. Asset audit inventory scope remains the Phase 1A scope above.
+
+## Phase 3 — partial inventory
+
+125 new original placements are recorded in page-image-register.json, including 81 recovered sources assigned by visual review and 44 directly mapped generations. Together with the two original homepage heroes, 127 image files exist. A total of 161 planned placements remains missing; do not deploy this partial image mapping. Reviewed the recovered four sheets and new contact sheets 04–06 for subject relevance and distinct composition. Keep recovery placement briefs separate from unknown original generation prompts. Exact/perceptual and available neighbouring-site audit is being refreshed in phase3-image-audit.json; no portfolio-wide claim is made. All original image files remain preserved.

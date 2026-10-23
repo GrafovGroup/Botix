@@ -1,3 +1,4 @@
+import { PageVisuals } from "@/components/page-visuals";
 import { ContactPhone } from "@/components/contact-phone";
 import { StructuredBreadcrumbs } from "@/components/structured-breadcrumbs";
 import { InquiryContextLink } from "@/components/inquiry-context-link";
@@ -106,6 +107,7 @@ export default async function Page({
           ))}
         </nav>
       </section>
+      <PageVisuals locale={locale} path="request-quote" />
       <section className="section form-section">
         <aside>
           <p className="eyebrow">

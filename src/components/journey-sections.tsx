@@ -1,3 +1,4 @@
+import { PageVisuals } from "./page-visuals";
 import { BuyerPathways, LocationPathways } from "./buyer-pathways";
 import { regions } from "@/lib/locations";
 import { inquiryHref, type InquiryContext } from "@/lib/inquiry-context";
@@ -168,6 +169,7 @@ export function CityPage({ city: c, locale }: { city: City; locale: Locale }) {
         </h1>
         <p className="lead">{c.focus[locale]}</p>
       </section>
+      <PageVisuals locale={locale} path={`locations/cities/${c.slug}`} />
       <section className="section region-detail">
         <article>
           <h2>

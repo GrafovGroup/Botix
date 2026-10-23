@@ -1,3 +1,4 @@
+import { PageVisuals } from "./page-visuals";
 import { LocationPathways } from "./buyer-pathways";
 import {
   inquiryHref,
@@ -181,6 +182,7 @@ export function Home({ locale }: { locale: Locale }) {
         </div>
         <CategoryGrid locale={locale} />
       </section>
+      <PageVisuals locale={locale} placement="detail" />
       <section className="feature-section section">
         <div className="feature-title">
           <p className="eyebrow">
@@ -447,6 +449,7 @@ export function StandardPage({
         </section>
       )}
       <JourneySections slug={page.slug} locale={locale} />
+      <PageVisuals locale={locale} path={page.slug} />
       {page.sections.length > 0 && (
         <section className={`section article-sections ${legal ? "legal" : ""}`}>
           {page.sections.map((s, i) => (
@@ -524,6 +527,10 @@ export function LocationsPage({
               : "Explorez les considérations régionales pour votre projet. Nous acceptons les demandes de partout au pays; la livraison, le travail sur place et le soutien sont évalués pour chaque projet."}
         </p>
       </section>
+      <PageVisuals
+        locale={locale}
+        path={region ? `locations/${region.slug}` : "locations"}
+      />
       {region ? (
         <section className="section region-detail">
           <article>

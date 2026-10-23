@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "en-home-detail",
+    "route": "/en",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Robotics",
+    "src": "/images/phase3/en-home-detail.webp",
+    "alt": "Work environment and equipment for Robotics"
+  },
+  {
+    "id": "fr-home-detail",
+    "route": "/fr",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Robotique",
+    "src": "/images/phase3/fr-home-detail.webp",
+    "alt": "Environnement de travail et équipement — Robotique"
+  },
+  {
+    "id": "en-humanoid-robots-overview",
+    "route": "/en/humanoid-robots",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "A new form of possibility.",
+    "src": "/images/phase3/en-humanoid-robots-overview.webp",
+    "alt": "Work environment and equipment for A new form of possibility."
+  },
+  {
+    "id": "en-humanoid-robots-detail",
+    "route": "/en/humanoid-robots",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "A new form of possibility.",
+    "src": "/images/phase3/en-humanoid-robots-detail.webp",
+    "alt": "Work environment and equipment for A new form of possibility."
+  },
+  {
+    "id": "fr-humanoid-robots-overview",
+    "route": "/fr/humanoid-robots",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Une nouvelle forme de possibilités.",
+    "src": "/images/phase3/fr-humanoid-robots-overview.webp",
+    "alt": "Environnement de travail et équipement — Une nouvelle forme de possibilités."
+  },
+  {
+    "id": "fr-humanoid-robots-detail",
+    "route": "/fr/humanoid-robots",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Une nouvelle forme de possibilités.",
+    "src": "/images/phase3/fr-humanoid-robots-detail.webp",
+    "alt": "Environnement de travail et équipement — Une nouvelle forme de possibilités."
+  },
+  {
+    "id": "en-commercial-robots-overview",
+    "route": "/en/commercial-robots",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Purpose-built for the work ahead.",
+    "src": "/images/phase3/en-commercial-robots-overview.webp",
+    "alt": "Work environment and equipment for Purpose-built for the work ahead."
+  },
+  {
+    "id": "en-commercial-robots-detail",
+    "route": "/en/commercial-robots",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Purpose-built for the work ahead.",
+    "src": "/images/phase3/en-commercial-robots-detail.webp",
+    "alt": "Work environment and equipment for Purpose-built for the work ahead."
+  },
+  {
+    "id": "fr-commercial-robots-overview",
+    "route": "/fr/commercial-robots",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Des robots adaptés au travail à accomplir.",
+    "src": "/images/phase3/fr-commercial-robots-overview.webp",
+    "alt": "Environnement de travail et équipement — Des robots adaptés au travail à accomplir."
+  },
+  {
+    "id": "fr-commercial-robots-detail",
+    "route": "/fr/commercial-robots",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Des robots adaptés au travail à accomplir.",
+    "src": "/images/phase3/fr-commercial-robots-detail.webp",
+    "alt": "Environnement de travail et équipement — Des robots adaptés au travail à accomplir."
+  },
+  {
+    "id": "en-commercial-robots-cleaning-overview",
+    "route": "/en/commercial-robots/cleaning",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Make room for a better clean.",
+    "src": "/images/phase3/en-commercial-robots-cleaning-overview.webp",
+    "alt": "Work environment and equipment for Make room for a better clean."
+  },
+  {
+    "id": "en-commercial-robots-cleaning-detail",
+    "route": "/en/commercial-robots/cleaning",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Make room for a better clean.",
+    "src": "/images/phase3/en-commercial-robots-cleaning-detail.webp",
+    "alt": "Work environment and equipment for Make room for a better clean."
+  },
+  {
+    "id": "fr-commercial-robots-cleaning-overview",
+    "route": "/fr/commercial-robots/cleaning",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Faites place à un meilleur nettoyage.",
+    "src": "/images/phase3/fr-commercial-robots-cleaning-overview.webp",
+    "alt": "Environnement de travail et équipement — Faites place à un meilleur nettoyage."
+  },
+  {
+    "id": "fr-commercial-robots-cleaning-detail",
+    "route": "/fr/commercial-robots/cleaning",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Faites place à un meilleur nettoyage.",
+    "src": "/images/phase3/fr-commercial-robots-cleaning-detail.webp",
+    "alt": "Environnement de travail et équipement — Faites place à un meilleur nettoyage."
+  },
+  {
+    "id": "en-commercial-robots-logistics-overview",
+    "route": "/en/commercial-robots/logistics",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Move materials. Unlock capacity.",
+    "src": "/images/phase3/en-commercial-robots-logistics-overview.webp",
+    "alt": "Work environment and equipment for Move materials. Unlock capacity."
+  },
+  {
+    "id": "en-commercial-robots-logistics-detail",
+    "route": "/en/commercial-robots/logistics",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Move materials. Unlock capacity.",
+    "src": "/images/phase3/en-commercial-robots-logistics-detail.webp",
+    "alt": "Work environment and equipment for Move materials. Unlock capacity."
+  },
+  {
+    "id": "fr-commercial-robots-logistics-overview",
+    "route": "/fr/commercial-robots/logistics",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Déplacez les matières. Libérez du potentiel.",
+    "src": "/images/phase3/fr-commercial-robots-logistics-overview.webp",
+    "alt": "Environnement de travail et équipement — Déplacez les matières. Libérez du potentiel."
+  },
+  {
+    "id": "fr-commercial-robots-logistics-detail",
+    "route": "/fr/commercial-robots/logistics",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Déplacez les matières. Libérez du potentiel.",
+    "src": "/images/phase3/fr-commercial-robots-logistics-detail.webp",
+    "alt": "Environnement de travail et équipement — Déplacez les matières. Libérez du potentiel."
+  },
+  {
+    "id": "en-commercial-robots-industrial-overview",
+    "route": "/en/commercial-robots/industrial",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Repeatability, by design.",
+    "src": "/images/phase3/en-commercial-robots-industrial-overview.webp",
+    "alt": "Work environment and equipment for Repeatability, by design."
+  },
+  {
+    "id": "en-commercial-robots-industrial-detail",
+    "route": "/en/commercial-robots/industrial",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Repeatability, by design.",
+    "src": "/images/phase3/en-commercial-robots-industrial-detail.webp",
+    "alt": "Work environment and equipment for Repeatability, by design."
+  },
+  {
+    "id": "fr-commercial-robots-industrial-overview",
+    "route": "/fr/commercial-robots/industrial",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "La répétabilité dès la conception.",
+    "src": "/images/phase3/fr-commercial-robots-industrial-overview.webp",
+    "alt": "Environnement de travail et équipement — La répétabilité dès la conception."
+  },
+  {
+    "id": "fr-commercial-robots-industrial-detail",
+    "route": "/fr/commercial-robots/industrial",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "La répétabilité dès la conception.",
+    "src": "/images/phase3/fr-commercial-robots-industrial-detail.webp",
+    "alt": "Environnement de travail et équipement — La répétabilité dès la conception."
+  },
+  {
+    "id": "en-commercial-robots-inspection-overview",
+    "route": "/en/commercial-robots/inspection",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Turn observations into decisions.",
+    "src": "/images/phase3/en-commercial-robots-inspection-overview.webp",
+    "alt": "Work environment and equipment for Turn observations into decisions."
+  },
+  {
+    "id": "en-commercial-robots-inspection-detail",
+    "route": "/en/commercial-robots/inspection",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Turn observations into decisions.",
+    "src": "/images/phase3/en-commercial-robots-inspection-detail.webp",
+    "alt": "Work environment and equipment for Turn observations into decisions."
+  },
+  {
+    "id": "fr-commercial-robots-inspection-overview",
+    "route": "/fr/commercial-robots/inspection",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Transformez les observations en décisions.",
+    "src": "/images/phase3/fr-commercial-robots-inspection-overview.webp",
+    "alt": "Environnement de travail et équipement — Transformez les observations en décisions."
+  },
+  {
+    "id": "fr-commercial-robots-inspection-detail",
+    "route": "/fr/commercial-robots/inspection",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Transformez les observations en décisions.",
+    "src": "/images/phase3/fr-commercial-robots-inspection-detail.webp",
+    "alt": "Environnement de travail et équipement — Transformez les observations en décisions."
+  },
+  {
+    "id": "en-robot-rentals-overview",
+    "route": "/en/robot-rentals",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Experience the possibility.",
+    "src": "/images/phase3/en-robot-rentals-overview.webp",
+    "alt": "Work environment and equipment for Experience the possibility."
+  },
+  {
+    "id": "en-robot-rentals-detail",
+    "route": "/en/robot-rentals",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Experience the possibility.",
+    "src": "/images/phase3/en-robot-rentals-detail.webp",
+    "alt": "Work environment and equipment for Experience the possibility."
+  },
+  {
+    "id": "fr-robot-rentals-overview",
+    "route": "/fr/robot-rentals",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Découvrez les possibilités sur le terrain.",
+    "src": "/images/phase3/fr-robot-rentals-overview.webp",
+    "alt": "Environnement de travail et équipement — Découvrez les possibilités sur le terrain."
+  },
+  {
+    "id": "fr-robot-rentals-detail",
+    "route": "/fr/robot-rentals",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Découvrez les possibilités sur le terrain.",
+    "src": "/images/phase3/fr-robot-rentals-detail.webp",
+    "alt": "Environnement de travail et équipement — Découvrez les possibilités sur le terrain."
+  },
+  {
+    "id": "en-industries-overview",
+    "route": "/en/industries",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Different industries. Better questions.",
+    "src": "/images/phase3/en-industries-overview.webp",
+    "alt": "Work environment and equipment for Different industries. Better questions."
+  },
+  {
+    "id": "en-industries-detail",
+    "route": "/en/industries",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Different industries. Better questions.",
+    "src": "/images/phase3/en-industries-detail.webp",
+    "alt": "Work environment and equipment for Different industries. Better questions."
+  },
+  {
+    "id": "fr-industries-overview",
+    "route": "/fr/industries",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Des secteurs différents. Les bonnes questions.",
+    "src": "/images/phase3/fr-industries-overview.webp",
+    "alt": "Environnement de travail et équipement — Des secteurs différents. Les bonnes questions."
+  },
+  {
+    "id": "fr-industries-detail",
+    "route": "/fr/industries",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Des secteurs différents. Les bonnes questions.",
+    "src": "/images/phase3/fr-industries-detail.webp",
+    "alt": "Environnement de travail et équipement — Des secteurs différents. Les bonnes questions."
+  },
+  {
+    "id": "en-solutions-overview",
+    "route": "/en/solutions",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "A clear path to robotics.",
+    "src": "/images/phase3/en-solutions-overview.webp",
+    "alt": "Work environment and equipment for A clear path to robotics."
+  },
+  {
+    "id": "en-solutions-detail",
+    "route": "/en/solutions",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "A clear path to robotics.",
+    "src": "/images/phase3/en-solutions-detail.webp",
+    "alt": "Work environment and equipment for A clear path to robotics."
+  },
+  {
+    "id": "fr-solutions-overview",
+    "route": "/fr/solutions",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Un parcours clair vers la robotique.",
+    "src": "/images/phase3/fr-solutions-overview.webp",
+    "alt": "Environnement de travail et équipement — Un parcours clair vers la robotique."
+  },
+  {
+    "id": "fr-solutions-detail",
+    "route": "/fr/solutions",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Un parcours clair vers la robotique.",
+    "src": "/images/phase3/fr-solutions-detail.webp",
+    "alt": "Environnement de travail et équipement — Un parcours clair vers la robotique."
+  },
+  {
+    "id": "en-about-overview",
+    "route": "/en/about",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Intelligent robots. Real-world solutions.",
+    "src": "/images/phase3/en-about-overview.webp",
+    "alt": "Work environment and equipment for Intelligent robots. Real-world solutions."
+  },
+  {
+    "id": "en-about-detail",
+    "route": "/en/about",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Intelligent robots. Real-world solutions.",
+    "src": "/images/phase3/en-about-detail.webp",
+    "alt": "Work environment and equipment for Intelligent robots. Real-world solutions."
+  },
+  {
+    "id": "fr-about-overview",
+    "route": "/fr/about",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Des robots intelligents. Des solutions concrètes.",
+    "src": "/images/phase3/fr-about-overview.webp",
+    "alt": "Environnement de travail et équipement — Des robots intelligents. Des solutions concrètes."
+  },
+  {
+    "id": "fr-about-detail",
+    "route": "/fr/about",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Des robots intelligents. Des solutions concrètes.",
+    "src": "/images/phase3/fr-about-detail.webp",
+    "alt": "Environnement de travail et équipement — Des robots intelligents. Des solutions concrètes."
+  },
+  {
+    "id": "en-contact-overview",
+    "route": "/en/contact",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "What could your team do next?",
+    "src": "/images/phase3/en-contact-overview.webp",
+    "alt": "Work environment and equipment for What could your team do next?"
+  },
+  {
+    "id": "en-contact-detail",
+    "route": "/en/contact",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "What could your team do next?",
+    "src": "/images/phase3/en-contact-detail.webp",
+    "alt": "Work environment and equipment for What could your team do next?"
+  },
+  {
+    "id": "fr-contact-overview",
+    "route": "/fr/contact",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Quelle est la prochaine étape pour votre équipe?",
+    "src": "/images/phase3/fr-contact-overview.webp",
+    "alt": "Environnement de travail et équipement — Quelle est la prochaine étape pour votre équipe?"
+  },
+  {
+    "id": "fr-contact-detail",
+    "route": "/fr/contact",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Quelle est la prochaine étape pour votre équipe?",
+    "src": "/images/phase3/fr-contact-detail.webp",
+    "alt": "Environnement de travail et équipement — Quelle est la prochaine étape pour votre équipe?"
+  },
+  {
+    "id": "en-request-quote-overview",
+    "route": "/en/request-quote",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Let’s define your next move.",
+    "src": "/images/phase3/en-request-quote-overview.webp",
+    "alt": "Work environment and equipment for Let’s define your next move."
+  },
+  {
+    "id": "en-request-quote-detail",
+    "route": "/en/request-quote",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Let’s define your next move.",
+    "src": "/images/phase3/en-request-quote-detail.webp",
+    "alt": "Work environment and equipment for Let’s define your next move."
+  },
+  {
+    "id": "fr-request-quote-overview",
+    "route": "/fr/request-quote",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Définissons votre prochaine étape.",
+    "src": "/images/phase3/fr-request-quote-overview.webp",
+    "alt": "Environnement de travail et équipement — Définissons votre prochaine étape."
+  },
+  {
+    "id": "fr-request-quote-detail",
+    "route": "/fr/request-quote",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Définissons votre prochaine étape.",
+    "src": "/images/phase3/fr-request-quote-detail.webp",
+    "alt": "Environnement de travail et équipement — Définissons votre prochaine étape."
+  },
+  {
+    "id": "en-privacy-overview",
+    "route": "/en/privacy",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Your information, handled with purpose.",
+    "src": "/images/phase3/en-privacy-overview.webp",
+    "alt": "Work environment and equipment for Your information, handled with purpose."
+  },
+  {
+    "id": "en-privacy-detail",
+    "route": "/en/privacy",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Your information, handled with purpose.",
+    "src": "/images/phase3/en-privacy-detail.webp",
+    "alt": "Work environment and equipment for Your information, handled with purpose."
+  },
+  {
+    "id": "fr-privacy-overview",
+    "route": "/fr/privacy",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Vos renseignements, utilisés à bon escient.",
+    "src": "/images/phase3/fr-privacy-overview.webp",
+    "alt": "Environnement de travail et équipement — Vos renseignements, utilisés à bon escient."
+  },
+  {
+    "id": "fr-privacy-detail",
+    "route": "/fr/privacy",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Vos renseignements, utilisés à bon escient.",
+    "src": "/images/phase3/fr-privacy-detail.webp",
+    "alt": "Environnement de travail et équipement — Vos renseignements, utilisés à bon escient."
+  },
+  {
+    "id": "en-terms-overview",
+    "route": "/en/terms",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Clear expectations.",
+    "src": "/images/phase3/en-terms-overview.webp",
+    "alt": "Work environment and equipment for Clear expectations."
+  },
+  {
+    "id": "en-terms-detail",
+    "route": "/en/terms",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Clear expectations.",
+    "src": "/images/phase3/en-terms-detail.webp",
+    "alt": "Work environment and equipment for Clear expectations."
+  },
+  {
+    "id": "fr-terms-overview",
+    "route": "/fr/terms",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Des attentes claires.",
+    "src": "/images/phase3/fr-terms-overview.webp",
+    "alt": "Environnement de travail et équipement — Des attentes claires."
+  },
+  {
+    "id": "fr-terms-detail",
+    "route": "/fr/terms",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Des attentes claires.",
+    "src": "/images/phase3/fr-terms-detail.webp",
+    "alt": "Environnement de travail et équipement — Des attentes claires."
+  },
+  {
+    "id": "en-robot-rentals-event-robots-overview",
+    "route": "/en/robot-rentals/event-robots",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Event robots",
+    "src": "/images/phase3/en-robot-rentals-event-robots-overview.webp",
+    "alt": "Work environment and equipment for Event robots"
+  },
+  {
+    "id": "en-robot-rentals-event-robots-detail",
+    "route": "/en/robot-rentals/event-robots",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Event robots",
+    "src": "/images/phase3/en-robot-rentals-event-robots-detail.webp",
+    "alt": "Work environment and equipment for Event robots"
+  },
+  {
+    "id": "fr-robot-rentals-event-robots-overview",
+    "route": "/fr/robot-rentals/event-robots",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Robots événementiels",
+    "src": "/images/phase3/fr-robot-rentals-event-robots-overview.webp",
+    "alt": "Environnement de travail et équipement — Robots événementiels"
+  },
+  {
+    "id": "fr-robot-rentals-event-robots-detail",
+    "route": "/fr/robot-rentals/event-robots",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Robots événementiels",
+    "src": "/images/phase3/fr-robot-rentals-event-robots-detail.webp",
+    "alt": "Environnement de travail et équipement — Robots événementiels"
+  },
+  {
+    "id": "en-robot-rentals-corporate-demonstrations-overview",
+    "route": "/en/robot-rentals/corporate-demonstrations",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Corporate demonstrations",
+    "src": "/images/phase3/en-robot-rentals-corporate-demonstrations-overview.webp",
+    "alt": "Work environment and equipment for Corporate demonstrations"
+  },
+  {
+    "id": "en-robot-rentals-corporate-demonstrations-detail",
+    "route": "/en/robot-rentals/corporate-demonstrations",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Corporate demonstrations",
+    "src": "/images/phase3/en-robot-rentals-corporate-demonstrations-detail.webp",
+    "alt": "Work environment and equipment for Corporate demonstrations"
+  },
+  {
+    "id": "fr-robot-rentals-corporate-demonstrations-overview",
+    "route": "/fr/robot-rentals/corporate-demonstrations",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Démonstrations en entreprise",
+    "src": "/images/phase3/fr-robot-rentals-corporate-demonstrations-overview.webp",
+    "alt": "Environnement de travail et équipement — Démonstrations en entreprise"
+  },
+  {
+    "id": "fr-robot-rentals-corporate-demonstrations-detail",
+    "route": "/fr/robot-rentals/corporate-demonstrations",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Démonstrations en entreprise",
+    "src": "/images/phase3/fr-robot-rentals-corporate-demonstrations-detail.webp",
+    "alt": "Environnement de travail et équipement — Démonstrations en entreprise"
+  },
+  {
+    "id": "en-robot-rentals-trade-shows-overview",
+    "route": "/en/robot-rentals/trade-shows",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Trade show robotics",
+    "src": "/images/phase3/en-robot-rentals-trade-shows-overview.webp",
+    "alt": "Work environment and equipment for Trade show robotics"
+  },
+  {
+    "id": "en-robot-rentals-trade-shows-detail",
+    "route": "/en/robot-rentals/trade-shows",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Trade show robotics",
+    "src": "/images/phase3/en-robot-rentals-trade-shows-detail.webp",
+    "alt": "Work environment and equipment for Trade show robotics"
+  },
+  {
+    "id": "fr-robot-rentals-trade-shows-overview",
+    "route": "/fr/robot-rentals/trade-shows",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Robotique pour salons professionnels",
+    "src": "/images/phase3/fr-robot-rentals-trade-shows-overview.webp",
+    "alt": "Environnement de travail et équipement — Robotique pour salons professionnels"
+  },
+  {
+    "id": "fr-robot-rentals-trade-shows-detail",
+    "route": "/fr/robot-rentals/trade-shows",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Robotique pour salons professionnels",
+    "src": "/images/phase3/fr-robot-rentals-trade-shows-detail.webp",
+    "alt": "Environnement de travail et équipement — Robotique pour salons professionnels"
+  },
+  {
+    "id": "en-robot-rentals-research-demonstrations-overview",
+    "route": "/en/robot-rentals/research-demonstrations",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "University & research demonstrations",
+    "src": "/images/phase3/en-robot-rentals-research-demonstrations-overview.webp",
+    "alt": "Work environment and equipment for University & research demonstrations"
+  },
+  {
+    "id": "en-robot-rentals-research-demonstrations-detail",
+    "route": "/en/robot-rentals/research-demonstrations",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "University & research demonstrations",
+    "src": "/images/phase3/en-robot-rentals-research-demonstrations-detail.webp",
+    "alt": "Work environment and equipment for University & research demonstrations"
+  },
+  {
+    "id": "fr-robot-rentals-research-demonstrations-overview",
+    "route": "/fr/robot-rentals/research-demonstrations",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Démonstrations universitaires et de recherche",
+    "src": "/images/phase3/fr-robot-rentals-research-demonstrations-overview.webp",
+    "alt": "Environnement de travail et équipement — Démonstrations universitaires et de recherche"
+  },
+  {
+    "id": "fr-robot-rentals-research-demonstrations-detail",
+    "route": "/fr/robot-rentals/research-demonstrations",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Démonstrations universitaires et de recherche",
+    "src": "/images/phase3/fr-robot-rentals-research-demonstrations-detail.webp",
+    "alt": "Environnement de travail et équipement — Démonstrations universitaires et de recherche"
+  },
+  {
+    "id": "en-robot-rentals-short-term-pilots-overview",
+    "route": "/en/robot-rentals/short-term-pilots",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Short-term robotics pilots",
+    "src": "/images/phase3/en-robot-rentals-short-term-pilots-overview.webp",
+    "alt": "Work environment and equipment for Short-term robotics pilots"
+  },
+  {
+    "id": "en-robot-rentals-short-term-pilots-detail",
+    "route": "/en/robot-rentals/short-term-pilots",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Short-term robotics pilots",
+    "src": "/images/phase3/en-robot-rentals-short-term-pilots-detail.webp",
+    "alt": "Work environment and equipment for Short-term robotics pilots"
+  },
+  {
+    "id": "fr-robot-rentals-short-term-pilots-overview",
+    "route": "/fr/robot-rentals/short-term-pilots",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Projets pilotes robotiques de courte durée",
+    "src": "/images/phase3/fr-robot-rentals-short-term-pilots-overview.webp",
+    "alt": "Environnement de travail et équipement — Projets pilotes robotiques de courte durée"
+  },
+  {
+    "id": "fr-robot-rentals-short-term-pilots-detail",
+    "route": "/fr/robot-rentals/short-term-pilots",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Projets pilotes robotiques de courte durée",
+    "src": "/images/phase3/fr-robot-rentals-short-term-pilots-detail.webp",
+    "alt": "Environnement de travail et équipement — Projets pilotes robotiques de courte durée"
+  },
+  {
+    "id": "en-industries-manufacturing-overview",
+    "route": "/en/industries/manufacturing",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Manufacturing",
+    "src": "/images/phase3/en-industries-manufacturing-overview.webp",
+    "alt": "Work environment and equipment for Manufacturing"
+  },
+  {
+    "id": "en-industries-manufacturing-detail",
+    "route": "/en/industries/manufacturing",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Manufacturing",
+    "src": "/images/phase3/en-industries-manufacturing-detail.webp",
+    "alt": "Work environment and equipment for Manufacturing"
+  },
+  {
+    "id": "fr-industries-manufacturing-overview",
+    "route": "/fr/industries/manufacturing",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Fabrication",
+    "src": "/images/phase3/fr-industries-manufacturing-overview.webp",
+    "alt": "Environnement de travail et équipement — Fabrication"
+  },
+  {
+    "id": "fr-industries-manufacturing-detail",
+    "route": "/fr/industries/manufacturing",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Fabrication",
+    "src": "/images/phase3/fr-industries-manufacturing-detail.webp",
+    "alt": "Environnement de travail et équipement — Fabrication"
+  },
+  {
+    "id": "en-industries-warehousing-overview",
+    "route": "/en/industries/warehousing",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Warehousing",
+    "src": "/images/phase3/en-industries-warehousing-overview.webp",
+    "alt": "Work environment and equipment for Warehousing"
+  },
+  {
+    "id": "en-industries-warehousing-detail",
+    "route": "/en/industries/warehousing",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Warehousing",
+    "src": "/images/phase3/en-industries-warehousing-detail.webp",
+    "alt": "Work environment and equipment for Warehousing"
+  },
+  {
+    "id": "fr-industries-warehousing-overview",
+    "route": "/fr/industries/warehousing",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Entreposage",
+    "src": "/images/phase3/fr-industries-warehousing-overview.webp",
+    "alt": "Environnement de travail et équipement — Entreposage"
+  },
+  {
+    "id": "fr-industries-warehousing-detail",
+    "route": "/fr/industries/warehousing",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Entreposage",
+    "src": "/images/phase3/fr-industries-warehousing-detail.webp",
+    "alt": "Environnement de travail et équipement — Entreposage"
+  },
+  {
+    "id": "en-industries-facilities-overview",
+    "route": "/en/industries/facilities",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Facility management",
+    "src": "/images/phase3/en-industries-facilities-overview.webp",
+    "alt": "Work environment and equipment for Facility management"
+  },
+  {
+    "id": "en-industries-facilities-detail",
+    "route": "/en/industries/facilities",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Facility management",
+    "src": "/images/phase3/en-industries-facilities-detail.webp",
+    "alt": "Work environment and equipment for Facility management"
+  },
+  {
+    "id": "fr-industries-facilities-overview",
+    "route": "/fr/industries/facilities",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Gestion des installations",
+    "src": "/images/phase3/fr-industries-facilities-overview.webp",
+    "alt": "Environnement de travail et équipement — Gestion des installations"
+  },
+  {
+    "id": "fr-industries-facilities-detail",
+    "route": "/fr/industries/facilities",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Gestion des installations",
+    "src": "/images/phase3/fr-industries-facilities-detail.webp",
+    "alt": "Environnement de travail et équipement — Gestion des installations"
+  },
+  {
+    "id": "en-industries-hospitality-overview",
+    "route": "/en/industries/hospitality",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Hospitality",
+    "src": "/images/phase3/en-industries-hospitality-overview.webp",
+    "alt": "Work environment and equipment for Hospitality"
+  },
+  {
+    "id": "en-industries-hospitality-detail",
+    "route": "/en/industries/hospitality",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Hospitality",
+    "src": "/images/phase3/en-industries-hospitality-detail.webp",
+    "alt": "Work environment and equipment for Hospitality"
+  },
+  {
+    "id": "fr-industries-hospitality-overview",
+    "route": "/fr/industries/hospitality",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Hôtellerie et restauration",
+    "src": "/images/phase3/fr-industries-hospitality-overview.webp",
+    "alt": "Environnement de travail et équipement — Hôtellerie et restauration"
+  },
+  {
+    "id": "fr-industries-hospitality-detail",
+    "route": "/fr/industries/hospitality",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Hôtellerie et restauration",
+    "src": "/images/phase3/fr-industries-hospitality-detail.webp",
+    "alt": "Environnement de travail et équipement — Hôtellerie et restauration"
+  },
+  {
+    "id": "en-industries-events-overview",
+    "route": "/en/industries/events",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Events",
+    "src": "/images/phase3/en-industries-events-overview.webp",
+    "alt": "Work environment and equipment for Events"
+  },
+  {
+    "id": "en-industries-events-detail",
+    "route": "/en/industries/events",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Events",
+    "src": "/images/phase3/en-industries-events-detail.webp",
+    "alt": "Work environment and equipment for Events"
+  },
+  {
+    "id": "fr-industries-events-overview",
+    "route": "/fr/industries/events",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Événements",
+    "src": "/images/phase3/fr-industries-events-overview.webp",
+    "alt": "Environnement de travail et équipement — Événements"
+  },
+  {
+    "id": "fr-industries-events-detail",
+    "route": "/fr/industries/events",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Événements",
+    "src": "/images/phase3/fr-industries-events-detail.webp",
+    "alt": "Environnement de travail et équipement — Événements"
+  },
+  {
+    "id": "en-industries-retail-overview",
+    "route": "/en/industries/retail",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Retail",
+    "src": "/images/phase3/en-industries-retail-overview.webp",
+    "alt": "Work environment and equipment for Retail"
+  },
+  {
+    "id": "en-industries-retail-detail",
+    "route": "/en/industries/retail",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Retail",
+    "src": "/images/phase3/en-industries-retail-detail.webp",
+    "alt": "Work environment and equipment for Retail"
+  },
+  {
+    "id": "fr-industries-retail-overview",
+    "route": "/fr/industries/retail",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Commerce de détail",
+    "src": "/images/phase3/fr-industries-retail-overview.webp",
+    "alt": "Environnement de travail et équipement — Commerce de détail"
+  },
+  {
+    "id": "fr-industries-retail-detail",
+    "route": "/fr/industries/retail",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Commerce de détail",
+    "src": "/images/phase3/fr-industries-retail-detail.webp",
+    "alt": "Environnement de travail et équipement — Commerce de détail"
+  },
+  {
+    "id": "en-industries-research-overview",
+    "route": "/en/industries/research",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Universities & research",
+    "src": "/images/phase3/en-industries-research-overview.webp",
+    "alt": "Work environment and equipment for Universities & research"
+  },
+  {
+    "id": "en-industries-research-detail",
+    "route": "/en/industries/research",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Universities & research",
+    "src": "/images/phase3/en-industries-research-detail.webp",
+    "alt": "Work environment and equipment for Universities & research"
+  },
+  {
+    "id": "fr-industries-research-overview",
+    "route": "/fr/industries/research",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Universités et recherche",
+    "src": "/images/phase3/fr-industries-research-overview.webp",
+    "alt": "Environnement de travail et équipement — Universités et recherche"
+  },
+  {
+    "id": "fr-industries-research-detail",
+    "route": "/fr/industries/research",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Universités et recherche",
+    "src": "/images/phase3/fr-industries-research-detail.webp",
+    "alt": "Environnement de travail et équipement — Universités et recherche"
+  },
+  {
+    "id": "en-industries-logistics-overview",
+    "route": "/en/industries/logistics",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Logistics",
+    "src": "/images/phase3/en-industries-logistics-overview.webp",
+    "alt": "Work environment and equipment for Logistics"
+  },
+  {
+    "id": "en-industries-logistics-detail",
+    "route": "/en/industries/logistics",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Logistics",
+    "src": "/images/phase3/en-industries-logistics-detail.webp",
+    "alt": "Work environment and equipment for Logistics"
+  },
+  {
+    "id": "fr-industries-logistics-overview",
+    "route": "/fr/industries/logistics",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Logistique",
+    "src": "/images/phase3/fr-industries-logistics-overview.webp",
+    "alt": "Environnement de travail et équipement — Logistique"
+  },
+  {
+    "id": "fr-industries-logistics-detail",
+    "route": "/fr/industries/logistics",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Logistique",
+    "src": "/images/phase3/fr-industries-logistics-detail.webp",
+    "alt": "Environnement de travail et équipement — Logistique"
+  },
+  {
+    "id": "en-commercial-robots-service-overview",
+    "route": "/en/commercial-robots/service",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Make service flow.",
+    "src": "/images/phase3/en-commercial-robots-service-overview.webp",
+    "alt": "Work environment and equipment for Make service flow."
+  },
+  {
+    "id": "en-commercial-robots-service-detail",
+    "route": "/en/commercial-robots/service",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Make service flow.",
+    "src": "/images/phase3/en-commercial-robots-service-detail.webp",
+    "alt": "Work environment and equipment for Make service flow."
+  },
+  {
+    "id": "fr-commercial-robots-service-overview",
+    "route": "/fr/commercial-robots/service",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Fluidifiez le service.",
+    "src": "/images/phase3/fr-commercial-robots-service-overview.webp",
+    "alt": "Environnement de travail et équipement — Fluidifiez le service."
+  },
+  {
+    "id": "fr-commercial-robots-service-detail",
+    "route": "/fr/commercial-robots/service",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Fluidifiez le service.",
+    "src": "/images/phase3/fr-commercial-robots-service-detail.webp",
+    "alt": "Environnement de travail et équipement — Fluidifiez le service."
+  },
+  {
+    "id": "en-robots-overview",
+    "route": "/en/robots",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Commercial robotics",
+    "src": "/images/phase3/en-robots-overview.webp",
+    "alt": "Work environment and equipment for Commercial robotics"
+  },
+  {
+    "id": "en-robots-detail",
+    "route": "/en/robots",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Commercial robotics",
+    "src": "/images/phase3/en-robots-detail.webp",
+    "alt": "Work environment and equipment for Commercial robotics"
+  },
+  {
+    "id": "fr-robots-overview",
+    "route": "/fr/robots",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Robotique commerciale",
+    "src": "/images/phase3/fr-robots-overview.webp",
+    "alt": "Environnement de travail et équipement — Robotique commerciale"
+  },
+  {
+    "id": "fr-robots-detail",
+    "route": "/fr/robots",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Robotique commerciale",
+    "src": "/images/phase3/fr-robots-detail.webp",
+    "alt": "Environnement de travail et équipement — Robotique commerciale"
+  },
+  {
+    "id": "en-locations-overview",
+    "route": "/en/locations",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Across Canada",
+    "src": "/images/phase3/en-locations-overview.webp",
+    "alt": "Work environment and equipment for Across Canada"
+  },
+  {
+    "id": "en-locations-detail",
+    "route": "/en/locations",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Across Canada",
+    "src": "/images/phase3/en-locations-detail.webp",
+    "alt": "Work environment and equipment for Across Canada"
+  },
+  {
+    "id": "fr-locations-overview",
+    "route": "/fr/locations",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Partout au Canada",
+    "src": "/images/phase3/fr-locations-overview.webp",
+    "alt": "Environnement de travail et équipement — Partout au Canada"
+  },
+  {
+    "id": "fr-locations-detail",
+    "route": "/fr/locations",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Partout au Canada",
+    "src": "/images/phase3/fr-locations-detail.webp",
+    "alt": "Environnement de travail et équipement — Partout au Canada"
+  },
+  {
+    "id": "en-locations-ontario-overview",
+    "route": "/en/locations/ontario",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Ontario",
+    "src": "/images/phase3/en-locations-ontario-overview.webp",
+    "alt": "Work environment and equipment for Ontario"
+  },
+  {
+    "id": "en-locations-ontario-detail",
+    "route": "/en/locations/ontario",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Ontario",
+    "src": "/images/phase3/en-locations-ontario-detail.webp",
+    "alt": "Work environment and equipment for Ontario"
+  },
+  {
+    "id": "fr-locations-ontario-overview",
+    "route": "/fr/locations/ontario",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Ontario",
+    "src": "/images/phase3/fr-locations-ontario-overview.webp",
+    "alt": "Environnement de travail et équipement — Ontario"
+  },
+  {
+    "id": "fr-locations-ontario-detail",
+    "route": "/fr/locations/ontario",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Ontario",
+    "src": "/images/phase3/fr-locations-ontario-detail.webp",
+    "alt": "Environnement de travail et équipement — Ontario"
+  },
+  {
+    "id": "en-locations-quebec-overview",
+    "route": "/en/locations/quebec",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Quebec",
+    "src": "/images/phase3/en-locations-quebec-overview.webp",
+    "alt": "Work environment and equipment for Quebec"
+  },
+  {
+    "id": "en-locations-quebec-detail",
+    "route": "/en/locations/quebec",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Quebec",
+    "src": "/images/phase3/en-locations-quebec-detail.webp",
+    "alt": "Work environment and equipment for Quebec"
+  },
+  {
+    "id": "fr-locations-quebec-overview",
+    "route": "/fr/locations/quebec",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Québec",
+    "src": "/images/phase3/fr-locations-quebec-overview.webp",
+    "alt": "Environnement de travail et équipement — Québec"
+  },
+  {
+    "id": "fr-locations-quebec-detail",
+    "route": "/fr/locations/quebec",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Québec",
+    "src": "/images/phase3/fr-locations-quebec-detail.webp",
+    "alt": "Environnement de travail et équipement — Québec"
+  },
+  {
+    "id": "en-locations-british-columbia-overview",
+    "route": "/en/locations/british-columbia",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "British Columbia",
+    "src": "/images/phase3/en-locations-british-columbia-overview.webp",
+    "alt": "Work environment and equipment for British Columbia"
+  },
+  {
+    "id": "en-locations-british-columbia-detail",
+    "route": "/en/locations/british-columbia",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "British Columbia",
+    "src": "/images/phase3/en-locations-british-columbia-detail.webp",
+    "alt": "Work environment and equipment for British Columbia"
+  },
+  {
+    "id": "fr-locations-british-columbia-overview",
+    "route": "/fr/locations/british-columbia",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Colombie-Britannique",
+    "src": "/images/phase3/fr-locations-british-columbia-overview.webp",
+    "alt": "Environnement de travail et équipement — Colombie-Britannique"
+  },
+  {
+    "id": "fr-locations-british-columbia-detail",
+    "route": "/fr/locations/british-columbia",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Colombie-Britannique",
+    "src": "/images/phase3/fr-locations-british-columbia-detail.webp",
+    "alt": "Environnement de travail et équipement — Colombie-Britannique"
+  },
+  {
+    "id": "en-locations-alberta-overview",
+    "route": "/en/locations/alberta",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Alberta",
+    "src": "/images/phase3/en-locations-alberta-overview.webp",
+    "alt": "Work environment and equipment for Alberta"
+  },
+  {
+    "id": "en-locations-alberta-detail",
+    "route": "/en/locations/alberta",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Alberta",
+    "src": "/images/phase3/en-locations-alberta-detail.webp",
+    "alt": "Work environment and equipment for Alberta"
+  },
+  {
+    "id": "fr-locations-alberta-overview",
+    "route": "/fr/locations/alberta",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Alberta",
+    "src": "/images/phase3/fr-locations-alberta-overview.webp",
+    "alt": "Environnement de travail et équipement — Alberta"
+  },
+  {
+    "id": "fr-locations-alberta-detail",
+    "route": "/fr/locations/alberta",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Alberta",
+    "src": "/images/phase3/fr-locations-alberta-detail.webp",
+    "alt": "Environnement de travail et équipement — Alberta"
+  },
+  {
+    "id": "en-locations-manitoba-overview",
+    "route": "/en/locations/manitoba",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Manitoba",
+    "src": "/images/phase3/en-locations-manitoba-overview.webp",
+    "alt": "Work environment and equipment for Manitoba"
+  },
+  {
+    "id": "en-locations-manitoba-detail",
+    "route": "/en/locations/manitoba",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Manitoba",
+    "src": "/images/phase3/en-locations-manitoba-detail.webp",
+    "alt": "Work environment and equipment for Manitoba"
+  },
+  {
+    "id": "fr-locations-manitoba-overview",
+    "route": "/fr/locations/manitoba",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Manitoba",
+    "src": "/images/phase3/fr-locations-manitoba-overview.webp",
+    "alt": "Environnement de travail et équipement — Manitoba"
+  },
+  {
+    "id": "fr-locations-manitoba-detail",
+    "route": "/fr/locations/manitoba",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Manitoba",
+    "src": "/images/phase3/fr-locations-manitoba-detail.webp",
+    "alt": "Environnement de travail et équipement — Manitoba"
+  },
+  {
+    "id": "en-locations-saskatchewan-overview",
+    "route": "/en/locations/saskatchewan",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Saskatchewan",
+    "src": "/images/phase3/en-locations-saskatchewan-overview.webp",
+    "alt": "Work environment and equipment for Saskatchewan"
+  },
+  {
+    "id": "en-locations-saskatchewan-detail",
+    "route": "/en/locations/saskatchewan",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Saskatchewan",
+    "src": "/images/phase3/en-locations-saskatchewan-detail.webp",
+    "alt": "Work environment and equipment for Saskatchewan"
+  },
+  {
+    "id": "fr-locations-saskatchewan-overview",
+    "route": "/fr/locations/saskatchewan",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Saskatchewan",
+    "src": "/images/phase3/fr-locations-saskatchewan-overview.webp",
+    "alt": "Environnement de travail et équipement — Saskatchewan"
+  },
+  {
+    "id": "fr-locations-saskatchewan-detail",
+    "route": "/fr/locations/saskatchewan",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Saskatchewan",
+    "src": "/images/phase3/fr-locations-saskatchewan-detail.webp",
+    "alt": "Environnement de travail et équipement — Saskatchewan"
+  },
+  {
+    "id": "en-locations-nova-scotia-overview",
+    "route": "/en/locations/nova-scotia",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Nova Scotia",
+    "src": "/images/phase3/en-locations-nova-scotia-overview.webp",
+    "alt": "Work environment and equipment for Nova Scotia"
+  },
+  {
+    "id": "en-locations-nova-scotia-detail",
+    "route": "/en/locations/nova-scotia",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Nova Scotia",
+    "src": "/images/phase3/en-locations-nova-scotia-detail.webp",
+    "alt": "Work environment and equipment for Nova Scotia"
+  },
+  {
+    "id": "fr-locations-nova-scotia-overview",
+    "route": "/fr/locations/nova-scotia",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Nouvelle-Écosse",
+    "src": "/images/phase3/fr-locations-nova-scotia-overview.webp",
+    "alt": "Environnement de travail et équipement — Nouvelle-Écosse"
+  },
+  {
+    "id": "fr-locations-nova-scotia-detail",
+    "route": "/fr/locations/nova-scotia",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Nouvelle-Écosse",
+    "src": "/images/phase3/fr-locations-nova-scotia-detail.webp",
+    "alt": "Environnement de travail et équipement — Nouvelle-Écosse"
+  },
+  {
+    "id": "en-locations-new-brunswick-overview",
+    "route": "/en/locations/new-brunswick",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "New Brunswick",
+    "src": "/images/phase3/en-locations-new-brunswick-overview.webp",
+    "alt": "Work environment and equipment for New Brunswick"
+  },
+  {
+    "id": "en-locations-new-brunswick-detail",
+    "route": "/en/locations/new-brunswick",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "New Brunswick",
+    "src": "/images/phase3/en-locations-new-brunswick-detail.webp",
+    "alt": "Work environment and equipment for New Brunswick"
+  },
+  {
+    "id": "fr-locations-new-brunswick-overview",
+    "route": "/fr/locations/new-brunswick",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Nouveau-Brunswick",
+    "src": "/images/phase3/fr-locations-new-brunswick-overview.webp",
+    "alt": "Environnement de travail et équipement — Nouveau-Brunswick"
+  },
+  {
+    "id": "fr-locations-new-brunswick-detail",
+    "route": "/fr/locations/new-brunswick",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Nouveau-Brunswick",
+    "src": "/images/phase3/fr-locations-new-brunswick-detail.webp",
+    "alt": "Environnement de travail et équipement — Nouveau-Brunswick"
+  },
+  {
+    "id": "en-locations-newfoundland-and-labrador-overview",
+    "route": "/en/locations/newfoundland-and-labrador",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Newfoundland and Labrador",
+    "src": "/images/phase3/en-locations-newfoundland-and-labrador-overview.webp",
+    "alt": "Work environment and equipment for Newfoundland and Labrador"
+  },
+  {
+    "id": "en-locations-newfoundland-and-labrador-detail",
+    "route": "/en/locations/newfoundland-and-labrador",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Newfoundland and Labrador",
+    "src": "/images/phase3/en-locations-newfoundland-and-labrador-detail.webp",
+    "alt": "Work environment and equipment for Newfoundland and Labrador"
+  },
+  {
+    "id": "fr-locations-newfoundland-and-labrador-overview",
+    "route": "/fr/locations/newfoundland-and-labrador",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Terre-Neuve-et-Labrador",
+    "src": "/images/phase3/fr-locations-newfoundland-and-labrador-overview.webp",
+    "alt": "Environnement de travail et équipement — Terre-Neuve-et-Labrador"
+  },
+  {
+    "id": "fr-locations-newfoundland-and-labrador-detail",
+    "route": "/fr/locations/newfoundland-and-labrador",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Terre-Neuve-et-Labrador",
+    "src": "/images/phase3/fr-locations-newfoundland-and-labrador-detail.webp",
+    "alt": "Environnement de travail et équipement — Terre-Neuve-et-Labrador"
+  },
+  {
+    "id": "en-locations-prince-edward-island-overview",
+    "route": "/en/locations/prince-edward-island",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Prince Edward Island",
+    "src": "/images/phase3/en-locations-prince-edward-island-overview.webp",
+    "alt": "Work environment and equipment for Prince Edward Island"
+  },
+  {
+    "id": "en-locations-prince-edward-island-detail",
+    "route": "/en/locations/prince-edward-island",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Prince Edward Island",
+    "src": "/images/phase3/en-locations-prince-edward-island-detail.webp",
+    "alt": "Work environment and equipment for Prince Edward Island"
+  },
+  {
+    "id": "fr-locations-prince-edward-island-overview",
+    "route": "/fr/locations/prince-edward-island",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Île-du-Prince-Édouard",
+    "src": "/images/phase3/fr-locations-prince-edward-island-overview.webp",
+    "alt": "Environnement de travail et équipement — Île-du-Prince-Édouard"
+  },
+  {
+    "id": "fr-locations-prince-edward-island-detail",
+    "route": "/fr/locations/prince-edward-island",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Île-du-Prince-Édouard",
+    "src": "/images/phase3/fr-locations-prince-edward-island-detail.webp",
+    "alt": "Environnement de travail et équipement — Île-du-Prince-Édouard"
+  },
+  {
+    "id": "en-locations-yukon-overview",
+    "route": "/en/locations/yukon",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Yukon",
+    "src": "/images/phase3/en-locations-yukon-overview.webp",
+    "alt": "Work environment and equipment for Yukon"
+  },
+  {
+    "id": "en-locations-yukon-detail",
+    "route": "/en/locations/yukon",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Yukon",
+    "src": "/images/phase3/en-locations-yukon-detail.webp",
+    "alt": "Work environment and equipment for Yukon"
+  },
+  {
+    "id": "fr-locations-yukon-overview",
+    "route": "/fr/locations/yukon",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Yukon",
+    "src": "/images/phase3/fr-locations-yukon-overview.webp",
+    "alt": "Environnement de travail et équipement — Yukon"
+  },
+  {
+    "id": "fr-locations-yukon-detail",
+    "route": "/fr/locations/yukon",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Yukon",
+    "src": "/images/phase3/fr-locations-yukon-detail.webp",
+    "alt": "Environnement de travail et équipement — Yukon"
+  },
+  {
+    "id": "en-locations-northwest-territories-overview",
+    "route": "/en/locations/northwest-territories",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Northwest Territories",
+    "src": "/images/phase3/en-locations-northwest-territories-overview.webp",
+    "alt": "Work environment and equipment for Northwest Territories"
+  },
+  {
+    "id": "en-locations-northwest-territories-detail",
+    "route": "/en/locations/northwest-territories",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Northwest Territories",
+    "src": "/images/phase3/en-locations-northwest-territories-detail.webp",
+    "alt": "Work environment and equipment for Northwest Territories"
+  },
+  {
+    "id": "fr-locations-northwest-territories-overview",
+    "route": "/fr/locations/northwest-territories",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Territoires du Nord-Ouest",
+    "src": "/images/phase3/fr-locations-northwest-territories-overview.webp",
+    "alt": "Environnement de travail et équipement — Territoires du Nord-Ouest"
+  },
+  {
+    "id": "fr-locations-northwest-territories-detail",
+    "route": "/fr/locations/northwest-territories",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Territoires du Nord-Ouest",
+    "src": "/images/phase3/fr-locations-northwest-territories-detail.webp",
+    "alt": "Environnement de travail et équipement — Territoires du Nord-Ouest"
+  },
+  {
+    "id": "en-locations-nunavut-overview",
+    "route": "/en/locations/nunavut",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Nunavut",
+    "src": "/images/phase3/en-locations-nunavut-overview.webp",
+    "alt": "Work environment and equipment for Nunavut"
+  },
+  {
+    "id": "en-locations-nunavut-detail",
+    "route": "/en/locations/nunavut",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Nunavut",
+    "src": "/images/phase3/en-locations-nunavut-detail.webp",
+    "alt": "Work environment and equipment for Nunavut"
+  },
+  {
+    "id": "fr-locations-nunavut-overview",
+    "route": "/fr/locations/nunavut",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Nunavut",
+    "src": "/images/phase3/fr-locations-nunavut-overview.webp",
+    "alt": "Environnement de travail et équipement — Nunavut"
+  },
+  {
+    "id": "fr-locations-nunavut-detail",
+    "route": "/fr/locations/nunavut",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Nunavut",
+    "src": "/images/phase3/fr-locations-nunavut-detail.webp",
+    "alt": "Environnement de travail et équipement — Nunavut"
+  },
+  {
+    "id": "en-locations-cities-toronto-gta-overview",
+    "route": "/en/locations/cities/toronto-gta",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Toronto & the GTA",
+    "src": "/images/phase3/en-locations-cities-toronto-gta-overview.webp",
+    "alt": "Work environment and equipment for Toronto & the GTA"
+  },
+  {
+    "id": "en-locations-cities-toronto-gta-detail",
+    "route": "/en/locations/cities/toronto-gta",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Toronto & the GTA",
+    "src": "/images/phase3/en-locations-cities-toronto-gta-detail.webp",
+    "alt": "Work environment and equipment for Toronto & the GTA"
+  },
+  {
+    "id": "fr-locations-cities-toronto-gta-overview",
+    "route": "/fr/locations/cities/toronto-gta",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Toronto et le Grand Toronto",
+    "src": "/images/phase3/fr-locations-cities-toronto-gta-overview.webp",
+    "alt": "Environnement de travail et équipement — Toronto et le Grand Toronto"
+  },
+  {
+    "id": "fr-locations-cities-toronto-gta-detail",
+    "route": "/fr/locations/cities/toronto-gta",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Toronto et le Grand Toronto",
+    "src": "/images/phase3/fr-locations-cities-toronto-gta-detail.webp",
+    "alt": "Environnement de travail et équipement — Toronto et le Grand Toronto"
+  },
+  {
+    "id": "en-locations-cities-vancouver-overview",
+    "route": "/en/locations/cities/vancouver",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Vancouver & Metro Vancouver",
+    "src": "/images/phase3/en-locations-cities-vancouver-overview.webp",
+    "alt": "Work environment and equipment for Vancouver & Metro Vancouver"
+  },
+  {
+    "id": "en-locations-cities-vancouver-detail",
+    "route": "/en/locations/cities/vancouver",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Vancouver & Metro Vancouver",
+    "src": "/images/phase3/en-locations-cities-vancouver-detail.webp",
+    "alt": "Work environment and equipment for Vancouver & Metro Vancouver"
+  },
+  {
+    "id": "fr-locations-cities-vancouver-overview",
+    "route": "/fr/locations/cities/vancouver",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Vancouver et le Grand Vancouver",
+    "src": "/images/phase3/fr-locations-cities-vancouver-overview.webp",
+    "alt": "Environnement de travail et équipement — Vancouver et le Grand Vancouver"
+  },
+  {
+    "id": "fr-locations-cities-vancouver-detail",
+    "route": "/fr/locations/cities/vancouver",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Vancouver et le Grand Vancouver",
+    "src": "/images/phase3/fr-locations-cities-vancouver-detail.webp",
+    "alt": "Environnement de travail et équipement — Vancouver et le Grand Vancouver"
+  },
+  {
+    "id": "en-locations-cities-montreal-overview",
+    "route": "/en/locations/cities/montreal",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Montréal",
+    "src": "/images/phase3/en-locations-cities-montreal-overview.webp",
+    "alt": "Work environment and equipment for Montréal"
+  },
+  {
+    "id": "en-locations-cities-montreal-detail",
+    "route": "/en/locations/cities/montreal",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Montréal",
+    "src": "/images/phase3/en-locations-cities-montreal-detail.webp",
+    "alt": "Work environment and equipment for Montréal"
+  },
+  {
+    "id": "fr-locations-cities-montreal-overview",
+    "route": "/fr/locations/cities/montreal",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Montréal",
+    "src": "/images/phase3/fr-locations-cities-montreal-overview.webp",
+    "alt": "Environnement de travail et équipement — Montréal"
+  },
+  {
+    "id": "fr-locations-cities-montreal-detail",
+    "route": "/fr/locations/cities/montreal",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Montréal",
+    "src": "/images/phase3/fr-locations-cities-montreal-detail.webp",
+    "alt": "Environnement de travail et équipement — Montréal"
+  },
+  {
+    "id": "en-locations-cities-ottawa-gatineau-overview",
+    "route": "/en/locations/cities/ottawa-gatineau",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Ottawa–Gatineau",
+    "src": "/images/phase3/en-locations-cities-ottawa-gatineau-overview.webp",
+    "alt": "Work environment and equipment for Ottawa–Gatineau"
+  },
+  {
+    "id": "en-locations-cities-ottawa-gatineau-detail",
+    "route": "/en/locations/cities/ottawa-gatineau",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Ottawa–Gatineau",
+    "src": "/images/phase3/en-locations-cities-ottawa-gatineau-detail.webp",
+    "alt": "Work environment and equipment for Ottawa–Gatineau"
+  },
+  {
+    "id": "fr-locations-cities-ottawa-gatineau-overview",
+    "route": "/fr/locations/cities/ottawa-gatineau",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Ottawa–Gatineau",
+    "src": "/images/phase3/fr-locations-cities-ottawa-gatineau-overview.webp",
+    "alt": "Environnement de travail et équipement — Ottawa–Gatineau"
+  },
+  {
+    "id": "fr-locations-cities-ottawa-gatineau-detail",
+    "route": "/fr/locations/cities/ottawa-gatineau",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Ottawa–Gatineau",
+    "src": "/images/phase3/fr-locations-cities-ottawa-gatineau-detail.webp",
+    "alt": "Environnement de travail et équipement — Ottawa–Gatineau"
+  },
+  {
+    "id": "en-locations-cities-calgary-overview",
+    "route": "/en/locations/cities/calgary",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Calgary",
+    "src": "/images/phase3/en-locations-cities-calgary-overview.webp",
+    "alt": "Work environment and equipment for Calgary"
+  },
+  {
+    "id": "en-locations-cities-calgary-detail",
+    "route": "/en/locations/cities/calgary",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Calgary",
+    "src": "/images/phase3/en-locations-cities-calgary-detail.webp",
+    "alt": "Work environment and equipment for Calgary"
+  },
+  {
+    "id": "fr-locations-cities-calgary-overview",
+    "route": "/fr/locations/cities/calgary",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Calgary",
+    "src": "/images/phase3/fr-locations-cities-calgary-overview.webp",
+    "alt": "Environnement de travail et équipement — Calgary"
+  },
+  {
+    "id": "fr-locations-cities-calgary-detail",
+    "route": "/fr/locations/cities/calgary",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Calgary",
+    "src": "/images/phase3/fr-locations-cities-calgary-detail.webp",
+    "alt": "Environnement de travail et équipement — Calgary"
+  },
+  {
+    "id": "en-locations-cities-edmonton-overview",
+    "route": "/en/locations/cities/edmonton",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Edmonton",
+    "src": "/images/phase3/en-locations-cities-edmonton-overview.webp",
+    "alt": "Work environment and equipment for Edmonton"
+  },
+  {
+    "id": "en-locations-cities-edmonton-detail",
+    "route": "/en/locations/cities/edmonton",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Edmonton",
+    "src": "/images/phase3/en-locations-cities-edmonton-detail.webp",
+    "alt": "Work environment and equipment for Edmonton"
+  },
+  {
+    "id": "fr-locations-cities-edmonton-overview",
+    "route": "/fr/locations/cities/edmonton",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Edmonton",
+    "src": "/images/phase3/fr-locations-cities-edmonton-overview.webp",
+    "alt": "Environnement de travail et équipement — Edmonton"
+  },
+  {
+    "id": "fr-locations-cities-edmonton-detail",
+    "route": "/fr/locations/cities/edmonton",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Edmonton",
+    "src": "/images/phase3/fr-locations-cities-edmonton-detail.webp",
+    "alt": "Environnement de travail et équipement — Edmonton"
+  },
+  {
+    "id": "en-locations-cities-quebec-city-overview",
+    "route": "/en/locations/cities/quebec-city",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Quebec City",
+    "src": "/images/phase3/en-locations-cities-quebec-city-overview.webp",
+    "alt": "Work environment and equipment for Quebec City"
+  },
+  {
+    "id": "en-locations-cities-quebec-city-detail",
+    "route": "/en/locations/cities/quebec-city",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Quebec City",
+    "src": "/images/phase3/en-locations-cities-quebec-city-detail.webp",
+    "alt": "Work environment and equipment for Quebec City"
+  },
+  {
+    "id": "fr-locations-cities-quebec-city-overview",
+    "route": "/fr/locations/cities/quebec-city",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Québec",
+    "src": "/images/phase3/fr-locations-cities-quebec-city-overview.webp",
+    "alt": "Environnement de travail et équipement — Québec"
+  },
+  {
+    "id": "fr-locations-cities-quebec-city-detail",
+    "route": "/fr/locations/cities/quebec-city",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Québec",
+    "src": "/images/phase3/fr-locations-cities-quebec-city-detail.webp",
+    "alt": "Environnement de travail et équipement — Québec"
+  },
+  {
+    "id": "en-locations-cities-winnipeg-overview",
+    "route": "/en/locations/cities/winnipeg",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Winnipeg",
+    "src": "/images/phase3/en-locations-cities-winnipeg-overview.webp",
+    "alt": "Work environment and equipment for Winnipeg"
+  },
+  {
+    "id": "en-locations-cities-winnipeg-detail",
+    "route": "/en/locations/cities/winnipeg",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Winnipeg",
+    "src": "/images/phase3/en-locations-cities-winnipeg-detail.webp",
+    "alt": "Work environment and equipment for Winnipeg"
+  },
+  {
+    "id": "fr-locations-cities-winnipeg-overview",
+    "route": "/fr/locations/cities/winnipeg",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Winnipeg",
+    "src": "/images/phase3/fr-locations-cities-winnipeg-overview.webp",
+    "alt": "Environnement de travail et équipement — Winnipeg"
+  },
+  {
+    "id": "fr-locations-cities-winnipeg-detail",
+    "route": "/fr/locations/cities/winnipeg",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Winnipeg",
+    "src": "/images/phase3/fr-locations-cities-winnipeg-detail.webp",
+    "alt": "Environnement de travail et équipement — Winnipeg"
+  },
+  {
+    "id": "en-locations-cities-halifax-overview",
+    "route": "/en/locations/cities/halifax",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Halifax",
+    "src": "/images/phase3/en-locations-cities-halifax-overview.webp",
+    "alt": "Work environment and equipment for Halifax"
+  },
+  {
+    "id": "en-locations-cities-halifax-detail",
+    "route": "/en/locations/cities/halifax",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Halifax",
+    "src": "/images/phase3/en-locations-cities-halifax-detail.webp",
+    "alt": "Work environment and equipment for Halifax"
+  },
+  {
+    "id": "fr-locations-cities-halifax-overview",
+    "route": "/fr/locations/cities/halifax",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Halifax",
+    "src": "/images/phase3/fr-locations-cities-halifax-overview.webp",
+    "alt": "Environnement de travail et équipement — Halifax"
+  },
+  {
+    "id": "fr-locations-cities-halifax-detail",
+    "route": "/fr/locations/cities/halifax",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Halifax",
+    "src": "/images/phase3/fr-locations-cities-halifax-detail.webp",
+    "alt": "Environnement de travail et équipement — Halifax"
+  },
+  {
+    "id": "en-locations-cities-victoria-overview",
+    "route": "/en/locations/cities/victoria",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Victoria",
+    "src": "/images/phase3/en-locations-cities-victoria-overview.webp",
+    "alt": "Work environment and equipment for Victoria"
+  },
+  {
+    "id": "en-locations-cities-victoria-detail",
+    "route": "/en/locations/cities/victoria",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Victoria",
+    "src": "/images/phase3/en-locations-cities-victoria-detail.webp",
+    "alt": "Work environment and equipment for Victoria"
+  },
+  {
+    "id": "fr-locations-cities-victoria-overview",
+    "route": "/fr/locations/cities/victoria",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Victoria",
+    "src": "/images/phase3/fr-locations-cities-victoria-overview.webp",
+    "alt": "Environnement de travail et équipement — Victoria"
+  },
+  {
+    "id": "fr-locations-cities-victoria-detail",
+    "route": "/fr/locations/cities/victoria",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Victoria",
+    "src": "/images/phase3/fr-locations-cities-victoria-detail.webp",
+    "alt": "Environnement de travail et équipement — Victoria"
+  },
+  {
+    "id": "en-locations-cities-hamilton-overview",
+    "route": "/en/locations/cities/hamilton",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Hamilton",
+    "src": "/images/phase3/en-locations-cities-hamilton-overview.webp",
+    "alt": "Work environment and equipment for Hamilton"
+  },
+  {
+    "id": "en-locations-cities-hamilton-detail",
+    "route": "/en/locations/cities/hamilton",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Hamilton",
+    "src": "/images/phase3/en-locations-cities-hamilton-detail.webp",
+    "alt": "Work environment and equipment for Hamilton"
+  },
+  {
+    "id": "fr-locations-cities-hamilton-overview",
+    "route": "/fr/locations/cities/hamilton",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Hamilton",
+    "src": "/images/phase3/fr-locations-cities-hamilton-overview.webp",
+    "alt": "Environnement de travail et équipement — Hamilton"
+  },
+  {
+    "id": "fr-locations-cities-hamilton-detail",
+    "route": "/fr/locations/cities/hamilton",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Hamilton",
+    "src": "/images/phase3/fr-locations-cities-hamilton-detail.webp",
+    "alt": "Environnement de travail et équipement — Hamilton"
+  },
+  {
+    "id": "en-locations-cities-kitchener-waterloo-overview",
+    "route": "/en/locations/cities/kitchener-waterloo",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Kitchener–Waterloo",
+    "src": "/images/phase3/en-locations-cities-kitchener-waterloo-overview.webp",
+    "alt": "Work environment and equipment for Kitchener–Waterloo"
+  },
+  {
+    "id": "en-locations-cities-kitchener-waterloo-detail",
+    "route": "/en/locations/cities/kitchener-waterloo",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Kitchener–Waterloo",
+    "src": "/images/phase3/en-locations-cities-kitchener-waterloo-detail.webp",
+    "alt": "Work environment and equipment for Kitchener–Waterloo"
+  },
+  {
+    "id": "fr-locations-cities-kitchener-waterloo-overview",
+    "route": "/fr/locations/cities/kitchener-waterloo",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Kitchener–Waterloo",
+    "src": "/images/phase3/fr-locations-cities-kitchener-waterloo-overview.webp",
+    "alt": "Environnement de travail et équipement — Kitchener–Waterloo"
+  },
+  {
+    "id": "fr-locations-cities-kitchener-waterloo-detail",
+    "route": "/fr/locations/cities/kitchener-waterloo",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Kitchener–Waterloo",
+    "src": "/images/phase3/fr-locations-cities-kitchener-waterloo-detail.webp",
+    "alt": "Environnement de travail et équipement — Kitchener–Waterloo"
+  },
+  {
+    "id": "en-locations-cities-london-overview",
+    "route": "/en/locations/cities/london",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "London",
+    "src": "/images/phase3/en-locations-cities-london-overview.webp",
+    "alt": "Work environment and equipment for London"
+  },
+  {
+    "id": "en-locations-cities-london-detail",
+    "route": "/en/locations/cities/london",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "London",
+    "src": "/images/phase3/en-locations-cities-london-detail.webp",
+    "alt": "Work environment and equipment for London"
+  },
+  {
+    "id": "fr-locations-cities-london-overview",
+    "route": "/fr/locations/cities/london",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "London",
+    "src": "/images/phase3/fr-locations-cities-london-overview.webp",
+    "alt": "Environnement de travail et équipement — London"
+  },
+  {
+    "id": "fr-locations-cities-london-detail",
+    "route": "/fr/locations/cities/london",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "London",
+    "src": "/images/phase3/fr-locations-cities-london-detail.webp",
+    "alt": "Environnement de travail et équipement — London"
+  },
+  {
+    "id": "en-locations-cities-saskatoon-overview",
+    "route": "/en/locations/cities/saskatoon",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Saskatoon",
+    "src": "/images/phase3/en-locations-cities-saskatoon-overview.webp",
+    "alt": "Work environment and equipment for Saskatoon"
+  },
+  {
+    "id": "en-locations-cities-saskatoon-detail",
+    "route": "/en/locations/cities/saskatoon",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Saskatoon",
+    "src": "/images/phase3/en-locations-cities-saskatoon-detail.webp",
+    "alt": "Work environment and equipment for Saskatoon"
+  },
+  {
+    "id": "fr-locations-cities-saskatoon-overview",
+    "route": "/fr/locations/cities/saskatoon",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Saskatoon",
+    "src": "/images/phase3/fr-locations-cities-saskatoon-overview.webp",
+    "alt": "Environnement de travail et équipement — Saskatoon"
+  },
+  {
+    "id": "fr-locations-cities-saskatoon-detail",
+    "route": "/fr/locations/cities/saskatoon",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Saskatoon",
+    "src": "/images/phase3/fr-locations-cities-saskatoon-detail.webp",
+    "alt": "Environnement de travail et équipement — Saskatoon"
+  },
+  {
+    "id": "en-locations-cities-regina-overview",
+    "route": "/en/locations/cities/regina",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Regina",
+    "src": "/images/phase3/en-locations-cities-regina-overview.webp",
+    "alt": "Work environment and equipment for Regina"
+  },
+  {
+    "id": "en-locations-cities-regina-detail",
+    "route": "/en/locations/cities/regina",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Regina",
+    "src": "/images/phase3/en-locations-cities-regina-detail.webp",
+    "alt": "Work environment and equipment for Regina"
+  },
+  {
+    "id": "fr-locations-cities-regina-overview",
+    "route": "/fr/locations/cities/regina",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Regina",
+    "src": "/images/phase3/fr-locations-cities-regina-overview.webp",
+    "alt": "Environnement de travail et équipement — Regina"
+  },
+  {
+    "id": "fr-locations-cities-regina-detail",
+    "route": "/fr/locations/cities/regina",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Regina",
+    "src": "/images/phase3/fr-locations-cities-regina-detail.webp",
+    "alt": "Environnement de travail et équipement — Regina"
+  },
+  {
+    "id": "en-locations-cities-st-johns-overview",
+    "route": "/en/locations/cities/st-johns",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "St. John’s",
+    "src": "/images/phase3/en-locations-cities-st-johns-overview.webp",
+    "alt": "Work environment and equipment for St. John’s"
+  },
+  {
+    "id": "en-locations-cities-st-johns-detail",
+    "route": "/en/locations/cities/st-johns",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "St. John’s",
+    "src": "/images/phase3/en-locations-cities-st-johns-detail.webp",
+    "alt": "Work environment and equipment for St. John’s"
+  },
+  {
+    "id": "fr-locations-cities-st-johns-overview",
+    "route": "/fr/locations/cities/st-johns",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "St. John’s",
+    "src": "/images/phase3/fr-locations-cities-st-johns-overview.webp",
+    "alt": "Environnement de travail et équipement — St. John’s"
+  },
+  {
+    "id": "fr-locations-cities-st-johns-detail",
+    "route": "/fr/locations/cities/st-johns",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "St. John’s",
+    "src": "/images/phase3/fr-locations-cities-st-johns-detail.webp",
+    "alt": "Environnement de travail et équipement — St. John’s"
+  },
+  {
+    "id": "en-products-unitree-g1-overview",
+    "route": "/en/products/unitree-g1",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Unitree G1",
+    "src": "/images/phase3/en-products-unitree-g1-overview.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "en-products-unitree-g1-detail",
+    "route": "/en/products/unitree-g1",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Unitree G1",
+    "src": "/images/phase3/en-products-unitree-g1-detail.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "fr-products-unitree-g1-overview",
+    "route": "/fr/products/unitree-g1",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Unitree G1",
+    "src": "/images/phase3/fr-products-unitree-g1-overview.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "fr-products-unitree-g1-detail",
+    "route": "/fr/products/unitree-g1",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Unitree G1",
+    "src": "/images/phase3/fr-products-unitree-g1-detail.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "en-products-pudu-cc1-overview",
+    "route": "/en/products/pudu-cc1",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "PUDU CC1",
+    "src": "/images/phase3/en-products-pudu-cc1-overview.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "en-products-pudu-cc1-detail",
+    "route": "/en/products/pudu-cc1",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "PUDU CC1",
+    "src": "/images/phase3/en-products-pudu-cc1-detail.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "fr-products-pudu-cc1-overview",
+    "route": "/fr/products/pudu-cc1",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "PUDU CC1",
+    "src": "/images/phase3/fr-products-pudu-cc1-overview.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "fr-products-pudu-cc1-detail",
+    "route": "/fr/products/pudu-cc1",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "PUDU CC1",
+    "src": "/images/phase3/fr-products-pudu-cc1-detail.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "en-products-mir250-overview",
+    "route": "/en/products/mir250",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "MiR250",
+    "src": "/images/phase3/en-products-mir250-overview.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "en-products-mir250-detail",
+    "route": "/en/products/mir250",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "MiR250",
+    "src": "/images/phase3/en-products-mir250-detail.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "fr-products-mir250-overview",
+    "route": "/fr/products/mir250",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "MiR250",
+    "src": "/images/phase3/fr-products-mir250-overview.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "fr-products-mir250-detail",
+    "route": "/fr/products/mir250",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "MiR250",
+    "src": "/images/phase3/fr-products-mir250-detail.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "en-products-ur5e-overview",
+    "route": "/en/products/ur5e",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "UR5e",
+    "src": "/images/phase3/en-products-ur5e-overview.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "en-products-ur5e-detail",
+    "route": "/en/products/ur5e",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "UR5e",
+    "src": "/images/phase3/en-products-ur5e-detail.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "fr-products-ur5e-overview",
+    "route": "/fr/products/ur5e",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "UR5e",
+    "src": "/images/phase3/fr-products-ur5e-overview.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "fr-products-ur5e-detail",
+    "route": "/fr/products/ur5e",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "UR5e",
+    "src": "/images/phase3/fr-products-ur5e-detail.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "en-products-spot-overview",
+    "route": "/en/products/spot",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Spot",
+    "src": "/images/phase3/en-products-spot-overview.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "en-products-spot-detail",
+    "route": "/en/products/spot",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Spot",
+    "src": "/images/phase3/en-products-spot-detail.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "fr-products-spot-overview",
+    "route": "/fr/products/spot",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Spot",
+    "src": "/images/phase3/fr-products-spot-overview.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "fr-products-spot-detail",
+    "route": "/fr/products/spot",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Spot",
+    "src": "/images/phase3/fr-products-spot-detail.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "en-products-bellabot-overview",
+    "route": "/en/products/bellabot",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "BellaBot",
+    "src": "/images/phase3/en-products-bellabot-overview.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "en-products-bellabot-detail",
+    "route": "/en/products/bellabot",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "BellaBot",
+    "src": "/images/phase3/en-products-bellabot-detail.webp",
+    "alt": "Task environment for robotics evaluation"
+  },
+  {
+    "id": "fr-products-bellabot-overview",
+    "route": "/fr/products/bellabot",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "BellaBot",
+    "src": "/images/phase3/fr-products-bellabot-overview.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "fr-products-bellabot-detail",
+    "route": "/fr/products/bellabot",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "BellaBot",
+    "src": "/images/phase3/fr-products-bellabot-detail.webp",
+    "alt": "Environnement de travail pour évaluer la robotique"
+  },
+  {
+    "id": "en-manufacturers-overview",
+    "route": "/en/manufacturers",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Manufacturer research",
+    "src": "/images/phase3/en-manufacturers-overview.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "en-manufacturers-detail",
+    "route": "/en/manufacturers",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Manufacturer research",
+    "src": "/images/phase3/en-manufacturers-detail.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "fr-manufacturers-overview",
+    "route": "/fr/manufacturers",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Recherche de fabricants",
+    "src": "/images/phase3/fr-manufacturers-overview.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "fr-manufacturers-detail",
+    "route": "/fr/manufacturers",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Recherche de fabricants",
+    "src": "/images/phase3/fr-manufacturers-detail.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "en-manufacturers-unitree-overview",
+    "route": "/en/manufacturers/unitree",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Unitree Robotics",
+    "src": "/images/phase3/en-manufacturers-unitree-overview.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "en-manufacturers-unitree-detail",
+    "route": "/en/manufacturers/unitree",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Unitree Robotics",
+    "src": "/images/phase3/en-manufacturers-unitree-detail.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "fr-manufacturers-unitree-overview",
+    "route": "/fr/manufacturers/unitree",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Unitree Robotics",
+    "src": "/images/phase3/fr-manufacturers-unitree-overview.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "fr-manufacturers-unitree-detail",
+    "route": "/fr/manufacturers/unitree",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Unitree Robotics",
+    "src": "/images/phase3/fr-manufacturers-unitree-detail.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "en-manufacturers-pudu-overview",
+    "route": "/en/manufacturers/pudu",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "PUDU Robotics",
+    "src": "/images/phase3/en-manufacturers-pudu-overview.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "en-manufacturers-pudu-detail",
+    "route": "/en/manufacturers/pudu",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "PUDU Robotics",
+    "src": "/images/phase3/en-manufacturers-pudu-detail.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "fr-manufacturers-pudu-overview",
+    "route": "/fr/manufacturers/pudu",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "PUDU Robotics",
+    "src": "/images/phase3/fr-manufacturers-pudu-overview.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "fr-manufacturers-pudu-detail",
+    "route": "/fr/manufacturers/pudu",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "PUDU Robotics",
+    "src": "/images/phase3/fr-manufacturers-pudu-detail.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "en-manufacturers-mir-overview",
+    "route": "/en/manufacturers/mir",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Mobile Industrial Robots",
+    "src": "/images/phase3/en-manufacturers-mir-overview.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "en-manufacturers-mir-detail",
+    "route": "/en/manufacturers/mir",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Mobile Industrial Robots",
+    "src": "/images/phase3/en-manufacturers-mir-detail.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "fr-manufacturers-mir-overview",
+    "route": "/fr/manufacturers/mir",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Mobile Industrial Robots",
+    "src": "/images/phase3/fr-manufacturers-mir-overview.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "fr-manufacturers-mir-detail",
+    "route": "/fr/manufacturers/mir",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Mobile Industrial Robots",
+    "src": "/images/phase3/fr-manufacturers-mir-detail.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "en-manufacturers-universal-robots-overview",
+    "route": "/en/manufacturers/universal-robots",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Universal Robots",
+    "src": "/images/phase3/en-manufacturers-universal-robots-overview.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "en-manufacturers-universal-robots-detail",
+    "route": "/en/manufacturers/universal-robots",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Universal Robots",
+    "src": "/images/phase3/en-manufacturers-universal-robots-detail.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "fr-manufacturers-universal-robots-overview",
+    "route": "/fr/manufacturers/universal-robots",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Universal Robots",
+    "src": "/images/phase3/fr-manufacturers-universal-robots-overview.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "fr-manufacturers-universal-robots-detail",
+    "route": "/fr/manufacturers/universal-robots",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Universal Robots",
+    "src": "/images/phase3/fr-manufacturers-universal-robots-detail.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "en-manufacturers-boston-dynamics-overview",
+    "route": "/en/manufacturers/boston-dynamics",
+    "locale": "en",
+    "placement": "overview",
+    "pageTitle": "Boston Dynamics",
+    "src": "/images/phase3/en-manufacturers-boston-dynamics-overview.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "en-manufacturers-boston-dynamics-detail",
+    "route": "/en/manufacturers/boston-dynamics",
+    "locale": "en",
+    "placement": "detail",
+    "pageTitle": "Boston Dynamics",
+    "src": "/images/phase3/en-manufacturers-boston-dynamics-detail.webp",
+    "alt": "Independent robotics research workspace"
+  },
+  {
+    "id": "fr-manufacturers-boston-dynamics-overview",
+    "route": "/fr/manufacturers/boston-dynamics",
+    "locale": "fr",
+    "placement": "overview",
+    "pageTitle": "Boston Dynamics",
+    "src": "/images/phase3/fr-manufacturers-boston-dynamics-overview.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  },
+  {
+    "id": "fr-manufacturers-boston-dynamics-detail",
+    "route": "/fr/manufacturers/boston-dynamics",
+    "locale": "fr",
+    "placement": "detail",
+    "pageTitle": "Boston Dynamics",
+    "src": "/images/phase3/fr-manufacturers-boston-dynamics-detail.webp",
+    "alt": "Espace de recherche indépendante en robotique"
+  }
+]

@@ -1,5 +1,13 @@
 # BOTIX — current owner checklist
 
+## Current actions — 2026-10-23
+
+1. Disk-space handoff completed: 3.7 GiB available when execution resumed. Image generation is running with a minimum free-space check; no unrelated files are being deleted.
+2. Owner confirms info@botix.ca forwards to Gmail. WHC's Email list_forwarders returned success with an empty list, while the recorded MX points to WHC. Identify where the existing forwarding rule is configured so Codex can reconcile routing. Receiver setup and a synthetic test are authorized; public delivery activation still follows actual inbox verification and separate approval. No test was sent.
+3. Existing business handoffs remain: approved vectors, verified phone, operating/privacy facts, and accountable lead operator/retention policy. Keep the typographic fallback and existing qualification language meanwhile.
+
+Website publication is already authorized; no repeated approval is required. Google and Bing ownership/submission are complete (see docs/SEARCH_ENGINE_SUBMISSION.md). The historical checklist below retains earlier evidence; current blockers and implementation are in docs/PHASE_3_STATUS.md. PR review/merge remains separate from publication.
+
 Updated 2026-10-22. Staging is already authorized. The protected staging application is running and its 144-route HTTP acceptance passed. Production launch was authorized and completed at https://botix.ca; focused desktop/mobile and public 144-route checks passed. See docs/PRODUCTION_DEPLOYMENT.md. Technical work and test evidence belong to Codex; see [staging acceptance](docs/WHC_STAGING_ACCEPTANCE.md) and [framework mapping](docs/UNIVERSAL_PHASE_MAPPING.md).
 
 ## 1. Finish staging credential handoff — needed now

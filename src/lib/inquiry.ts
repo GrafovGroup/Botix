@@ -137,7 +137,8 @@ export const formText = {
       "Your inquiry could not be confirmed. Your entries are still here. Please retry or save a copy of your brief.",
     unavailable:
       "We could not send your inquiry through this form. Your entries are still here. Save a copy of your brief and try again later.",
-    success: "Your inquiry has been sent. Thank you for sharing your project.",
+    success:
+      "Your inquiry has been securely received for review. Thank you for sharing your project.",
     choose: "Select an option",
     privacy: "Read privacy notice",
     intents: [
@@ -206,7 +207,7 @@ export const formText = {
     unavailable:
       "Nous n’avons pas pu transmettre votre demande par ce formulaire. Vos renseignements y sont conservés. Enregistrez une copie de votre projet et réessayez plus tard.",
     success:
-      "Votre demande a été envoyée. Merci de nous avoir présenté votre projet.",
+      "Votre demande a été reçue de façon sécurisée pour examen. Merci de nous avoir présenté votre projet.",
     choose: "Choisir une option",
     privacy: "Lire l’avis de confidentialité",
     intents: [
