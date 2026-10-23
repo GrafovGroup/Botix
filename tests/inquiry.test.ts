@@ -94,7 +94,13 @@ test("delivery never reports success without configuration or upstream acceptanc
       assert.equal("website" in payload, false);
       assert.equal(payload.locale, "fr");
       assert.ok(new Headers(init?.headers).get("Idempotency-Key"));
-      return new Response("", { status: 202 });
+      return Response.json(
+        {
+          accepted: true,
+          receipt: new Headers(init?.headers).get("Idempotency-Key"),
+        },
+        { status: 202 },
+      );
     };
     assert.equal(await deliverInquiry(inquiry, accepted), "delivered");
     assert.equal(calls, 1);

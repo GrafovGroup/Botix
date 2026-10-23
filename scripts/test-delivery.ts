@@ -45,7 +45,7 @@ async function main() {
       if (JSON.parse(await readFile(path, "utf8")).digest !== digest)
         return new Response(null, { status: 409 });
     }
-    return new Response(null, { status: 202 }); // Only after persistence.
+    return Response.json({ accepted: true, receipt: key }, { status: 202 }); // Only after persistence.
   };
   const inquiry = inquirySchema.parse({
     locale: "en",

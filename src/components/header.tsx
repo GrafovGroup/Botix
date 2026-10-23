@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { navigationQuery } from "@/lib/navigation-query";
 import { liveInquiryHref } from "./inquiry-context-link";
 import { Brand } from "./brand";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
@@ -109,7 +110,7 @@ function LocaleLink({
 }) {
   const router = useRouter();
   const params = useSearchParams();
-  const query = params.toString();
+  const query = navigationQuery(alternate, params.entries());
   return (
     <Link
       className="language"

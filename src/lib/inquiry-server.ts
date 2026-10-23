@@ -55,26 +55,37 @@ export async function deliverInquiry(
   if (url.protocol !== "https:") return "unconfigured" as const;
   const { website, token, ...payload } = inquiry;
   void website;
-  try {
-    const response = await sender(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${key}`,
-        "Idempotency-Key": createHmac("sha256", secret)
-          .update(token)
-          .digest("hex"),
-      },
-      body: JSON.stringify({
-        source: "botix.ca",
-        submittedAt: new Date().toISOString(),
-        ...payload,
-      }),
-      signal: AbortSignal.timeout(10000),
-      redirect: "error",
-    });
-    return response.ok ? ("delivered" as const) : ("failed" as const);
-  } catch {
-    return "failed" as const;
+  const idempotencyKey = createHmac("sha256", secret)
+    .update(token)
+    .digest("hex");
+  const body = JSON.stringify({
+    source: "botix.ca",
+    submittedAt: new Date().toISOString(),
+    ...payload,
+  });
+  // One bounded retry with exactly the same body/key after ambiguous failures.
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const response = await sender(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${key}`,
+          "Idempotency-Key": idempotencyKey,
+        },
+        body,
+        signal: AbortSignal.timeout(10000),
+        redirect: "error",
+      });
+      if ([502, 503, 504].includes(response.status) && attempt === 0) continue;
+      if (response.status !== 202) return "failed" as const;
+      const receipt = await response.json();
+      return receipt?.accepted === true && receipt?.receipt === idempotencyKey
+        ? ("delivered" as const)
+        : ("failed" as const);
+    } catch {
+      if (attempt === 1) return "failed" as const;
+    }
   }
+  return "failed" as const;
 }

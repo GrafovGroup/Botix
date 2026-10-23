@@ -13,7 +13,8 @@ No additional staging approval or hosting purchase is requested. Codex then comp
 
 - [ ] Supply approved BOTIX Signature vector files and approve the visual preview. The typographic fallback remains until actual approved assets arrive; see [brand asset handoff](docs/BRAND_ASSETS.md).
 - [ ] Verify `(833) 696-9996` routes to BOTIX, or provide the project-specific number. Until then it stays out of public links and structured data.
-- [ ] Select the receiving CRM/email workflow and provide credentials securely. Confirm responsible recipients, retention and access rules; Codex owns implementation and end-to-end technical verification.
+- [x] Intended inquiry mailbox confirmed as **info@botix.ca**.
+- [ ] Verify mailbox ownership and approve secure receiver/mailbox infrastructure, responsible recipients and retention/access rules; then separately authorize a synthetic mailbox test. Private durable receiver and offline tests are prepared in Phase 2. Live activation remains separate.
 - [ ] Confirm operating entity, privacy contact, actual providers/processing practices and business scope; obtain appropriate privacy/terms and trademark review. No legal clearance is claimed.
 - [ ] Review editorial product references; supply evidence for any supplier relationship, rental availability, inventory or licensed media to be added. Existing content does not assert dealership or stock.
 
@@ -28,3 +29,7 @@ Codex owns remaining hosting, security, browser, accessibility, performance, mon
 ## Asset inventory limitation
 
 The existing image audit covered 2,108 locally available images across 10 other project directories. Remote-only or inaccessible inventories were not verified. No new imagery is introduced by framework alignment; maintain [ASSET_USAGE.md](docs/ASSET_USAGE.md) for future changes.
+
+## Combined Phase 2 review
+
+Repository implementation is prepared in `codex/phase-2-combined`; see [status](docs/PHASE_2_COMBINED_STATUS.md). Review before separately authorizing deployment. No new staging app, live email, DNS change, purchase or merge was performed.

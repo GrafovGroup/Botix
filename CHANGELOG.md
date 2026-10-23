@@ -1,3 +1,11 @@
+# Unreleased — combined Universal Phase 2
+
+- Add bilingual three-profile comparison, six task-specific buyer pathways and national guide/category cross-links.
+- Restrict language-switch query forwarding to known context fields.
+- Prepare private durable HTTPS outbox receiver for info@botix.ca with matching receipts, bounded retries and offline concurrency/failure tests.
+- Add supplier intake/outreach drafts, 90-day editorial backlog, Search Console instructions and operator activation runbook.
+- Preserve public deployment, all 144 routes and disabled live delivery; no new imagery or supplier claims.
+
 # Staging security fix
 
 - Remove vulnerable braces dependency through a scoped lint glob replacement and tested path compatibility patch; retain all lint rules and unsuppressed audits.

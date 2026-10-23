@@ -1,3 +1,7 @@
+## Combined Phase 2 — repository implementation
+
+Catalogue comparison, task-specific buyer pathways, national guide cross-links and private durable receiver preparation are implemented on `codex/phase-2-combined`. See [combined evidence](docs/PHASE_2_COMBINED_STATUS.md). Production remains the verified Phase 1 release below; no Phase 2 deployment or live inquiry activation occurred.
+
 ## Production launch — 2026-10-22
 
 BOTIX is live at https://botix.ca in English and French. All 144 public content routes passed hosted GET-only acceptance; HTTPS, canonical redirects, indexing, assets and disabled-delivery behavior verified. Focused desktop/mobile browser checks completed. Deployed source `93673ec63eaf51497ae00b17a5657f6b84a66798`. See [production evidence](docs/PRODUCTION_DEPLOYMENT.md). Historical entries below describe their original checkpoints.

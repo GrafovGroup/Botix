@@ -1,3 +1,4 @@
+import { BuyerPathways, LocationPathways } from "./buyer-pathways";
 import { regions } from "@/lib/locations";
 import { inquiryHref, type InquiryContext } from "@/lib/inquiry-context";
 import Link from "next/link";
@@ -72,6 +73,9 @@ export function JourneySections({
             {en ? "Browse catalogue" : "Parcourir le catalogue"} ↗
           </Link>
         </section>
+      )}
+      {category && (
+        <BuyerPathways locale={locale} category={category as RobotType} />
       )}
       {matches.length > 0 && (
         <section className="section product-grid">
@@ -211,6 +215,7 @@ export function CityPage({ city: c, locale }: { city: City; locale: Locale }) {
           </Link>
         </aside>
       </section>
+      <LocationPathways locale={locale} />
     </>
   );
 }

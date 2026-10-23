@@ -9,6 +9,8 @@
 | 1E | [WHC deployment engineering](PHASE_1E_CODEX.md) | Completed 1D b4fd3cf | `codex/phase-1e`; [compatibility](WHC_COMPATIBILITY.md) | Implemented; 35 tests, 144-route production smoke and separately built preview artifact checks passed; host/browser/owner gates remain |
 | 1F | [Protected staging](PHASE_1F_CODEX.md) | Completed 1E 24d232c | `codex/phase-1f`; [QA](PHASE_1F_QA.md), [acceptance](WHC_STAGING_ACCEPTANCE.md) | Staging authorized; security/CI/TLS gates passed and Linux artifact uploaded; credential handoff and hosted acceptance pending |
 
+| 2 combined | [2A + 2B + 2C](PHASE_2_COMBINED_CODEX.md) | Verified production branch plus main contract | `codex/phase-2-combined`; [status](PHASE_2_COMBINED_STATUS.md) | Implemented for review; verification evidence in status; not deployed |
+
 Universal lifecycle mapping: [framework mapping](UNIVERSAL_PHASE_MAPPING.md); mandatory operating instructions: [alignment](UNIVERSAL_FRAMEWORK_ALIGNMENT.md). Historical phase labels remain unchanged.
 
 Owner reviews PRs before merge; deployment requires explicit authorization. See [governance](PHASE_GOVERNANCE.md), [implementation status](../IMPLEMENTATION_STATUS.md) and [owner actions](../OWNER_ACTIONS.md).
