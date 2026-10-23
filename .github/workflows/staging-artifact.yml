@@ -30,7 +30,7 @@ jobs:
       - run: pnpm catalog:check
       - run: pnpm delivery:test
       - run: pnpm lint
-      # No ignored advisory or continue-on-error. Current braces advisory blocks publication.
+      # No ignored advisory or continue-on-error; publication requires a clean audit.
       - run: pnpm audit --audit-level=high
       - run: pnpm build:release
       - run: pnpm typecheck

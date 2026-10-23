@@ -1,3 +1,7 @@
+# Current staging status after security remediation
+
+The unpatched dependency chain has been replaced with a version-scoped, compatibility-tested lint dependency and the staging certificate is now trusted. See [security remediation](STAGING_SECURITY_FIX.md). Staging GO still requires a clean Linux artifact and actual protected WHC application acceptance. Production remains separately unauthorized. Previous blocker reports below are historical.
+
 # Authorized staging execution status — 2026-10-22
 
 **Staging remains NO-GO; authorization is complete.** Fresh audit still fails on unpatched high dev-only braces; current supported dependency versions retain it. Staging DNS points to WHC but HTTPS verification fails on its self-signed certificate. Phase 1F Linux verify job passed; full-audit job failed (run 39872409833). No application uploaded/deployed. Follow [execution evidence](WHC_STAGING_ACCEPTANCE.md) and [authorization](WHC_STAGING_AUTHORIZATION.md); earlier pending-authorization notes below are historical. Production remains separately unauthorized.

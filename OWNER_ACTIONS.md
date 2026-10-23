@@ -1,3 +1,7 @@
+# Current staging next steps
+
+No repeated staging authorization is needed. Dependency remediation and trusted TLS have been implemented; see docs/STAGING_SECURITY_FIX.md. Remaining deployment work is the clean Linux candidate, host/runtime compatibility and protected application acceptance. Previous dependency/TLS blocker statements below are historical.
+
 # Current staging dependencies — 2026-10-22
 
 Staging is already authorized; no repeated approval is needed. The execution attempt is blocked by an unpatched high dependency advisory and untrusted staging TLS. A reviewed dependency remediation must pass the full audit, and WHC must issue a valid certificate before a protected artifact is uploaded. Existing supported dependency upgrades do not remove braces. See docs/WHC_STAGING_ACCEPTANCE.md for exact evidence and remaining host checks. No purchase or production release is requested. Earlier approval requests below are historical.

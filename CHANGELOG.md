@@ -1,3 +1,8 @@
+# Staging security fix
+
+- Remove vulnerable braces dependency through a scoped lint glob replacement and tested path compatibility patch; retain all lint rules and unsuppressed audits.
+- Install and independently verify trusted staging HTTPS on WHC. Application deployment remains separate.
+
 # 0.6.0 — Phase 1F protected staging preparation
 
 - Add GET-only staging acceptance for 144 bilingual routes, authentication, headers, original images, assets and disabled inquiries; reject production/cross-origin targets.
