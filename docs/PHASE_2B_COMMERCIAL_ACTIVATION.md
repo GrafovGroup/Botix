@@ -1,7 +1,7 @@
 # BOTIX — Phase 2B Commercial Activation & Growth Foundation
 
 ## Owner direction
-Owner provided inquiry destination literally as `into@botix.ca` on 2026-10-22. This could be a typo for `info@botix.ca`. **Do not silently correct it or enable real lead delivery until owner explicitly confirms the exact address, proves mailbox access, and authorizes the receiver test.** Do not put live personal information in GitHub.
+Owner explicitly confirmed the intended BOTIX inquiry address as `info@botix.ca` on 2026-10-22. Use this exact address in routing configuration and operator documentation. Mailbox ownership and actual receipt have not yet been independently verified. Keep live lead delivery disabled until secure receiver and synthetic end-to-end tests pass and owner separately authorizes activation. Do not put live personal information in GitHub.
 
 ## Objective
 Move BOTIX from a deployed bilingual Canadian commercial robotics site into a credible B2B lead-generation operation. Humanoid robotics remains the flagship. Preserve the approved Signature visual direction and all prior work. Follow `docs/UNIVERSAL_FRAMEWORK_ALIGNMENT.md`, `docs/PHASE_GOVERNANCE.md`, existing launch and security gates.
@@ -10,7 +10,7 @@ Move BOTIX from a deployed bilingual Canadian commercial robotics site into a cr
 - Inspect the deployed code SHA, production deployment report, inquiry API and current WHC configuration. Never assume branch main reflects production.
 - Design an owner-controlled, secure, durable HTTPS receiver that routes purchase, rentals, demonstrations, integration and general inquiries to the confirmed BOTIX mailbox; prefer an existing approved receiver/integration and avoid paid services without approval.
 - Add reliable delivery evidence, retry/idempotency, spam protection, consent, failure handling, audit-safe logs, routing labels, and bilingual confirmation messages. Do not claim successful submission until durable receiver acceptance.
-- Verify exact email spelling, mailbox delivery, spam routing and reply-to handling using authorized synthetic submissions only. Require owner approval before enabling production delivery. Keep disabled until tested.
+- Verify mailbox delivery to `info@botix.ca`, spam routing and reply-to handling using authorized synthetic submissions only. Do not send a real message or expose real customer data before authorized receiver testing. Require owner approval before enabling production delivery. Keep disabled until tested.
 - Create concise operator documentation for how to respond to inquiries and track leads.
 
 ## 2. Brand acceptance
@@ -35,7 +35,7 @@ Move BOTIX from a deployed bilingual Canadian commercial robotics site into a cr
 - Report to owner in business language: what customers can do, what remains blocked, and no more than three genuine decisions.
 
 ## Acceptance criteria
-- Mailbox spelling and ownership explicitly confirmed before any real delivery.
+- Mailbox spelling confirmed as `info@botix.ca`; verify ownership, delivery and receiver acceptance before any real delivery.
 - Reliable secure receiving workflow prepared and synthetically tested; activation separately authorized.
 - Supplier data structure and commercial outreach assets ready, no fabricated relationships.
 - Approved brand assets integrated only after signoff.
