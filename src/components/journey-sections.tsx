@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import { PageVisuals } from "./page-visuals";
 import { BuyerGuide } from "./buyer-guide";
 import { BuyerPathways, LocationPathways } from "./buyer-pathways";
@@ -55,7 +56,7 @@ export function JourneySections({
               </p>
               <h2>{j.title[locale]}</h2>
               <p>{j.intro[locale]}</p>
-              <span aria-hidden>↗</span>
+              <Arrow />
             </Link>
           ))}
         </section>
@@ -72,7 +73,7 @@ export function JourneySections({
             className="button"
             href={`/${locale}/robots${category ? `?type=${category}` : ""}`}
           >
-            {en ? "Browse catalogue" : "Parcourir le catalogue"} ↗
+            {en ? "Browse catalogue" : "Parcourir le catalogue"} <Arrow />
           </Link>
         </section>
       )}
@@ -107,7 +108,8 @@ export function JourneySections({
                 useCase: journey.title[locale],
               })}
             >
-              {en ? "Open full inquiry" : "Ouvrir la demande complète"} ↗
+              {en ? "Open full inquiry" : "Ouvrir la demande complète"}{" "}
+              <Arrow />
             </Link>
           </aside>
           <InquiryForm
@@ -147,7 +149,7 @@ export function CityLinks({
       <div className="city-link-grid">
         {list.map((c) => (
           <Link key={c.slug} href={`/${locale}/locations/cities/${c.slug}`}>
-            {c.name[locale]} <span aria-hidden>↗</span>
+            {c.name[locale]} <Arrow />
           </Link>
         ))}
       </div>
@@ -188,11 +190,11 @@ export function CityPage({ city: c, locale }: { city: City; locale: Locale }) {
               : "La couverture désigne les lieux d’où nous accueillons les demandes, non un bureau ou une capacité confirmée. La livraison, le soutien et la disponibilité sont évalués selon le projet."}
           </p>
           <Link className="text-link" href={`/${locale}/locations/${c.region}`}>
-            {en ? "Province planning guide" : "Guide provincial"} ↗
+            {en ? "Province planning guide" : "Guide provincial"} <Arrow />
           </Link>
           {c.slug === "ottawa-gatineau" && (
             <Link className="text-link" href={`/${locale}/locations/quebec`}>
-              Québec ↗
+              Québec <Arrow />
             </Link>
           )}
         </article>
@@ -215,7 +217,7 @@ export function CityPage({ city: c, locale }: { city: City; locale: Locale }) {
                 ?.code as InquiryContext["province"],
             })}
           >
-            {en ? "Discuss the project" : "Discuter du projet"} ↗
+            {en ? "Discuss the project" : "Discuter du projet"} <Arrow />
           </Link>
         </aside>
       </section>

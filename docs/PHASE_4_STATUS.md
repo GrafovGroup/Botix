@@ -1,3 +1,29 @@
+# Current standalone completion — October 23, 2026 (Toronto)
+
+The existing six original bilingual buyer guides, supplier prospect registry,
+response/qualification/CRM kit and 90-day roadmap remain intact on this review
+branch. Each guide-to-inquiry journey was exercised in real Chromium at desktop
+and mobile sizes in both languages. Context survives language switching, private
+contact data stays out of navigation URLs, and local brief downloads do not submit.
+Automated accessibility checks cover home, quote, catalogue, product, manufacturer,
+location and privacy templates; these do not replace human accessibility certification.
+
+Completed Phase 3's missing imagery without replacing the buyer-guide code or any
+previously committed source. All 288 placements now pass the asset gates. Production
+build, lint/types, existing unit/offline tests and full dependency audit pass. Final
+browser results and standalone production/preview artifacts are recorded in
+COMPLETION_ACCEPTANCE.md. Disk space and external node_modules symlinks are no longer
+blockers in this independently installed Linux checkout.
+
+This is completed software/content preparation, not evidence of sent supplier
+outreach, mailbox receipt, accepted live inquiries, rankings or revenue. Hosting
+access and actual receiver/mailbox verification remain external. Git publication,
+review PR, remote CI and live deployment are reported separately when verified.
+
+Historical checkpoints follow.
+
+---
+
 # Phase 4 — growth implementation checkpoint
 
 Canonical specification copied from GitHub main `6002ed4` and committed before implementation as `357f1e2`. Separate branch `codex/phase-4-growth`, managed worktree `botix-phase-4-growth`, based on Phase 3 implementation `e9c8c50`. Phase 3 is not declared complete: 161 planned image placements remain, mailbox routing needs clarification, final release checks/deployment are pending. Merge the final compatible Phase 3 changes into this branch before release acceptance; do not overwrite them.

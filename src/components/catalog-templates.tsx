@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import { PageVisuals } from "./page-visuals";
 import Link from "next/link";
 import Image from "next/image";
@@ -93,7 +94,7 @@ export function ProductTemplate({
             className="text-link"
             href={`/${locale}/manufacturers/${maker.slug}`}
           >
-            {maker.name} ↗
+            {maker.name} <Arrow />
           </Link>
           <p className="lead">{p.summary[locale]}</p>
           <div className="hero-buttons">
@@ -104,7 +105,7 @@ export function ProductTemplate({
                   className={`button ${i ? "ghost" : ""}`}
                   href={quoteHref(locale, intent, p)}
                 >
-                  {taxonomy.intents[intent][locale]} ↗
+                  {taxonomy.intents[intent][locale]} <Arrow />
                 </Link>
               ))}
           </div>
@@ -165,7 +166,7 @@ export function ProductTemplate({
           <div className="mini-tags">
             {p.industries.map((i) => (
               <Link key={i} href={`/${locale}/industries/${i}`}>
-                {taxonomy.industries[i][locale]} ↗
+                {taxonomy.industries[i][locale]} <Arrow />
               </Link>
             ))}
           </div>
@@ -173,7 +174,8 @@ export function ProductTemplate({
             className="text-link"
             href={`/${locale}/${p.relatedSolutions[0]}`}
           >
-            {en ? "Explore this category" : "Explorer cette catégorie"} ↗
+            {en ? "Explore this category" : "Explorer cette catégorie"}{" "}
+            <Arrow />
           </Link>
         </div>
         <div>
@@ -198,8 +200,9 @@ export function ProductTemplate({
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {en ? "Manufacturer source" : "Source du fabricant"} ↗ ·{" "}
-                        {en ? "Reviewed" : "Vérifié le"} {f.evidence.checkedOn}
+                        {en ? "Manufacturer source" : "Source du fabricant"}{" "}
+                        <Arrow /> · {en ? "Reviewed" : "Vérifié le"}{" "}
+                        {f.evidence.checkedOn}
                       </a>
                     </dd>
                   </div>
@@ -308,7 +311,8 @@ export function ManufacturerTemplate({
           target="_blank"
           rel="noopener noreferrer"
         >
-          {locale === "en" ? "Manufacturer website" : "Site du fabricant"} ↗
+          {locale === "en" ? "Manufacturer website" : "Site du fabricant"}{" "}
+          <Arrow />
         </a>
       </section>
       <PageVisuals locale={locale} path={`manufacturers/${m.slug}`} />

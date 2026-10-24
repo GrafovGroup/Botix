@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import Link from "next/link";
 import {
   publishableProducts,
@@ -21,7 +22,7 @@ export function ProductCard({
     >
       <div className="card-top">
         <span className="eyebrow">{taxonomy.types[p.category][locale]}</span>
-        <span aria-hidden>↗</span>
+        <Arrow />
       </div>
       <div className="product-monogram" aria-hidden>
         {p.name[locale]}
@@ -116,7 +117,7 @@ export function CatalogExplorer({
         </label>
         <div className="filter-actions">
           <button className="button" type="submit">
-            {en ? "Apply filters" : "Appliquer"} ↗
+            {en ? "Apply filters" : "Appliquer"} <Arrow />
           </button>
           <Link className="text-link" href={`/${locale}/robots`}>
             {en ? "Reset" : "Réinitialiser"}
@@ -126,13 +127,13 @@ export function CatalogExplorer({
       <div className="catalogue-results">
         <div className="results-heading">
           <a className="text-link" href="#compare">
-            {en ? "Compare profiles" : "Comparer les profils"} ↗
+            {en ? "Compare profiles" : "Comparer les profils"} <Arrow />
           </a>
           <p className="eyebrow">
             {results.length} {en ? "PROFILES" : "PROFILS"}
           </p>
           <Link className="text-link" href={`/${locale}/manufacturers`}>
-            {en ? "Manufacturers" : "Fabricants"} ↗
+            {en ? "Manufacturers" : "Fabricants"} <Arrow />
           </Link>
         </div>
         <p className="catalogue-note">
@@ -160,7 +161,7 @@ export function CatalogExplorer({
               className="button"
               href={`/${locale}/request-quote?intent=general`}
             >
-              {en ? "Discuss my project" : "Discuter de mon projet"} ↗
+              {en ? "Discuss my project" : "Discuter de mon projet"} <Arrow />
             </Link>
           </div>
         )}

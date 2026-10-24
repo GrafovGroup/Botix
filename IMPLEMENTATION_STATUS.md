@@ -1,3 +1,22 @@
+# Current standalone cloud completion
+
+The actual application was found on `codex/phase-4-growth`; the selected `main`
+checkout contained briefs only. Existing Phase 1A–1F, combined Phase 2, Phase 3
+operations and Phase 4 buyer-guide code are preserved together in this standalone
+Next.js repository. No replacement application or additional worktree was created.
+
+Independent locked installation, production build, lint/types, 52 existing unit
+tests, catalogue/offline-delivery checks, 144-route release/preview checks and
+dependency audit pass in the cloud. New pinned Playwright/axe coverage passed 52
+desktop/mobile bilingual navigation, guide-to-inquiry, localization and representative
+accessibility checks. Intermediate image 404s remain outside that passing assertion;
+all 141 missing image placements are now completed. All 288 unique placements passed provenance/coverage checks, visual review and local cross-site screening. Final standalone package acceptance is running.
+
+`BUILD_PROGRESS.md` is the active resume point. Older environment failures and phase
+status paragraphs below retain their original dates; they are not current blockers.
+External mailbox receipt, hosting access, approved business/brand inputs and live
+activation remain distinct from local software readiness.
+
 ## Combined Phase 2 — repository implementation
 
 Catalogue comparison, task-specific buyer pathways, national guide cross-links and private durable receiver preparation are implemented on `codex/phase-2-combined`. See [combined evidence](docs/PHASE_2_COMBINED_STATUS.md). Production remains the verified Phase 1 release below; no Phase 2 deployment or live inquiry activation occurred.

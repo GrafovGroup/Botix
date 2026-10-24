@@ -11,6 +11,38 @@ const guides = [
 ];
 
 for (const locale of ["en", "fr"]) {
+  test(`${locale}: a local brief download never submits the inquiry`, async ({
+    page,
+  }) => {
+    const posts: string[] = [];
+    page.on("request", (request) => {
+      if (request.method() === "POST" && request.url().endsWith("/api/inquiry"))
+        posts.push(request.url());
+    });
+    await page.goto(`/${locale}/request-quote?intent=pilot&category=humanoid`);
+    await page.locator('[name="company"]').fill("Synthetic local review");
+    await page.locator('[name="quantity"]').fill("3");
+    await page
+      .locator('[name="useCase"]')
+      .fill("Supervised handling assessment");
+    const [download] = await Promise.all([
+      page.waitForEvent("download"),
+      page
+        .getByRole("button", { name: /save my brief|enregistrer mon projet/i })
+        .click(),
+    ]);
+    expect(download.suggestedFilename()).toBe(`botix-${locale}-brief.txt`);
+    const stream = await download.createReadStream();
+    const chunks = [];
+    for await (const chunk of stream!) chunks.push(chunk);
+    const text = Buffer.concat(chunks).toString("utf8");
+    expect(text).toContain("Synthetic local review");
+    expect(text).toContain("Supervised handling assessment");
+    expect(text).toContain(locale === "en" ? "not submitted" : "non transmis");
+    expect(text).not.toContain("token:");
+    expect(posts).toEqual([]);
+  });
+
   test(`${locale}: homepage, navigation and accessible layout`, async ({
     page,
   }, info) => {

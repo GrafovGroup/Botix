@@ -1311,7 +1311,7 @@
     "placement": "detail",
     "pageTitle": "Saskatchewan",
     "src": "/images/phase3/fr-locations-saskatchewan-detail.webp",
-    "alt": "Environnement de travail et équipement — Saskatchewan"
+    "alt": "Chariot d’inspection et banc d’étalonnage des capteurs dans un atelier de manutention du grain."
   },
   {
     "id": "en-locations-nova-scotia-overview",
@@ -1320,7 +1320,7 @@
     "placement": "overview",
     "pageTitle": "Nova Scotia",
     "src": "/images/phase3/en-locations-nova-scotia-overview.webp",
-    "alt": "Work environment and equipment for Nova Scotia"
+    "alt": "Robotic inspection fixture and small-part trays in a packaging workshop."
   },
   {
     "id": "en-locations-nova-scotia-detail",
@@ -1329,7 +1329,7 @@
     "placement": "detail",
     "pageTitle": "Nova Scotia",
     "src": "/images/phase3/en-locations-nova-scotia-detail.webp",
-    "alt": "Work environment and equipment for Nova Scotia"
+    "alt": "Camera calibration target and motion test station in a prototyping room."
   },
   {
     "id": "fr-locations-nova-scotia-overview",
@@ -1338,7 +1338,7 @@
     "placement": "overview",
     "pageTitle": "Nouvelle-Écosse",
     "src": "/images/phase3/fr-locations-nova-scotia-overview.webp",
-    "alt": "Environnement de travail et équipement — Nouvelle-Écosse"
+    "alt": "Banc d’essai avec capteurs et zone d’essai supervisé dans un laboratoire d’ingénierie."
   },
   {
     "id": "fr-locations-nova-scotia-detail",
@@ -1347,7 +1347,7 @@
     "placement": "detail",
     "pageTitle": "Nouvelle-Écosse",
     "src": "/images/phase3/fr-locations-nova-scotia-detail.webp",
-    "alt": "Environnement de travail et équipement — Nouvelle-Écosse"
+    "alt": "Surfaces en acier inoxydable et chariot de maintenance dans une salle technique alimentaire."
   },
   {
     "id": "en-locations-new-brunswick-overview",
@@ -1356,7 +1356,7 @@
     "placement": "overview",
     "pageTitle": "New Brunswick",
     "src": "/images/phase3/en-locations-new-brunswick-overview.webp",
-    "alt": "Work environment and equipment for New Brunswick"
+    "alt": "Autonomous floor-care machine beside a service bay in a coastal terminal."
   },
   {
     "id": "en-locations-new-brunswick-detail",
@@ -1365,7 +1365,7 @@
     "placement": "detail",
     "pageTitle": "New Brunswick",
     "src": "/images/phase3/en-locations-new-brunswick-detail.webp",
-    "alt": "Work environment and equipment for New Brunswick"
+    "alt": "Inspection cart and equipment checkout area in a maintenance depot."
   },
   {
     "id": "fr-locations-new-brunswick-overview",
@@ -1374,7 +1374,7 @@
     "placement": "overview",
     "pageTitle": "Nouveau-Brunswick",
     "src": "/images/phase3/fr-locations-new-brunswick-overview.webp",
-    "alt": "Environnement de travail et équipement — Nouveau-Brunswick"
+    "alt": "Base mobile à capteurs et poste de transfert de bacs dans une aire de réception."
   },
   {
     "id": "fr-locations-new-brunswick-detail",
@@ -1383,7 +1383,7 @@
     "placement": "detail",
     "pageTitle": "Nouveau-Brunswick",
     "src": "/images/phase3/fr-locations-new-brunswick-detail.webp",
-    "alt": "Environnement de travail et équipement — Nouveau-Brunswick"
+    "alt": "Plateforme de démonstration et coffres de transport dans un hall d’exposition."
   },
   {
     "id": "en-locations-newfoundland-and-labrador-overview",
@@ -1392,7 +1392,7 @@
     "placement": "overview",
     "pageTitle": "Newfoundland and Labrador",
     "src": "/images/phase3/en-locations-newfoundland-and-labrador-overview.webp",
-    "alt": "Work environment and equipment for Newfoundland and Labrador"
+    "alt": "Transfer cart and sealed freight boxes in a winter logistics workshop."
   },
   {
     "id": "en-locations-newfoundland-and-labrador-detail",
@@ -1401,7 +1401,7 @@
     "placement": "detail",
     "pageTitle": "Newfoundland and Labrador",
     "src": "/images/phase3/en-locations-newfoundland-and-labrador-detail.webp",
-    "alt": "Work environment and equipment for Newfoundland and Labrador"
+    "alt": "Mobile cart and insulated containers in a food distribution workspace."
   },
   {
     "id": "fr-locations-newfoundland-and-labrador-overview",
@@ -1410,7 +1410,7 @@
     "placement": "overview",
     "pageTitle": "Terre-Neuve-et-Labrador",
     "src": "/images/phase3/fr-locations-newfoundland-and-labrador-overview.webp",
-    "alt": "Environnement de travail et équipement — Terre-Neuve-et-Labrador"
+    "alt": "Plateforme de livraison sur roues dans un couloir de service hôtelier."
   },
   {
     "id": "fr-locations-newfoundland-and-labrador-detail",
@@ -1419,7 +1419,7 @@
     "placement": "detail",
     "pageTitle": "Terre-Neuve-et-Labrador",
     "src": "/images/phase3/fr-locations-newfoundland-and-labrador-detail.webp",
-    "alt": "Environnement de travail et équipement — Terre-Neuve-et-Labrador"
+    "alt": "Robot de nettoyage autonome près d’une zone de service dans un terminal côtier."
   },
   {
     "id": "en-locations-prince-edward-island-overview",
@@ -1428,7 +1428,7 @@
     "placement": "overview",
     "pageTitle": "Prince Edward Island",
     "src": "/images/phase3/en-locations-prince-edward-island-overview.webp",
-    "alt": "Work environment and equipment for Prince Edward Island"
+    "alt": "Inspection cart and equipment checkout area in a maintenance depot."
   },
   {
     "id": "en-locations-prince-edward-island-detail",
@@ -1437,7 +1437,7 @@
     "placement": "detail",
     "pageTitle": "Prince Edward Island",
     "src": "/images/phase3/en-locations-prince-edward-island-detail.webp",
-    "alt": "Work environment and equipment for Prince Edward Island"
+    "alt": "Sensor-equipped mobile base and totes transfer station in a receiving bay."
   },
   {
     "id": "fr-locations-prince-edward-island-overview",
@@ -1446,7 +1446,7 @@
     "placement": "overview",
     "pageTitle": "Île-du-Prince-Édouard",
     "src": "/images/phase3/fr-locations-prince-edward-island-overview.webp",
-    "alt": "Environnement de travail et équipement — Île-du-Prince-Édouard"
+    "alt": "Plateforme de démonstration et coffres de transport dans un hall d’exposition."
   },
   {
     "id": "fr-locations-prince-edward-island-detail",
@@ -1455,7 +1455,7 @@
     "placement": "detail",
     "pageTitle": "Île-du-Prince-Édouard",
     "src": "/images/phase3/fr-locations-prince-edward-island-detail.webp",
-    "alt": "Environnement de travail et équipement — Île-du-Prince-Édouard"
+    "alt": "Chariot de transfert et caisses de fret scellées dans un atelier logistique hivernal."
   },
   {
     "id": "en-locations-yukon-overview",
@@ -1464,7 +1464,7 @@
     "placement": "overview",
     "pageTitle": "Yukon",
     "src": "/images/phase3/en-locations-yukon-overview.webp",
-    "alt": "Work environment and equipment for Yukon"
+    "alt": "Mobile cart and insulated containers in a food distribution workspace."
   },
   {
     "id": "en-locations-yukon-detail",
@@ -1473,7 +1473,7 @@
     "placement": "detail",
     "pageTitle": "Yukon",
     "src": "/images/phase3/en-locations-yukon-detail.webp",
-    "alt": "Work environment and equipment for Yukon"
+    "alt": "Wheeled delivery platform in a hotel service corridor."
   },
   {
     "id": "fr-locations-yukon-overview",
@@ -1482,7 +1482,7 @@
     "placement": "overview",
     "pageTitle": "Yukon",
     "src": "/images/phase3/fr-locations-yukon-overview.webp",
-    "alt": "Environnement de travail et équipement — Yukon"
+    "alt": "Chariot d’inspection et banc d’étalonnage des capteurs dans un atelier de manutention du grain."
   },
   {
     "id": "fr-locations-yukon-detail",
@@ -1491,7 +1491,7 @@
     "placement": "detail",
     "pageTitle": "Yukon",
     "src": "/images/phase3/fr-locations-yukon-detail.webp",
-    "alt": "Environnement de travail et équipement — Yukon"
+    "alt": "Poste d’inspection robotisée et bacs de petites pièces dans un atelier d’emballage."
   },
   {
     "id": "en-locations-northwest-territories-overview",
@@ -1500,7 +1500,7 @@
     "placement": "overview",
     "pageTitle": "Northwest Territories",
     "src": "/images/phase3/en-locations-northwest-territories-overview.webp",
-    "alt": "Work environment and equipment for Northwest Territories"
+    "alt": "Camera calibration target and motion test station in a prototyping room."
   },
   {
     "id": "en-locations-northwest-territories-detail",
@@ -1509,7 +1509,7 @@
     "placement": "detail",
     "pageTitle": "Northwest Territories",
     "src": "/images/phase3/en-locations-northwest-territories-detail.webp",
-    "alt": "Work environment and equipment for Northwest Territories"
+    "alt": "Sensor test stand and supervised trial area in an engineering laboratory."
   },
   {
     "id": "fr-locations-northwest-territories-overview",
@@ -1518,7 +1518,7 @@
     "placement": "overview",
     "pageTitle": "Territoires du Nord-Ouest",
     "src": "/images/phase3/fr-locations-northwest-territories-overview.webp",
-    "alt": "Environnement de travail et équipement — Territoires du Nord-Ouest"
+    "alt": "Surfaces en acier inoxydable et chariot de maintenance dans une salle technique alimentaire."
   },
   {
     "id": "fr-locations-northwest-territories-detail",
@@ -1527,7 +1527,7 @@
     "placement": "detail",
     "pageTitle": "Territoires du Nord-Ouest",
     "src": "/images/phase3/fr-locations-northwest-territories-detail.webp",
-    "alt": "Environnement de travail et équipement — Territoires du Nord-Ouest"
+    "alt": "Chariot mobile et contenants isothermes dans une aire de distribution alimentaire."
   },
   {
     "id": "en-locations-nunavut-overview",
@@ -1536,7 +1536,7 @@
     "placement": "overview",
     "pageTitle": "Nunavut",
     "src": "/images/phase3/en-locations-nunavut-overview.webp",
-    "alt": "Work environment and equipment for Nunavut"
+    "alt": "Wheeled delivery platform in a hotel service corridor."
   },
   {
     "id": "en-locations-nunavut-detail",
@@ -1545,7 +1545,7 @@
     "placement": "detail",
     "pageTitle": "Nunavut",
     "src": "/images/phase3/en-locations-nunavut-detail.webp",
-    "alt": "Work environment and equipment for Nunavut"
+    "alt": "Inspection trolley and sensor calibration bench in a grain-handling workshop."
   },
   {
     "id": "fr-locations-nunavut-overview",
@@ -1554,7 +1554,7 @@
     "placement": "overview",
     "pageTitle": "Nunavut",
     "src": "/images/phase3/fr-locations-nunavut-overview.webp",
-    "alt": "Environnement de travail et équipement — Nunavut"
+    "alt": "Poste d’inspection robotisée et bacs de petites pièces dans un atelier d’emballage."
   },
   {
     "id": "fr-locations-nunavut-detail",
@@ -1563,7 +1563,7 @@
     "placement": "detail",
     "pageTitle": "Nunavut",
     "src": "/images/phase3/fr-locations-nunavut-detail.webp",
-    "alt": "Environnement de travail et équipement — Nunavut"
+    "alt": "Cible d’étalonnage de caméra et station d’essai du mouvement dans une salle de prototypage."
   },
   {
     "id": "en-locations-cities-toronto-gta-overview",
@@ -1572,7 +1572,7 @@
     "placement": "overview",
     "pageTitle": "Toronto & the GTA",
     "src": "/images/phase3/en-locations-cities-toronto-gta-overview.webp",
-    "alt": "Work environment and equipment for Toronto & the GTA"
+    "alt": "Sensor test stand and supervised trial area in an engineering laboratory."
   },
   {
     "id": "en-locations-cities-toronto-gta-detail",
@@ -1581,7 +1581,7 @@
     "placement": "detail",
     "pageTitle": "Toronto & the GTA",
     "src": "/images/phase3/en-locations-cities-toronto-gta-detail.webp",
-    "alt": "Work environment and equipment for Toronto & the GTA"
+    "alt": "Stainless work surfaces and maintenance cart in a food-processing technical room."
   },
   {
     "id": "fr-locations-cities-toronto-gta-overview",
@@ -1590,7 +1590,7 @@
     "placement": "overview",
     "pageTitle": "Toronto et le Grand Toronto",
     "src": "/images/phase3/fr-locations-cities-toronto-gta-overview.webp",
-    "alt": "Environnement de travail et équipement — Toronto et le Grand Toronto"
+    "alt": "Robot de nettoyage autonome près d’une zone de service dans un terminal côtier."
   },
   {
     "id": "fr-locations-cities-toronto-gta-detail",
@@ -1599,7 +1599,7 @@
     "placement": "detail",
     "pageTitle": "Toronto et le Grand Toronto",
     "src": "/images/phase3/fr-locations-cities-toronto-gta-detail.webp",
-    "alt": "Environnement de travail et équipement — Toronto et le Grand Toronto"
+    "alt": "Chariot d’inspection et rangement d’équipement dans un atelier de maintenance."
   },
   {
     "id": "en-locations-cities-vancouver-overview",
@@ -1608,7 +1608,7 @@
     "placement": "overview",
     "pageTitle": "Vancouver & Metro Vancouver",
     "src": "/images/phase3/en-locations-cities-vancouver-overview.webp",
-    "alt": "Work environment and equipment for Vancouver & Metro Vancouver"
+    "alt": "Sensor-equipped mobile base and totes transfer station in a receiving bay."
   },
   {
     "id": "en-locations-cities-vancouver-detail",
@@ -1617,7 +1617,7 @@
     "placement": "detail",
     "pageTitle": "Vancouver & Metro Vancouver",
     "src": "/images/phase3/en-locations-cities-vancouver-detail.webp",
-    "alt": "Work environment and equipment for Vancouver & Metro Vancouver"
+    "alt": "Demonstration platform and equipment transit cases in a convention hall."
   },
   {
     "id": "fr-locations-cities-vancouver-overview",
@@ -1626,7 +1626,7 @@
     "placement": "overview",
     "pageTitle": "Vancouver et le Grand Vancouver",
     "src": "/images/phase3/fr-locations-cities-vancouver-overview.webp",
-    "alt": "Environnement de travail et équipement — Vancouver et le Grand Vancouver"
+    "alt": "Chariot de transfert et caisses de fret scellées dans un atelier logistique hivernal."
   },
   {
     "id": "fr-locations-cities-vancouver-detail",
@@ -1635,7 +1635,7 @@
     "placement": "detail",
     "pageTitle": "Vancouver et le Grand Vancouver",
     "src": "/images/phase3/fr-locations-cities-vancouver-detail.webp",
-    "alt": "Environnement de travail et équipement — Vancouver et le Grand Vancouver"
+    "alt": "Banc d’essai avec capteurs et zone d’essai supervisé dans un laboratoire d’ingénierie."
   },
   {
     "id": "en-locations-cities-montreal-overview",
@@ -1644,7 +1644,7 @@
     "placement": "overview",
     "pageTitle": "Montréal",
     "src": "/images/phase3/en-locations-cities-montreal-overview.webp",
-    "alt": "Work environment and equipment for Montréal"
+    "alt": "Stainless work surfaces and maintenance cart in a food-processing technical room."
   },
   {
     "id": "en-locations-cities-montreal-detail",
@@ -1653,7 +1653,7 @@
     "placement": "detail",
     "pageTitle": "Montréal",
     "src": "/images/phase3/en-locations-cities-montreal-detail.webp",
-    "alt": "Work environment and equipment for Montréal"
+    "alt": "Autonomous floor-care machine beside a service bay in a coastal terminal."
   },
   {
     "id": "fr-locations-cities-montreal-overview",
@@ -1662,7 +1662,7 @@
     "placement": "overview",
     "pageTitle": "Montréal",
     "src": "/images/phase3/fr-locations-cities-montreal-overview.webp",
-    "alt": "Environnement de travail et équipement — Montréal"
+    "alt": "Chariot d’inspection et rangement d’équipement dans un atelier de maintenance."
   },
   {
     "id": "fr-locations-cities-montreal-detail",
@@ -1671,7 +1671,7 @@
     "placement": "detail",
     "pageTitle": "Montréal",
     "src": "/images/phase3/fr-locations-cities-montreal-detail.webp",
-    "alt": "Environnement de travail et équipement — Montréal"
+    "alt": "Base mobile à capteurs et poste de transfert de bacs dans une aire de réception."
   },
   {
     "id": "en-locations-cities-ottawa-gatineau-overview",
@@ -1680,7 +1680,7 @@
     "placement": "overview",
     "pageTitle": "Ottawa–Gatineau",
     "src": "/images/phase3/en-locations-cities-ottawa-gatineau-overview.webp",
-    "alt": "Work environment and equipment for Ottawa–Gatineau"
+    "alt": "Demonstration platform and equipment transit cases in a convention hall."
   },
   {
     "id": "en-locations-cities-ottawa-gatineau-detail",
@@ -1689,7 +1689,7 @@
     "placement": "detail",
     "pageTitle": "Ottawa–Gatineau",
     "src": "/images/phase3/en-locations-cities-ottawa-gatineau-detail.webp",
-    "alt": "Work environment and equipment for Ottawa–Gatineau"
+    "alt": "Transfer cart and sealed freight boxes in a winter logistics workshop."
   },
   {
     "id": "fr-locations-cities-ottawa-gatineau-overview",
@@ -1698,7 +1698,7 @@
     "placement": "overview",
     "pageTitle": "Ottawa–Gatineau",
     "src": "/images/phase3/fr-locations-cities-ottawa-gatineau-overview.webp",
-    "alt": "Environnement de travail et équipement — Ottawa–Gatineau"
+    "alt": "Chariot mobile et contenants isothermes dans une aire de distribution alimentaire."
   },
   {
     "id": "fr-locations-cities-ottawa-gatineau-detail",
@@ -1707,7 +1707,7 @@
     "placement": "detail",
     "pageTitle": "Ottawa–Gatineau",
     "src": "/images/phase3/fr-locations-cities-ottawa-gatineau-detail.webp",
-    "alt": "Environnement de travail et équipement — Ottawa–Gatineau"
+    "alt": "Plateforme de livraison sur roues dans un couloir de service hôtelier."
   },
   {
     "id": "en-locations-cities-calgary-overview",
@@ -1716,7 +1716,7 @@
     "placement": "overview",
     "pageTitle": "Calgary",
     "src": "/images/phase3/en-locations-cities-calgary-overview.webp",
-    "alt": "Work environment and equipment for Calgary"
+    "alt": "Inspection trolley and sensor calibration bench in a grain-handling workshop."
   },
   {
     "id": "en-locations-cities-calgary-detail",
@@ -1725,7 +1725,7 @@
     "placement": "detail",
     "pageTitle": "Calgary",
     "src": "/images/phase3/en-locations-cities-calgary-detail.webp",
-    "alt": "Work environment and equipment for Calgary"
+    "alt": "Robotic inspection fixture and small-part trays in a packaging workshop."
   },
   {
     "id": "fr-locations-cities-calgary-overview",
@@ -1734,7 +1734,7 @@
     "placement": "overview",
     "pageTitle": "Calgary",
     "src": "/images/phase3/fr-locations-cities-calgary-overview.webp",
-    "alt": "Environnement de travail et équipement — Calgary"
+    "alt": "Cible d’étalonnage de caméra et station d’essai du mouvement dans une salle de prototypage."
   },
   {
     "id": "fr-locations-cities-calgary-detail",
@@ -1743,7 +1743,7 @@
     "placement": "detail",
     "pageTitle": "Calgary",
     "src": "/images/phase3/fr-locations-cities-calgary-detail.webp",
-    "alt": "Environnement de travail et équipement — Calgary"
+    "alt": "Plateforme de démonstration et coffres de transport dans un hall d’exposition."
   },
   {
     "id": "en-locations-cities-edmonton-overview",
@@ -1752,7 +1752,7 @@
     "placement": "overview",
     "pageTitle": "Edmonton",
     "src": "/images/phase3/en-locations-cities-edmonton-overview.webp",
-    "alt": "Work environment and equipment for Edmonton"
+    "alt": "Transfer cart and sealed freight boxes in a winter logistics workshop."
   },
   {
     "id": "en-locations-cities-edmonton-detail",
@@ -1761,7 +1761,7 @@
     "placement": "detail",
     "pageTitle": "Edmonton",
     "src": "/images/phase3/en-locations-cities-edmonton-detail.webp",
-    "alt": "Work environment and equipment for Edmonton"
+    "alt": "Mobile cart and insulated containers in a food distribution workspace."
   },
   {
     "id": "fr-locations-cities-edmonton-overview",
@@ -1770,7 +1770,7 @@
     "placement": "overview",
     "pageTitle": "Edmonton",
     "src": "/images/phase3/fr-locations-cities-edmonton-overview.webp",
-    "alt": "Environnement de travail et équipement — Edmonton"
+    "alt": "Plateforme de livraison sur roues dans un couloir de service hôtelier."
   },
   {
     "id": "fr-locations-cities-edmonton-detail",
@@ -1779,7 +1779,7 @@
     "placement": "detail",
     "pageTitle": "Edmonton",
     "src": "/images/phase3/fr-locations-cities-edmonton-detail.webp",
-    "alt": "Environnement de travail et équipement — Edmonton"
+    "alt": "Chariot d’inspection et banc d’étalonnage des capteurs dans un atelier de manutention du grain."
   },
   {
     "id": "en-locations-cities-quebec-city-overview",
@@ -1788,7 +1788,7 @@
     "placement": "overview",
     "pageTitle": "Quebec City",
     "src": "/images/phase3/en-locations-cities-quebec-city-overview.webp",
-    "alt": "Work environment and equipment for Quebec City"
+    "alt": "Robotic inspection fixture and small-part trays in a packaging workshop."
   },
   {
     "id": "en-locations-cities-quebec-city-detail",
@@ -1797,7 +1797,7 @@
     "placement": "detail",
     "pageTitle": "Quebec City",
     "src": "/images/phase3/en-locations-cities-quebec-city-detail.webp",
-    "alt": "Work environment and equipment for Quebec City"
+    "alt": "Camera calibration target and motion test station in a prototyping room."
   },
   {
     "id": "fr-locations-cities-quebec-city-overview",
@@ -1806,7 +1806,7 @@
     "placement": "overview",
     "pageTitle": "Québec",
     "src": "/images/phase3/fr-locations-cities-quebec-city-overview.webp",
-    "alt": "Environnement de travail et équipement — Québec"
+    "alt": "Banc d’essai avec capteurs et zone d’essai supervisé dans un laboratoire d’ingénierie."
   },
   {
     "id": "fr-locations-cities-quebec-city-detail",
@@ -1815,7 +1815,7 @@
     "placement": "detail",
     "pageTitle": "Québec",
     "src": "/images/phase3/fr-locations-cities-quebec-city-detail.webp",
-    "alt": "Environnement de travail et équipement — Québec"
+    "alt": "Surfaces en acier inoxydable et chariot de maintenance dans une salle technique alimentaire."
   },
   {
     "id": "en-locations-cities-winnipeg-overview",
@@ -1824,7 +1824,7 @@
     "placement": "overview",
     "pageTitle": "Winnipeg",
     "src": "/images/phase3/en-locations-cities-winnipeg-overview.webp",
-    "alt": "Work environment and equipment for Winnipeg"
+    "alt": "Autonomous floor-care machine beside a service bay in a coastal terminal."
   },
   {
     "id": "en-locations-cities-winnipeg-detail",
@@ -1833,7 +1833,7 @@
     "placement": "detail",
     "pageTitle": "Winnipeg",
     "src": "/images/phase3/en-locations-cities-winnipeg-detail.webp",
-    "alt": "Work environment and equipment for Winnipeg"
+    "alt": "Inspection cart and equipment checkout area in a maintenance depot."
   },
   {
     "id": "fr-locations-cities-winnipeg-overview",
@@ -1842,7 +1842,7 @@
     "placement": "overview",
     "pageTitle": "Winnipeg",
     "src": "/images/phase3/fr-locations-cities-winnipeg-overview.webp",
-    "alt": "Environnement de travail et équipement — Winnipeg"
+    "alt": "Base mobile à capteurs et poste de transfert de bacs dans une aire de réception."
   },
   {
     "id": "fr-locations-cities-winnipeg-detail",
@@ -1851,7 +1851,7 @@
     "placement": "detail",
     "pageTitle": "Winnipeg",
     "src": "/images/phase3/fr-locations-cities-winnipeg-detail.webp",
-    "alt": "Environnement de travail et équipement — Winnipeg"
+    "alt": "Poste d’inspection robotisée et bacs de petites pièces dans un atelier d’emballage."
   },
   {
     "id": "en-locations-cities-halifax-overview",
@@ -1860,7 +1860,7 @@
     "placement": "overview",
     "pageTitle": "Halifax",
     "src": "/images/phase3/en-locations-cities-halifax-overview.webp",
-    "alt": "Work environment and equipment for Halifax"
+    "alt": "Camera calibration target and motion test station in a prototyping room."
   },
   {
     "id": "en-locations-cities-halifax-detail",
@@ -1869,7 +1869,7 @@
     "placement": "detail",
     "pageTitle": "Halifax",
     "src": "/images/phase3/en-locations-cities-halifax-detail.webp",
-    "alt": "Work environment and equipment for Halifax"
+    "alt": "Sensor test stand and supervised trial area in an engineering laboratory."
   },
   {
     "id": "fr-locations-cities-halifax-overview",
@@ -1878,7 +1878,7 @@
     "placement": "overview",
     "pageTitle": "Halifax",
     "src": "/images/phase3/fr-locations-cities-halifax-overview.webp",
-    "alt": "Environnement de travail et équipement — Halifax"
+    "alt": "Surfaces en acier inoxydable et chariot de maintenance dans une salle technique alimentaire."
   },
   {
     "id": "fr-locations-cities-halifax-detail",
@@ -1887,7 +1887,7 @@
     "placement": "detail",
     "pageTitle": "Halifax",
     "src": "/images/phase3/fr-locations-cities-halifax-detail.webp",
-    "alt": "Environnement de travail et équipement — Halifax"
+    "alt": "Robot de nettoyage autonome près d’une zone de service dans un terminal côtier."
   },
   {
     "id": "en-locations-cities-victoria-overview",
@@ -1896,7 +1896,7 @@
     "placement": "overview",
     "pageTitle": "Victoria",
     "src": "/images/phase3/en-locations-cities-victoria-overview.webp",
-    "alt": "Work environment and equipment for Victoria"
+    "alt": "Inspection cart and equipment checkout area in a maintenance depot."
   },
   {
     "id": "en-locations-cities-victoria-detail",
@@ -1905,7 +1905,7 @@
     "placement": "detail",
     "pageTitle": "Victoria",
     "src": "/images/phase3/en-locations-cities-victoria-detail.webp",
-    "alt": "Work environment and equipment for Victoria"
+    "alt": "Sensor-equipped mobile base and totes transfer station in a receiving bay."
   },
   {
     "id": "fr-locations-cities-victoria-overview",
@@ -1914,7 +1914,7 @@
     "placement": "overview",
     "pageTitle": "Victoria",
     "src": "/images/phase3/fr-locations-cities-victoria-overview.webp",
-    "alt": "Environnement de travail et équipement — Victoria"
+    "alt": "Plateforme de démonstration et coffres de transport dans un hall d’exposition."
   },
   {
     "id": "fr-locations-cities-victoria-detail",
@@ -1923,7 +1923,7 @@
     "placement": "detail",
     "pageTitle": "Victoria",
     "src": "/images/phase3/fr-locations-cities-victoria-detail.webp",
-    "alt": "Environnement de travail et équipement — Victoria"
+    "alt": "Chariot de transfert et caisses de fret scellées dans un atelier logistique hivernal."
   },
   {
     "id": "en-locations-cities-hamilton-overview",
@@ -1932,7 +1932,7 @@
     "placement": "overview",
     "pageTitle": "Hamilton",
     "src": "/images/phase3/en-locations-cities-hamilton-overview.webp",
-    "alt": "Work environment and equipment for Hamilton"
+    "alt": "Mobile cart and insulated containers in a food distribution workspace."
   },
   {
     "id": "en-locations-cities-hamilton-detail",
@@ -1941,7 +1941,7 @@
     "placement": "detail",
     "pageTitle": "Hamilton",
     "src": "/images/phase3/en-locations-cities-hamilton-detail.webp",
-    "alt": "Work environment and equipment for Hamilton"
+    "alt": "Wheeled delivery platform in a hotel service corridor."
   },
   {
     "id": "fr-locations-cities-hamilton-overview",
@@ -1950,7 +1950,7 @@
     "placement": "overview",
     "pageTitle": "Hamilton",
     "src": "/images/phase3/fr-locations-cities-hamilton-overview.webp",
-    "alt": "Environnement de travail et équipement — Hamilton"
+    "alt": "Chariot d’inspection et banc d’étalonnage des capteurs dans un atelier de manutention du grain."
   },
   {
     "id": "fr-locations-cities-hamilton-detail",
@@ -1959,7 +1959,7 @@
     "placement": "detail",
     "pageTitle": "Hamilton",
     "src": "/images/phase3/fr-locations-cities-hamilton-detail.webp",
-    "alt": "Environnement de travail et équipement — Hamilton"
+    "alt": "Chariot d’inspection et rangement d’équipement dans un atelier de maintenance."
   },
   {
     "id": "en-locations-cities-kitchener-waterloo-overview",
@@ -1968,7 +1968,7 @@
     "placement": "overview",
     "pageTitle": "Kitchener–Waterloo",
     "src": "/images/phase3/en-locations-cities-kitchener-waterloo-overview.webp",
-    "alt": "Work environment and equipment for Kitchener–Waterloo"
+    "alt": "Sensor-equipped mobile base and totes transfer station in a receiving bay."
   },
   {
     "id": "en-locations-cities-kitchener-waterloo-detail",
@@ -1977,7 +1977,7 @@
     "placement": "detail",
     "pageTitle": "Kitchener–Waterloo",
     "src": "/images/phase3/en-locations-cities-kitchener-waterloo-detail.webp",
-    "alt": "Work environment and equipment for Kitchener–Waterloo"
+    "alt": "Demonstration platform and equipment transit cases in a convention hall."
   },
   {
     "id": "fr-locations-cities-kitchener-waterloo-overview",
@@ -1986,7 +1986,7 @@
     "placement": "overview",
     "pageTitle": "Kitchener–Waterloo",
     "src": "/images/phase3/fr-locations-cities-kitchener-waterloo-overview.webp",
-    "alt": "Environnement de travail et équipement — Kitchener–Waterloo"
+    "alt": "Chariot de transfert et caisses de fret scellées dans un atelier logistique hivernal."
   },
   {
     "id": "fr-locations-cities-kitchener-waterloo-detail",
@@ -1995,7 +1995,7 @@
     "placement": "detail",
     "pageTitle": "Kitchener–Waterloo",
     "src": "/images/phase3/fr-locations-cities-kitchener-waterloo-detail.webp",
-    "alt": "Environnement de travail et équipement — Kitchener–Waterloo"
+    "alt": "Chariot mobile et contenants isothermes dans une aire de distribution alimentaire."
   },
   {
     "id": "en-locations-cities-london-overview",
@@ -2004,7 +2004,7 @@
     "placement": "overview",
     "pageTitle": "London",
     "src": "/images/phase3/en-locations-cities-london-overview.webp",
-    "alt": "Work environment and equipment for London"
+    "alt": "Wheeled delivery platform in a hotel service corridor."
   },
   {
     "id": "en-locations-cities-london-detail",
@@ -2013,7 +2013,7 @@
     "placement": "detail",
     "pageTitle": "London",
     "src": "/images/phase3/en-locations-cities-london-detail.webp",
-    "alt": "Work environment and equipment for London"
+    "alt": "Inspection trolley and sensor calibration bench in a grain-handling workshop."
   },
   {
     "id": "fr-locations-cities-london-overview",
@@ -2022,7 +2022,7 @@
     "placement": "overview",
     "pageTitle": "London",
     "src": "/images/phase3/fr-locations-cities-london-overview.webp",
-    "alt": "Environnement de travail et équipement — London"
+    "alt": "Poste d’inspection robotisée et bacs de petites pièces dans un atelier d’emballage."
   },
   {
     "id": "fr-locations-cities-london-detail",
@@ -2031,7 +2031,7 @@
     "placement": "detail",
     "pageTitle": "London",
     "src": "/images/phase3/fr-locations-cities-london-detail.webp",
-    "alt": "Environnement de travail et équipement — London"
+    "alt": "Cible d’étalonnage de caméra et station d’essai du mouvement dans une salle de prototypage."
   },
   {
     "id": "en-locations-cities-saskatoon-overview",
@@ -2040,7 +2040,7 @@
     "placement": "overview",
     "pageTitle": "Saskatoon",
     "src": "/images/phase3/en-locations-cities-saskatoon-overview.webp",
-    "alt": "Work environment and equipment for Saskatoon"
+    "alt": "Sensor test stand and supervised trial area in an engineering laboratory."
   },
   {
     "id": "en-locations-cities-saskatoon-detail",
@@ -2049,7 +2049,7 @@
     "placement": "detail",
     "pageTitle": "Saskatoon",
     "src": "/images/phase3/en-locations-cities-saskatoon-detail.webp",
-    "alt": "Work environment and equipment for Saskatoon"
+    "alt": "Stainless work surfaces and maintenance cart in a food-processing technical room."
   },
   {
     "id": "fr-locations-cities-saskatoon-overview",
@@ -2058,7 +2058,7 @@
     "placement": "overview",
     "pageTitle": "Saskatoon",
     "src": "/images/phase3/fr-locations-cities-saskatoon-overview.webp",
-    "alt": "Environnement de travail et équipement — Saskatoon"
+    "alt": "Robot de nettoyage autonome près d’une zone de service dans un terminal côtier."
   },
   {
     "id": "fr-locations-cities-saskatoon-detail",
@@ -2067,7 +2067,7 @@
     "placement": "detail",
     "pageTitle": "Saskatoon",
     "src": "/images/phase3/fr-locations-cities-saskatoon-detail.webp",
-    "alt": "Environnement de travail et équipement — Saskatoon"
+    "alt": "Plateforme de livraison sur roues dans un couloir de service hôtelier."
   },
   {
     "id": "en-locations-cities-regina-overview",
@@ -2076,7 +2076,7 @@
     "placement": "overview",
     "pageTitle": "Regina",
     "src": "/images/phase3/en-locations-cities-regina-overview.webp",
-    "alt": "Work environment and equipment for Regina"
+    "alt": "Inspection trolley and sensor calibration bench in a grain-handling workshop."
   },
   {
     "id": "en-locations-cities-regina-detail",
@@ -2085,7 +2085,7 @@
     "placement": "detail",
     "pageTitle": "Regina",
     "src": "/images/phase3/en-locations-cities-regina-detail.webp",
-    "alt": "Work environment and equipment for Regina"
+    "alt": "Robotic inspection fixture and small-part trays in a packaging workshop."
   },
   {
     "id": "fr-locations-cities-regina-overview",
@@ -2094,7 +2094,7 @@
     "placement": "overview",
     "pageTitle": "Regina",
     "src": "/images/phase3/fr-locations-cities-regina-overview.webp",
-    "alt": "Environnement de travail et équipement — Regina"
+    "alt": "Cible d’étalonnage de caméra et station d’essai du mouvement dans une salle de prototypage."
   },
   {
     "id": "fr-locations-cities-regina-detail",
@@ -2103,7 +2103,7 @@
     "placement": "detail",
     "pageTitle": "Regina",
     "src": "/images/phase3/fr-locations-cities-regina-detail.webp",
-    "alt": "Environnement de travail et équipement — Regina"
+    "alt": "Banc d’essai avec capteurs et zone d’essai supervisé dans un laboratoire d’ingénierie."
   },
   {
     "id": "en-locations-cities-st-johns-overview",
@@ -2112,7 +2112,7 @@
     "placement": "overview",
     "pageTitle": "St. John’s",
     "src": "/images/phase3/en-locations-cities-st-johns-overview.webp",
-    "alt": "Work environment and equipment for St. John’s"
+    "alt": "Stainless work surfaces and maintenance cart in a food-processing technical room."
   },
   {
     "id": "en-locations-cities-st-johns-detail",
@@ -2121,7 +2121,7 @@
     "placement": "detail",
     "pageTitle": "St. John’s",
     "src": "/images/phase3/en-locations-cities-st-johns-detail.webp",
-    "alt": "Work environment and equipment for St. John’s"
+    "alt": "Autonomous floor-care machine beside a service bay in a coastal terminal."
   },
   {
     "id": "fr-locations-cities-st-johns-overview",
@@ -2130,7 +2130,7 @@
     "placement": "overview",
     "pageTitle": "St. John’s",
     "src": "/images/phase3/fr-locations-cities-st-johns-overview.webp",
-    "alt": "Environnement de travail et équipement — St. John’s"
+    "alt": "Chariot d’inspection et rangement d’équipement dans un atelier de maintenance."
   },
   {
     "id": "fr-locations-cities-st-johns-detail",
@@ -2139,7 +2139,7 @@
     "placement": "detail",
     "pageTitle": "St. John’s",
     "src": "/images/phase3/fr-locations-cities-st-johns-detail.webp",
-    "alt": "Environnement de travail et équipement — St. John’s"
+    "alt": "Base mobile à capteurs et poste de transfert de bacs dans une aire de réception."
   },
   {
     "id": "en-products-unitree-g1-overview",
@@ -2148,7 +2148,7 @@
     "placement": "overview",
     "pageTitle": "Unitree G1",
     "src": "/images/phase3/en-products-unitree-g1-overview.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Demonstration platform and equipment transit cases in a convention hall."
   },
   {
     "id": "en-products-unitree-g1-detail",
@@ -2157,7 +2157,7 @@
     "placement": "detail",
     "pageTitle": "Unitree G1",
     "src": "/images/phase3/en-products-unitree-g1-detail.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Transfer cart and sealed freight boxes in a winter logistics workshop."
   },
   {
     "id": "fr-products-unitree-g1-overview",
@@ -2166,7 +2166,7 @@
     "placement": "overview",
     "pageTitle": "Unitree G1",
     "src": "/images/phase3/fr-products-unitree-g1-overview.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Chariot mobile et contenants isothermes dans une aire de distribution alimentaire."
   },
   {
     "id": "fr-products-unitree-g1-detail",
@@ -2175,7 +2175,7 @@
     "placement": "detail",
     "pageTitle": "Unitree G1",
     "src": "/images/phase3/fr-products-unitree-g1-detail.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Surfaces en acier inoxydable et chariot de maintenance dans une salle technique alimentaire."
   },
   {
     "id": "en-products-pudu-cc1-overview",
@@ -2184,7 +2184,7 @@
     "placement": "overview",
     "pageTitle": "PUDU CC1",
     "src": "/images/phase3/en-products-pudu-cc1-overview.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Autonomous floor-care machine beside a service bay in a coastal terminal."
   },
   {
     "id": "en-products-pudu-cc1-detail",
@@ -2193,7 +2193,7 @@
     "placement": "detail",
     "pageTitle": "PUDU CC1",
     "src": "/images/phase3/en-products-pudu-cc1-detail.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Inspection cart and equipment checkout area in a maintenance depot."
   },
   {
     "id": "fr-products-pudu-cc1-overview",
@@ -2202,7 +2202,7 @@
     "placement": "overview",
     "pageTitle": "PUDU CC1",
     "src": "/images/phase3/fr-products-pudu-cc1-overview.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Base mobile à capteurs et poste de transfert de bacs dans une aire de réception."
   },
   {
     "id": "fr-products-pudu-cc1-detail",
@@ -2211,7 +2211,7 @@
     "placement": "detail",
     "pageTitle": "PUDU CC1",
     "src": "/images/phase3/fr-products-pudu-cc1-detail.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Plateforme de démonstration et coffres de transport dans un hall d’exposition."
   },
   {
     "id": "en-products-mir250-overview",
@@ -2220,7 +2220,7 @@
     "placement": "overview",
     "pageTitle": "MiR250",
     "src": "/images/phase3/en-products-mir250-overview.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Transfer cart and sealed freight boxes in a winter logistics workshop."
   },
   {
     "id": "en-products-mir250-detail",
@@ -2229,7 +2229,7 @@
     "placement": "detail",
     "pageTitle": "MiR250",
     "src": "/images/phase3/en-products-mir250-detail.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Mobile cart and insulated containers in a food distribution workspace."
   },
   {
     "id": "fr-products-mir250-overview",
@@ -2238,7 +2238,7 @@
     "placement": "overview",
     "pageTitle": "MiR250",
     "src": "/images/phase3/fr-products-mir250-overview.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Plateforme de livraison sur roues dans un couloir de service hôtelier."
   },
   {
     "id": "fr-products-mir250-detail",
@@ -2247,7 +2247,7 @@
     "placement": "detail",
     "pageTitle": "MiR250",
     "src": "/images/phase3/fr-products-mir250-detail.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Chariot d’inspection et banc d’étalonnage des capteurs dans un atelier de manutention du grain."
   },
   {
     "id": "en-products-ur5e-overview",
@@ -2256,7 +2256,7 @@
     "placement": "overview",
     "pageTitle": "UR5e",
     "src": "/images/phase3/en-products-ur5e-overview.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Robotic inspection fixture and small-part trays in a packaging workshop."
   },
   {
     "id": "en-products-ur5e-detail",
@@ -2265,7 +2265,7 @@
     "placement": "detail",
     "pageTitle": "UR5e",
     "src": "/images/phase3/en-products-ur5e-detail.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Camera calibration target and motion test station in a prototyping room."
   },
   {
     "id": "fr-products-ur5e-overview",
@@ -2274,7 +2274,7 @@
     "placement": "overview",
     "pageTitle": "UR5e",
     "src": "/images/phase3/fr-products-ur5e-overview.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Banc d’essai avec capteurs et zone d’essai supervisé dans un laboratoire d’ingénierie."
   },
   {
     "id": "fr-products-ur5e-detail",
@@ -2283,7 +2283,7 @@
     "placement": "detail",
     "pageTitle": "UR5e",
     "src": "/images/phase3/fr-products-ur5e-detail.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Chariot de transfert et caisses de fret scellées dans un atelier logistique hivernal."
   },
   {
     "id": "en-products-spot-overview",
@@ -2292,7 +2292,7 @@
     "placement": "overview",
     "pageTitle": "Spot",
     "src": "/images/phase3/en-products-spot-overview.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Mobile cart and insulated containers in a food distribution workspace."
   },
   {
     "id": "en-products-spot-detail",
@@ -2301,7 +2301,7 @@
     "placement": "detail",
     "pageTitle": "Spot",
     "src": "/images/phase3/en-products-spot-detail.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Wheeled delivery platform in a hotel service corridor."
   },
   {
     "id": "fr-products-spot-overview",
@@ -2310,7 +2310,7 @@
     "placement": "overview",
     "pageTitle": "Spot",
     "src": "/images/phase3/fr-products-spot-overview.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Chariot d’inspection et banc d’étalonnage des capteurs dans un atelier de manutention du grain."
   },
   {
     "id": "fr-products-spot-detail",
@@ -2319,7 +2319,7 @@
     "placement": "detail",
     "pageTitle": "Spot",
     "src": "/images/phase3/fr-products-spot-detail.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Poste d’inspection robotisée et bacs de petites pièces dans un atelier d’emballage."
   },
   {
     "id": "en-products-bellabot-overview",
@@ -2328,7 +2328,7 @@
     "placement": "overview",
     "pageTitle": "BellaBot",
     "src": "/images/phase3/en-products-bellabot-overview.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Camera calibration target and motion test station in a prototyping room."
   },
   {
     "id": "en-products-bellabot-detail",
@@ -2337,7 +2337,7 @@
     "placement": "detail",
     "pageTitle": "BellaBot",
     "src": "/images/phase3/en-products-bellabot-detail.webp",
-    "alt": "Task environment for robotics evaluation"
+    "alt": "Sensor test stand and supervised trial area in an engineering laboratory."
   },
   {
     "id": "fr-products-bellabot-overview",
@@ -2346,7 +2346,7 @@
     "placement": "overview",
     "pageTitle": "BellaBot",
     "src": "/images/phase3/fr-products-bellabot-overview.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Surfaces en acier inoxydable et chariot de maintenance dans une salle technique alimentaire."
   },
   {
     "id": "fr-products-bellabot-detail",
@@ -2355,7 +2355,7 @@
     "placement": "detail",
     "pageTitle": "BellaBot",
     "src": "/images/phase3/fr-products-bellabot-detail.webp",
-    "alt": "Environnement de travail pour évaluer la robotique"
+    "alt": "Robot de nettoyage autonome près d’une zone de service dans un terminal côtier."
   },
   {
     "id": "en-manufacturers-overview",
@@ -2364,7 +2364,7 @@
     "placement": "overview",
     "pageTitle": "Manufacturer research",
     "src": "/images/phase3/en-manufacturers-overview.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Inspection cart and equipment checkout area in a maintenance depot."
   },
   {
     "id": "en-manufacturers-detail",
@@ -2373,7 +2373,7 @@
     "placement": "detail",
     "pageTitle": "Manufacturer research",
     "src": "/images/phase3/en-manufacturers-detail.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Sensor-equipped mobile base and totes transfer station in a receiving bay."
   },
   {
     "id": "fr-manufacturers-overview",
@@ -2382,7 +2382,7 @@
     "placement": "overview",
     "pageTitle": "Recherche de fabricants",
     "src": "/images/phase3/fr-manufacturers-overview.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Plateforme de démonstration et coffres de transport dans un hall d’exposition."
   },
   {
     "id": "fr-manufacturers-detail",
@@ -2391,7 +2391,7 @@
     "placement": "detail",
     "pageTitle": "Recherche de fabricants",
     "src": "/images/phase3/fr-manufacturers-detail.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Cible d’étalonnage de caméra et station d’essai du mouvement dans une salle de prototypage."
   },
   {
     "id": "en-manufacturers-unitree-overview",
@@ -2400,7 +2400,7 @@
     "placement": "overview",
     "pageTitle": "Unitree Robotics",
     "src": "/images/phase3/en-manufacturers-unitree-overview.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Sensor test stand and supervised trial area in an engineering laboratory."
   },
   {
     "id": "en-manufacturers-unitree-detail",
@@ -2409,7 +2409,7 @@
     "placement": "detail",
     "pageTitle": "Unitree Robotics",
     "src": "/images/phase3/en-manufacturers-unitree-detail.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Stainless work surfaces and maintenance cart in a food-processing technical room."
   },
   {
     "id": "fr-manufacturers-unitree-overview",
@@ -2418,7 +2418,7 @@
     "placement": "overview",
     "pageTitle": "Unitree Robotics",
     "src": "/images/phase3/fr-manufacturers-unitree-overview.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Robot de nettoyage autonome près d’une zone de service dans un terminal côtier."
   },
   {
     "id": "fr-manufacturers-unitree-detail",
@@ -2427,7 +2427,7 @@
     "placement": "detail",
     "pageTitle": "Unitree Robotics",
     "src": "/images/phase3/fr-manufacturers-unitree-detail.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Chariot d’inspection et rangement d’équipement dans un atelier de maintenance."
   },
   {
     "id": "en-manufacturers-pudu-overview",
@@ -2436,7 +2436,7 @@
     "placement": "overview",
     "pageTitle": "PUDU Robotics",
     "src": "/images/phase3/en-manufacturers-pudu-overview.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Sensor-equipped mobile base and totes transfer station in a receiving bay."
   },
   {
     "id": "en-manufacturers-pudu-detail",
@@ -2445,7 +2445,7 @@
     "placement": "detail",
     "pageTitle": "PUDU Robotics",
     "src": "/images/phase3/en-manufacturers-pudu-detail.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Demonstration platform and equipment transit cases in a convention hall."
   },
   {
     "id": "fr-manufacturers-pudu-overview",
@@ -2454,7 +2454,7 @@
     "placement": "overview",
     "pageTitle": "PUDU Robotics",
     "src": "/images/phase3/fr-manufacturers-pudu-overview.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Chariot de transfert et caisses de fret scellées dans un atelier logistique hivernal."
   },
   {
     "id": "fr-manufacturers-pudu-detail",
@@ -2463,7 +2463,7 @@
     "placement": "detail",
     "pageTitle": "PUDU Robotics",
     "src": "/images/phase3/fr-manufacturers-pudu-detail.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Chariot mobile et contenants isothermes dans une aire de distribution alimentaire."
   },
   {
     "id": "en-manufacturers-mir-overview",
@@ -2472,7 +2472,7 @@
     "placement": "overview",
     "pageTitle": "Mobile Industrial Robots",
     "src": "/images/phase3/en-manufacturers-mir-overview.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Wheeled delivery platform in a hotel service corridor."
   },
   {
     "id": "en-manufacturers-mir-detail",
@@ -2481,7 +2481,7 @@
     "placement": "detail",
     "pageTitle": "Mobile Industrial Robots",
     "src": "/images/phase3/en-manufacturers-mir-detail.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Inspection trolley and sensor calibration bench in a grain-handling workshop."
   },
   {
     "id": "fr-manufacturers-mir-overview",
@@ -2490,7 +2490,7 @@
     "placement": "overview",
     "pageTitle": "Mobile Industrial Robots",
     "src": "/images/phase3/fr-manufacturers-mir-overview.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Poste d’inspection robotisée et bacs de petites pièces dans un atelier d’emballage."
   },
   {
     "id": "fr-manufacturers-mir-detail",
@@ -2499,7 +2499,7 @@
     "placement": "detail",
     "pageTitle": "Mobile Industrial Robots",
     "src": "/images/phase3/fr-manufacturers-mir-detail.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Base mobile à capteurs et poste de transfert de bacs dans une aire de réception."
   },
   {
     "id": "en-manufacturers-universal-robots-overview",
@@ -2508,7 +2508,7 @@
     "placement": "overview",
     "pageTitle": "Universal Robots",
     "src": "/images/phase3/en-manufacturers-universal-robots-overview.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Demonstration platform and equipment transit cases in a convention hall."
   },
   {
     "id": "en-manufacturers-universal-robots-detail",
@@ -2517,7 +2517,7 @@
     "placement": "detail",
     "pageTitle": "Universal Robots",
     "src": "/images/phase3/en-manufacturers-universal-robots-detail.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Transfer cart and sealed freight boxes in a winter logistics workshop."
   },
   {
     "id": "fr-manufacturers-universal-robots-overview",
@@ -2526,7 +2526,7 @@
     "placement": "overview",
     "pageTitle": "Universal Robots",
     "src": "/images/phase3/fr-manufacturers-universal-robots-overview.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Chariot mobile et contenants isothermes dans une aire de distribution alimentaire."
   },
   {
     "id": "fr-manufacturers-universal-robots-detail",
@@ -2535,7 +2535,7 @@
     "placement": "detail",
     "pageTitle": "Universal Robots",
     "src": "/images/phase3/fr-manufacturers-universal-robots-detail.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Plateforme de livraison sur roues dans un couloir de service hôtelier."
   },
   {
     "id": "en-manufacturers-boston-dynamics-overview",
@@ -2544,7 +2544,7 @@
     "placement": "overview",
     "pageTitle": "Boston Dynamics",
     "src": "/images/phase3/en-manufacturers-boston-dynamics-overview.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Inspection trolley and sensor calibration bench in a grain-handling workshop."
   },
   {
     "id": "en-manufacturers-boston-dynamics-detail",
@@ -2553,7 +2553,7 @@
     "placement": "detail",
     "pageTitle": "Boston Dynamics",
     "src": "/images/phase3/en-manufacturers-boston-dynamics-detail.webp",
-    "alt": "Independent robotics research workspace"
+    "alt": "Robotic inspection fixture and small-part trays in a packaging workshop."
   },
   {
     "id": "fr-manufacturers-boston-dynamics-overview",
@@ -2562,7 +2562,7 @@
     "placement": "overview",
     "pageTitle": "Boston Dynamics",
     "src": "/images/phase3/fr-manufacturers-boston-dynamics-overview.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Cible d’étalonnage de caméra et station d’essai du mouvement dans une salle de prototypage."
   },
   {
     "id": "fr-manufacturers-boston-dynamics-detail",
@@ -2571,6 +2571,6 @@
     "placement": "detail",
     "pageTitle": "Boston Dynamics",
     "src": "/images/phase3/fr-manufacturers-boston-dynamics-detail.webp",
-    "alt": "Espace de recherche indépendante en robotique"
+    "alt": "Banc d’essai avec capteurs et zone d’essai supervisé dans un laboratoire d’ingénierie."
   }
 ]

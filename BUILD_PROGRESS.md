@@ -1,42 +1,45 @@
-# BOTIX standalone completion
+# BOTIX standalone completion checkpoint
 
-Owner request: finish the existing BOTIX standalone project and all feasible phases.
-Continue the existing implementation on `codex/phase-4-growth`; `main` has briefs,
-not the application. Do not recreate the app or discard earlier phase history.
+Current source: `codex/phase-4-growth`. The `main` branch contains briefs, not the
+application. Preserve this standalone repository and all historical phase branches;
+do not recreate the app or create a worktree unless explicitly requested.
 
-## Verified in the cloud workspace
+## Completed and verified
 
-- Independent, frozen dependency installation with Node 24 and pnpm 11.25.0.
-- Existing 52 tests, catalogue validation and offline durable delivery harness pass.
-- Production build, type check, lint, 144-route release/preview smoke and dependency audit pass.
-- Added pinned Playwright/axe dependencies and browser coverage: 52 desktop/mobile
-  EN/FR checks pass, including six buyer guides, quote language switching, navigation
-  and representative template accessibility. Intermediate runs still reported image
-  404s, so these are not final asset acceptance.
+- Independent frozen installation; Node 24 / pnpm 11.25.0.
+- 52 unit tests, 3 WHC launcher tests, catalogue and offline durable delivery checks.
+- Lint/types, production build, full dependency audit and all 144 bilingual release/
+  preview route, SEO, security, search/comparison and contextual inquiry checks.
+- Completed 141 missing original contextual images. All 288 placements now pass
+  source/provenance/hash checks and visual review. All 286 contextual URLs serve and
+  appear on their intended pages. One perceptual candidate cleared; 388 accessible
+  neighbouring raster images screened with no match; remote inventories unavailable.
+- 56 actual desktop/mobile bilingual browser checks pass, no skips or flaky results,
+  including accessible templates, guide-to-quote paths, language context and local
+  brief export without submission. Fixed missing arrow glyphs with SVG icons.
+- 12 curated real viewport screenshots, 19 image contact sheets and 24 local lab
+  performance observations retained under `docs/qa/completion/`.
+- Local development startup/HTTP verified. New source originals and durable receipts
+  remain in `/workspace/generated_images` and ignored `artifacts/phase3`; do not delete.
 
-## In progress
+## Next technical action
 
-141 missing image placements identified; preserve the existing 145 contextual assets
-and two original homepage heroes. New independent images are being generated, with
-one durable `artifacts/phase3/*-cloud-result.json` receipt per completed source.
-Originals are in `/workspace/generated_images`; `scripts/import-generated-images.py`
-imports WebP copies while retaining originals and merging the provenance register.
-Never infer placement from output order or claim an asset exists based on its plan.
-
-After generation: contact-sheet relevance/uniqueness review, `pnpm images:check`,
-all-route image HTTP checks, perceptual/cross-site screening, final browser checks,
-production and protected-preview standalone packages, clean release archive and
-consolidated phase reports. Keep independent work moving while images generate.
+Commit the completed asset/application snapshot, then exercise `build:release`,
+`package:release`, `standalone:smoke` and archive generation for clean Linux production
+and protected-preview modes. Record exact source identities/checksums, publish the
+review branch without merging, and save the environment's actual repository commits.
+See `docs/COMPLETION_ACCEPTANCE.md` for evidence and status; do not re-run passed suites
+without new changes, failures or another unresolved concern.
 
 ## External requirements
 
-No WHC credentials are present in this cloud instance. Existing recorded publication
-and synthetic mailbox-test authorization do not supply hosting access or prove receipt.
-The location of the info@botix.ca forwarding rule remains unverified. Keep real inquiry
-delivery disabled until the documented receipt verification and separate activation
-gate. Approved brand vectors, phone verification and business/privacy inputs must not
-be fabricated. Supplier outreach remains drafted, not sent.
+No WHC/receiver/mailbox credentials are configured in this cloud runtime. Existing
+website-publication and synthetic mailbox-test authorization is retained, but actual
+hosting access, the forwarding-rule location and inbox receipt remain prerequisites.
+Live inquiry activation still has its separate gate. Preserve safe brand/phone and
+business-fact fallbacks. Supplier outreach is drafted, not sent.
 
-Git reads work. GitHub API access currently returns Forbidden; an api.github.com
-network requirement is saved for environment-settings review. Do not claim a PR exists
-until API access and creation are verified. Preserve all other portfolio repositories.
+Native Git reads and push dry-run work. GitHub API and live-site CONNECT requests
+return proxy 403. Required api.github.com, botix.ca and staging.botix.ca additions are
+saved in the environment draft, not applied/published. PR/CI/hosted acceptance remains
+unverified until access is available; do not claim it completed.

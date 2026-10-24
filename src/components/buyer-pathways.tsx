@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import Link from "next/link";
 import { bi, type Locale } from "@/lib/content";
 import { inquiryHref, type InquiryContext } from "@/lib/inquiry-context";
@@ -89,7 +90,7 @@ export function BuyerPathways({
               className="text-link"
               href={inquiryHref(locale, { ...context, category, intent })}
             >
-              {en ? "Prepare my brief" : "Préparer mon projet"} ↗
+              {en ? "Prepare my brief" : "Préparer mon projet"} <Arrow />
             </Link>
           </article>
         ))}
@@ -124,7 +125,7 @@ export function LocationPathways({ locale }: { locale: Locale }) {
             key={category}
             href={`/${locale}/${category === "humanoid" ? "humanoid-robots" : `commercial-robots/${category}`}`}
           >
-            {taxonomy.types[category][locale]} ↗
+            {taxonomy.types[category][locale]} <Arrow />
           </Link>
         ))}
       </div>

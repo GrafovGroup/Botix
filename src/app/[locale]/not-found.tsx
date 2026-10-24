@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import Link from "next/link";
 export default function NotFound() {
   return (
@@ -10,10 +11,10 @@ export default function NotFound() {
       </h1>
       <p>The requested page does not exist. / La page demandée n’existe pas.</p>
       <Link className="button" href="/en">
-        ENGLISH ↗
+        ENGLISH <Arrow />
       </Link>{" "}
       <Link className="button ghost" href="/fr">
-        FRANÇAIS ↗
+        FRANÇAIS <Arrow />
       </Link>
     </section>
   );

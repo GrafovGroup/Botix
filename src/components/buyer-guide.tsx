@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import Link from "next/link";
 import { buyerGuides } from "@/lib/buyer-guides";
 import type { Locale } from "@/lib/content";
@@ -48,7 +49,7 @@ export function BuyerGuide({
             useCase: guide.title[locale],
           })}
         >
-          {en ? "PREPARE MY PROJECT" : "PRÉPARER MON PROJET"} ↗
+          {en ? "PREPARE MY PROJECT" : "PRÉPARER MON PROJET"} <Arrow />
         </Link>
       </aside>
     </section>

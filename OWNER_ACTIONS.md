@@ -1,5 +1,34 @@
 # BOTIX — current owner checklist
 
+## Cloud completion handoff — October 23, 2026 (Toronto)
+
+The current standalone implementation is on `codex/phase-4-growth`, not `main`.
+The cloud workspace has sufficient disk space and independent dependencies; the
+older disk-space and shared-node_modules requests below are historical.
+
+Only these external handoffs remain owner-dependent:
+
+1. **Access and routing:** review/save the environment-settings network addition
+   for `api.github.com` so Codex can inspect/create the review PR. Provide authorized
+   WHC access through secure environment settings, never chat or Git. Identify the
+   existing info@botix.ca-to-Gmail forwarding provider/rule; ownership was already
+   reported and the address does not need reconfirmation. Existing receiver setup,
+   synthetic-test and website-publication authorizations are preserved.
+2. **Business inputs:** approved Signature vectors (otherwise keep typography),
+   actual phone routing verification (otherwise keep phone hidden), operating/privacy
+   facts and the accountable lead operator/retention policy. Do not invent them.
+3. **After verification:** separately approve live inquiry activation only after the
+   authorized end-to-end receiver/mailbox test proves receipt. PR merging and actual
+   supplier outreach remain separate owner decisions. No new deployment approval is
+   requested for the website publication already authorized in the repository.
+
+Codex owns asset completion, software fixes, browser/accessibility checks, release
+packages, technical documentation and deployment execution once access is available.
+Neither configuration saving nor a successful offline harness proves publication or
+inbox receipt. See `BUILD_PROGRESS.md` for the active technical checkpoint.
+
+The dated checklists below are retained as historical records, not repeated requests.
+
 ## Current actions — 2026-10-23
 
 1. Disk-space handoff completed: 3.7 GiB available when execution resumed. Image generation is running with a minimum free-space check; no unrelated files are being deleted.
