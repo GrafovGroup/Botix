@@ -1,19 +1,29 @@
 # BOTIX phase index
 
-| Phase | Canonical specification | Dependencies | Implementation | Status |
-| --- | --- | --- | --- | --- |
-| 1A | [Foundation](PHASE_1A_CODEX.md) | Brand handoff | Local `be26bbf`, `codex/phase-1a`; foundation included in GitHub `3846713` | Implemented; automated checks passed; included in 1B review branch |
-| 1B | [Catalogue and conversion](PHASE_1B_CODEX.md) | Completed 1A | `codex/phase-1b`; [checklist](PHASE_1B_CHECKLIST.md) | Implemented; automated checks passed; browser acceptance outstanding |
-| 1C | [Commercial readiness](PHASE_1C_CODEX.md) | Completed 1B e1a4e02 | `codex/phase-1c`; [checklist](PHASE_1C_CHECKLIST.md) | Implemented; 26 tests and 144-route checks passed; browser/owner launch gates remain |
-| 1D | [Controlled release](PHASE_1D_CODEX.md) | Completed 1C 42d6e82 | `codex/phase-1d`; [checklist](PHASE_1D_CHECKLIST.md) | Implemented; 31 tests/144-route checks passed; full audit/browser/owner gates unresolved, NO-GO |
-| 1E | [WHC deployment engineering](PHASE_1E_CODEX.md) | Completed 1D b4fd3cf | `codex/phase-1e`; [compatibility](WHC_COMPATIBILITY.md) | Implemented; 35 tests, 144-route production smoke and separately built preview artifact checks passed; host/browser/owner gates remain |
-| 1F | [Protected staging](PHASE_1F_CODEX.md) | Completed 1E 24d232c | `codex/phase-1f`; [QA](PHASE_1F_QA.md), [acceptance](WHC_STAGING_ACCEPTANCE.md) | Staging authorized; security/CI/TLS gates passed and Linux artifact uploaded; credential handoff and hosted acceptance pending |
+Current standalone source: `codex/phase-4-growth`. `main` retains project briefs;
+it is not the implemented application. Historical specifications and phase labels
+are preserved. Current acceptance: [completion report](COMPLETION_ACCEPTANCE.md)
+and [active checkpoint](../BUILD_PROGRESS.md).
 
-| 2 combined | [2A + 2B + 2C](PHASE_2_COMBINED_CODEX.md) | Verified production branch plus main contract | `codex/phase-2-combined`; [status](PHASE_2_COMBINED_STATUS.md) | Deployed from 7a0fdd05b07a; see PHASE_2_DEPLOYMENT.md |
+| Phase      | Canonical specification                                                                  | Preserved deliverable                                                             | Current acceptance                                                                                           |
+| ---------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1A         | [Foundation](PHASE_1A_CODEX.md)                                                          | Signature layout, bilingual home and national structure                           | Implemented; production and browser checks pass; approved vector/phone facts remain gated                    |
+| 1B         | [Catalogue and conversion](PHASE_1B_CODEX.md)                                            | Verified editorial catalogue, filters, product, rental and contextual quote paths | Implemented; catalogue, routes and browser journeys pass                                                     |
+| 1C         | [Commercial readiness](PHASE_1C_CODEX.md)                                                | Consent, safe brief export, delivery failure handling and operating guidance      | Implemented; local/browser and offline acceptance; real inbox verification pending                           |
+| 1D         | [Controlled release](PHASE_1D_CODEX.md)                                                  | Security controls, production/preview verification and runtime gates              | Implemented; local release and preview checks pass                                                           |
+| 1E         | [WHC deployment engineering](PHASE_1E_CODEX.md)                                          | Relocatable standalone release and rollback tooling                               | Clean Linux production and protected-preview packages, 144-route acceptance and archives pass                |
+| 1F         | [Protected staging](PHASE_1F_CODEX.md)                                                   | Guarded staging, protected assets and manual artifact workflow                    | Local preview checks pass; previous hosted evidence retained, not re-certified by this cloud run             |
+| 2 combined | [2A + 2B + 2C](PHASE_2_COMBINED_CODEX.md)                                                | Comparison, buyer pathways, 13 regions and 16 metros                              | Implemented; all 144 bilingual routes pass; [historical deployment](PHASE_2_DEPLOYMENT.md)                   |
+| 3          | [Commercial activation](PHASE_3_COMMERCIAL_ACTIVATION.md), [imagery](PHASE_3_IMAGERY.md) | Durable receiver, mailbox worker, operations and placement-specific images        | Offline checks and all 288 reviewed image placements pass; external receipt and live activation remain gated |
+| 4          | [Growth](PHASE_4_CODEX.md)                                                               | Six bilingual guides, five supplier prospects, response/CRM kit and 90-day plan   | Implemented preparation; guide/browser checks pass; no outreach or growth results invented                   |
 
-Universal lifecycle mapping: [framework mapping](UNIVERSAL_PHASE_MAPPING.md); mandatory operating instructions: [alignment](UNIVERSAL_FRAMEWORK_ALIGNMENT.md). Historical phase labels remain unchanged.
+See [framework mapping](UNIVERSAL_PHASE_MAPPING.md), [governance](PHASE_GOVERNANCE.md),
+[implementation status](../IMPLEMENTATION_STATUS.md), and the consolidated
+[owner handoff](../OWNER_ACTIONS.md). Historical checkpoints remain in the individual
+phase reports and Git history; environment/disk problems from earlier workstations
+are not current cloud blockers.
 
-Owner reviews PRs before merge; deployment requires explicit authorization. See [governance](PHASE_GOVERNANCE.md), [implementation status](../IMPLEMENTATION_STATUS.md) and [owner actions](../OWNER_ACTIONS.md).
-
-| 3 | [Commercial activation](PHASE_3_COMMERCIAL_ACTIVATION.md) and [imagery](PHASE_3_IMAGERY.md) | Verified Phase 2 | codex/phase-3-commercial-activation | In progress; 125/286 new images, offline checks passed, mail/provider and disk blockers; not deployed |
-| 4 | GitHub main docs/PHASE_4_CODEX.md | Compatible Phase 3 code | codex/phase-4-growth, isolated worktree | Buyer guides and growth operations prepared; final checks and PR pending; not deployed |
+PR creation requires GitHub API access; review/merge is distinct from code publication.
+Website-publication and synthetic receiver/mailbox-test authorizations already recorded
+in the repository are preserved. Hosted credentials and actual receipt remain prerequisites;
+public inquiry activation and supplier outreach remain separate owner gates.

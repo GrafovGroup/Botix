@@ -1,0 +1,11 @@
+{
+  "stats": {
+    "startTime": "2026-10-24T04:24:09.762Z",
+    "duration": 50881.044,
+    "expected": 56,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "scope": "Chromium desktop/mobile EN/FR; WCAG 2 A/AA, 2.1 AA and 2.2 AA automated checks on representative templates; functional guide/form/navigation/download checks. Not a human accessibility certification."
+}

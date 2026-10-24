@@ -1,3 +1,13 @@
+# Standalone completion — 2026-10-23 (Toronto)
+
+- Restore the actual implementation from `codex/phase-4-growth` in an independent Linux checkout, preserving earlier phase history and the existing 144 bilingual routes.
+- Complete 141 missing original contextual images, retaining 145 prior contextual assets and both homepage heroes. Add scene-specific EN/FR alt text, full provenance, reviewed contact sheets and exact/perceptual/local cross-site screening.
+- Label product/manufacturer task imagery as workspace assessment and integration planning, separately from verified product galleries.
+- Replace font-dependent arrow glyphs with decorative SVGs after actual browser screenshots exposed missing-glyph squares.
+- Add pinned Playwright/axe coverage for 56 desktop/mobile bilingual customer journeys and template accessibility, including real local brief downloads with no submission.
+- Add repeatable local lab performance collection, browser CI and complete image-provenance checks; fix release workflow eligibility for a Phase 4 PR targeting main.
+- Consolidate current phase status and external owner handoffs. Actual mailbox receipt, hosted release, review/merge, live inquiry activation and supplier outreach remain separately verified actions.
+
 # Unreleased — combined Universal Phase 2
 
 - Add bilingual three-profile comparison, six task-specific buyer pathways and national guide/category cross-links.
@@ -61,3 +71,9 @@ Browser visual acceptance and live delivery configuration remain outstanding.
 - Preserve numeric quantities in downloaded briefs and distinguish durable receipt from inbox delivery.
 - Add explicit per-route imagery with 125 unique new assets so far; complete coverage remains required before deployment.
 - Verify Google/Bing ownership and submit the live 144-URL sitemap.
+
+## Unreleased — Phase 4
+
+- Add six bilingual buyer guides and contextual inquiry links on existing routes.
+- Prepare sourced supplier prospecting, bilingual discovery/proposal drafts, human-reviewed qualification and 90-day organic acquisition plan.
+- Retain unconfirmed relationship states and consent/activation gates; no campaign or deployment is claimed.

@@ -1,0 +1,198 @@
+{
+  "measuredAt": "2026-10-24T04:25:27.266Z",
+  "scope": "Local Chromium lab, loopback production server, unthrottled CPU/network, reduced motion. Not field Core Web Vitals or live-site acceptance.",
+  "measurements": [
+    {
+      "device": "desktop",
+      "path": "/en",
+      "lcpMs": 180,
+      "cls": 0,
+      "ttfbMs": 12.5,
+      "domContentLoadedMs": 153.60000000009313
+    },
+    {
+      "device": "desktop",
+      "path": "/en/humanoid-robots",
+      "lcpMs": 124,
+      "cls": 0,
+      "ttfbMs": 8,
+      "domContentLoadedMs": 42.40000000037253
+    },
+    {
+      "device": "desktop",
+      "path": "/en/robots",
+      "lcpMs": 284,
+      "cls": 0,
+      "ttfbMs": 124.79999999981374,
+      "domContentLoadedMs": 200.10000000009313
+    },
+    {
+      "device": "desktop",
+      "path": "/en/products/unitree-g1",
+      "lcpMs": 176,
+      "cls": 0,
+      "ttfbMs": 7.300000000279397,
+      "domContentLoadedMs": 36.10000000009313
+    },
+    {
+      "device": "desktop",
+      "path": "/en/locations/cities/toronto-gta",
+      "lcpMs": 172,
+      "cls": 0,
+      "ttfbMs": 11.5,
+      "domContentLoadedMs": 46.299999999813735
+    },
+    {
+      "device": "desktop",
+      "path": "/en/request-quote",
+      "lcpMs": 240,
+      "cls": 0,
+      "ttfbMs": 83.1999999997206,
+      "domContentLoadedMs": 110.09999999962747
+    },
+    {
+      "device": "desktop",
+      "path": "/fr",
+      "lcpMs": 132,
+      "cls": 0,
+      "ttfbMs": 11,
+      "domContentLoadedMs": 61.5
+    },
+    {
+      "device": "desktop",
+      "path": "/fr/humanoid-robots",
+      "lcpMs": 140,
+      "cls": 0,
+      "ttfbMs": 6.699999999720603,
+      "domContentLoadedMs": 176
+    },
+    {
+      "device": "desktop",
+      "path": "/fr/robots",
+      "lcpMs": 200,
+      "cls": 0,
+      "ttfbMs": 35.39999999990687,
+      "domContentLoadedMs": 56.39999999990687
+    },
+    {
+      "device": "desktop",
+      "path": "/fr/products/unitree-g1",
+      "lcpMs": 196,
+      "cls": 0,
+      "ttfbMs": 6.400000000372529,
+      "domContentLoadedMs": 29.300000000279397
+    },
+    {
+      "device": "desktop",
+      "path": "/fr/locations/cities/toronto-gta",
+      "lcpMs": 184,
+      "cls": 0,
+      "ttfbMs": 9.199999999720603,
+      "domContentLoadedMs": 43.10000000009313
+    },
+    {
+      "device": "desktop",
+      "path": "/fr/request-quote",
+      "lcpMs": 196,
+      "cls": 0,
+      "ttfbMs": 16.799999999813735,
+      "domContentLoadedMs": 175.79999999981374
+    },
+    {
+      "device": "mobile",
+      "path": "/en",
+      "lcpMs": 152,
+      "cls": 0,
+      "ttfbMs": 9.100000000093132,
+      "domContentLoadedMs": 116.60000000009313
+    },
+    {
+      "device": "mobile",
+      "path": "/en/humanoid-robots",
+      "lcpMs": 112,
+      "cls": 0,
+      "ttfbMs": 5,
+      "domContentLoadedMs": 30.200000000186265
+    },
+    {
+      "device": "mobile",
+      "path": "/en/robots",
+      "lcpMs": 168,
+      "cls": 0,
+      "ttfbMs": 19.200000000186265,
+      "domContentLoadedMs": 45.6999999997206
+    },
+    {
+      "device": "mobile",
+      "path": "/en/products/unitree-g1",
+      "lcpMs": 104,
+      "cls": 0,
+      "ttfbMs": 6.600000000093132,
+      "domContentLoadedMs": 30.5
+    },
+    {
+      "device": "mobile",
+      "path": "/en/locations/cities/toronto-gta",
+      "lcpMs": 128,
+      "cls": 0,
+      "ttfbMs": 3.8000000002793968,
+      "domContentLoadedMs": 28.100000000093132
+    },
+    {
+      "device": "mobile",
+      "path": "/en/request-quote",
+      "lcpMs": 168,
+      "cls": 0,
+      "ttfbMs": 20,
+      "domContentLoadedMs": 48.40000000037253
+    },
+    {
+      "device": "mobile",
+      "path": "/fr",
+      "lcpMs": 108,
+      "cls": 0,
+      "ttfbMs": 8.400000000372529,
+      "domContentLoadedMs": 47
+    },
+    {
+      "device": "mobile",
+      "path": "/fr/humanoid-robots",
+      "lcpMs": 108,
+      "cls": 0,
+      "ttfbMs": 4.7000000001862645,
+      "domContentLoadedMs": 37.200000000186265
+    },
+    {
+      "device": "mobile",
+      "path": "/fr/robots",
+      "lcpMs": 164,
+      "cls": 0,
+      "ttfbMs": 16.899999999906868,
+      "domContentLoadedMs": 48.700000000186265
+    },
+    {
+      "device": "mobile",
+      "path": "/fr/products/unitree-g1",
+      "lcpMs": 88,
+      "cls": 0,
+      "ttfbMs": 4.2000000001862645,
+      "domContentLoadedMs": 22.299999999813735
+    },
+    {
+      "device": "mobile",
+      "path": "/fr/locations/cities/toronto-gta",
+      "lcpMs": 96,
+      "cls": 0,
+      "ttfbMs": 6.5,
+      "domContentLoadedMs": 36.5
+    },
+    {
+      "device": "mobile",
+      "path": "/fr/request-quote",
+      "lcpMs": 168,
+      "cls": 0,
+      "ttfbMs": 29.799999999813735,
+      "domContentLoadedMs": 50.5
+    }
+  ]
+}

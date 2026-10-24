@@ -1,0 +1,19 @@
+{
+  "reviewedImages": 288,
+  "legacyContextImages": 145,
+  "newContextImages": 141,
+  "originalHomeHeroes": 2,
+  "contactSheets": "docs/qa/completion/images/",
+  "scope": "Accessible local sibling projects only; remote-only inventories unavailable. Perceptual matches require visual review; low distance is not proof of reuse.",
+  "withinSiteCandidateReview": [
+    {
+      "a": "public/images/phase3/en-locations-nova-scotia-detail.webp",
+      "b": "public/images/phase3/en-manufacturers-boston-dynamics-overview.webp",
+      "distance": 7,
+      "resolution": "Distinct original scenes: a coastal sensor-calibration lab with checkerboard and motion rails, versus a grain-facility maintenance garage with inspection rover, roller door and silo. Different subjects, architecture and layout; no crop, mirror or recolour reuse."
+    }
+  ],
+  "externalImagesScreened": 388,
+  "externalCandidates": 0,
+  "remoteInventories": "Unavailable; no portfolio-wide uniqueness claim."
+}

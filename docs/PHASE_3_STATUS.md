@@ -1,3 +1,31 @@
+# Current cloud completion — October 23, 2026 (Toronto)
+
+The standalone Phase 4 branch contains the compatible committed Phase 3 source and
+all 145 previously installed contextual assets. Completed the other 141 independent
+placements in this cloud run; all 286 contextual images plus two original homepage
+heroes now exist. Every source/placement has hashes and internal provenance; all
+288 were visually reviewed. All image coverage/provenance checks pass. The perceptual
+screen found one false-positive pair, manually cleared; 388 accessible neighbouring
+raster images produced no match. Remote-only inventories remain unavailable.
+
+New scene-specific EN/FR alt text and task-context captions keep workspace photos
+separate from actual product galleries and specifications. No named-product photo,
+deployment, office, stock or manufacturer relationship is fabricated.
+
+52 existing unit tests, catalogue, offline delivery, three launcher tests, build,
+lint/types, full audit and 144-route production/preview checks pass. Added actual
+desktop/mobile browser acceptance; clean production and protected-preview package acceptance is
+recorded in COMPLETION_ACCEPTANCE.md. This supersedes the old disk,
+shared-dependency and missing-image blockers below, without rewriting their history.
+
+Real mailbox receipt is not verified in this cloud runtime: no hosting/mail bindings
+are configured, and the forwarding-rule location remains unresolved. Existing
+receiver setup and synthetic-test authorization is retained; keep public inquiry
+activation disabled until actual receipt and its separate approval gate. No cloud
+run deployment, merge, live inquiry or external message is claimed.
+
+---
+
 # Phase 3 — implementation checkpoint, 2026-10-23
 
 Branch: `codex/phase-3-commercial-activation`, based on verified Phase 2 evidence head `8459cad`. Canonical Phase 3 and imagery instructions committed before implementation. Production remains Phase 2; no deployment or mailbox transmission performed.

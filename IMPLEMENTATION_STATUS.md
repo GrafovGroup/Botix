@@ -1,3 +1,27 @@
+# Current standalone completion — October 23, 2026 (Toronto)
+
+The implementation is on `codex/phase-4-growth`, with the complete standalone
+Next.js app, historical 1A–1F and combined Phase 2 work, Phase 3 inquiry operations
+and imagery, and Phase 4 buyer guides/supplier/lead/growth preparation preserved.
+`main` contains briefs, so it must not be used as the implemented application.
+
+All feasible local gates pass: frozen installation; 52 unit and 3 launcher tests;
+catalogue/offline delivery; lint/types/build/full audit; 144 bilingual source and
+packaged route checks; 288 reviewed unique image placements; 56 desktop/mobile browser
+checks with no skips; and clean production/protected-preview standalone archives.
+12 actual viewport screenshots, 19 image contact sheets, 24 local lab observations,
+source identities and checksums are retained in `docs/qa/completion/`.
+The last visual defect—missing font arrows—was corrected with decorative SVGs and
+rechecked. Exact application source for release artifacts: `d4978a605b4e`.
+
+The implementation branch was pushed to GitHub. PR creation/remote CI need the saved
+GitHub API network addition applied. WHC credentials, forwarding-rule resolution and
+real mailbox receipt remain unavailable in this cloud runtime; no new hosted release,
+external email, outreach, merge, live inquiries or growth results are claimed.
+Safe business/brand/phone and live-activation gates remain intact. See
+[completion acceptance](docs/COMPLETION_ACCEPTANCE.md), [phase index](docs/PHASE_INDEX.md)
+and [owner handoff](OWNER_ACTIONS.md). Earlier dated checkpoints follow as history.
+
 ## Combined Phase 2 — repository implementation
 
 Catalogue comparison, task-specific buyer pathways, national guide cross-links and private durable receiver preparation are implemented on `codex/phase-2-combined`. See [combined evidence](docs/PHASE_2_COMBINED_STATUS.md). Production remains the verified Phase 1 release below; no Phase 2 deployment or live inquiry activation occurred.
@@ -140,3 +164,7 @@ TypeScript 5.9.3 and ESLint 9.39.5 are pinned because the installed Next.js lint
 ## Current Phase 3 checkpoint (2026-10-23)
 
 Production remains Phase 2 (7a0fdd05b07a). Google sitemap processed 144 URLs; Bing submitted/processing. Phase 3 has 125 new optimized image placements, with 161 remaining, and a tested private mailbox worker/operations kit. 52 tests, catalogue, offline receiver harness, launcher tests and dependency audit pass. Disk space and intended mailbox-provider clarification block final completion. Website publication is authorized; no mailbox test or public delivery activation has occurred. Phase 4 preparation is isolated. See docs/PHASE_3_STATUS.md.
+
+## Phase 4 preparation — 2026-10-23
+
+Six original bilingual guides extend existing buyer routes. Supplier prospects, EN/FR draft outreach and proposals, private CRM qualification and 90-day organic plan are prepared. Typecheck and lint passed; build/browser and integrated Phase 3 acceptance pending disk space. No outreach, activation, merge or deployment occurred. See docs/PHASE_4_STATUS.md.

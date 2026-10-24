@@ -1,3 +1,4 @@
+import { Arrow } from "@/components/icons";
 import Link from "next/link";
 import {
   publishableProducts,
@@ -55,7 +56,7 @@ export function ProductComparison({
           ))}
         </fieldset>
         <button className="button" type="submit">
-          {en ? "Compare profiles" : "Comparer les profils"} ↗
+          {en ? "Compare profiles" : "Comparer les profils"} <Arrow />
         </button>
         <p className="catalogue-note">
           {en

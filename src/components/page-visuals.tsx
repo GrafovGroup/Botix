@@ -37,6 +37,18 @@ export function PageVisuals({
             }
             loading="lazy"
           />
+          {(path.startsWith("products/") ||
+            path.startsWith("manufacturers")) && (
+            <figcaption className="visual-context">
+              {image.placement === "overview"
+                ? locale === "en"
+                  ? "WORKSPACE ASSESSMENT"
+                  : "ÉVALUATION DU MILIEU DE TRAVAIL"
+                : locale === "en"
+                  ? "INTEGRATION PLANNING"
+                  : "PLANIFICATION DE L’INTÉGRATION"}
+            </figcaption>
+          )}
         </figure>
       ))}
     </div>

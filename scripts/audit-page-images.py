@@ -16,17 +16,21 @@ for i,a in enumerate(records):
   distance=(a['dhash']^b['dhash']).bit_count()
   if distance<=8 or a['sha256']==b['sha256']:within.append({'a':a['file'],'b':b['file'],'distance':distance,'exact':a['sha256']==b['sha256']})
 external=[];errors=[];count=0;projects=set()
-for directory,dirs,files in os.walk(root.parent):
- dirs[:]=[d for d in dirs if d not in skip and Path(directory)/d!=root]
- for name in files:
-  p=Path(directory)/name
-  if p.suffix.lower() not in {'.jpg','.jpeg','.png','.webp'}:continue
-  try: sig=fingerprint(p);digest=hashlib.sha256(p.read_bytes()).hexdigest()
-  except Exception:errors.append(str(p));continue
-  count+=1;projects.add(p.relative_to(root.parent).parts[0])
-  for r in records:
-   distance=(r['dhash']^sig).bit_count()
-   if distance<=6 or digest==r['sha256']:external.append({'a':r['file'],'b':str(p.relative_to(root.parent)),'distance':distance,'exact':digest==r['sha256']})
+neighbours=[p for p in root.parent.iterdir() if p.is_dir() and p!=root and (p/'.git').exists()]
+# Generated originals outside this checkout are BOTIX sources, not another site.
+# Inspect actual neighbouring project checkouts, never a shared generation cache.
+for neighbour in neighbours:
+ for directory,dirs,files in os.walk(neighbour):
+  dirs[:]=[d for d in dirs if d not in skip]
+  for name in files:
+   p=Path(directory)/name
+   if p.suffix.lower() not in {'.jpg','.jpeg','.png','.webp'}:continue
+   try: sig=fingerprint(p);digest=hashlib.sha256(p.read_bytes()).hexdigest()
+   except Exception:errors.append(str(p));continue
+   count+=1;projects.add(p.relative_to(root.parent).parts[0])
+   for r in records:
+    distance=(r['dhash']^sig).bit_count()
+    if distance<=6 or digest==r['sha256']:external.append({'a':r['file'],'b':str(p.relative_to(root.parent)),'distance':distance,'exact':digest==r['sha256']})
 result={'images':len(records),'within_site_candidates':within,'external_candidates':external,'external_images_screened':count,'projects':sorted(projects),'unreadable':errors,'scope':'Accessible local sibling projects only; remote-only inventories unavailable. Perceptual matches require visual review; low distance is not proof of reuse.'}
 (root/'docs/phase3-image-audit.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps(result,indent=2))

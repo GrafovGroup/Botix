@@ -1,4 +1,5 @@
 "use client";
+import { Arrow } from "@/components/icons";
 import Link from "next/link";
 import { navigationQuery } from "@/lib/navigation-query";
 import { liveInquiryHref } from "./inquiry-context-link";
@@ -68,7 +69,7 @@ export function Header({ locale }: { locale: Locale }) {
             href={`/${locale}/request-quote`}
           >
             {t.quote}
-            <span aria-hidden>↗</span>
+            <Arrow />
           </Link>
           <button
             className="menu-toggle"
@@ -90,7 +91,7 @@ export function Header({ locale }: { locale: Locale }) {
               onClick={() => setOpen(false)}
             >
               {label}
-              <span aria-hidden>↗</span>
+              <Arrow />
             </Link>
           ))}
         </nav>

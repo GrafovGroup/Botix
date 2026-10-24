@@ -1,4 +1,5 @@
 "use client";
+import { Arrow } from "@/components/icons";
 import { ContactPhone } from "@/components/contact-phone";
 import { useEffect, useState, useRef, type FormEvent } from "react";
 import Link from "next/link";
@@ -329,7 +330,7 @@ export function InquiryForm({
           {t.analyticsConsent}
         </label>
         <Link className="text-link" href={`/${locale}/privacy`}>
-          {t.privacy} ↗
+          {t.privacy} <Arrow />
         </Link>
         <div className="form-actions">
           <button
@@ -338,7 +339,7 @@ export function InquiryForm({
             disabled={busy || available !== true}
           >
             {busy ? t.sending : t.submit}
-            <span aria-hidden>↗</span>
+            <Arrow />
           </button>
           <button
             className="button ghost"

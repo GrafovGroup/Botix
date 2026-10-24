@@ -1798,6 +1798,35 @@ details p {
   border: 1px solid #30363e;
   background: #171c23;
 }
+.page-visual:has(.visual-context) {
+  display: flex;
+  flex-direction: column;
+}
+.page-visual:has(.visual-context) img {
+  height: auto;
+  flex: 1;
+  min-height: 0;
+  aspect-ratio: 3/2;
+}
+.visual-context {
+  padding: 16px 20px;
+  color: #bfc3c9;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+}
+.arrow-icon {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  vertical-align: -0.15em;
+}
+.arrow-icon > .arrow-drawing {
+  display: block;
+  width: 1em;
+  height: 1em;
+}
 .page-visual img {
   width: 100%;
   height: 100%;

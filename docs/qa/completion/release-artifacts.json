@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "production",
+    "sourceSha": "d4978a605b4eea8a670664960b6c9bb63013e7c8",
+    "directory": "/workspace/Botix/artifacts/botix-d4978a605b4e-production-XpVCW-a-ul4yc1sm2bGTw",
+    "files": 2471,
+    "archive": "artifacts/botix-production-d4978a605b4eea8a670664960b6c9bb63013e7c8.tar.gz",
+    "sha256": "12fdc887cb2b35c61f2097ba800feafa3c8be2982218bd35a3af7167819151b9",
+    "bytes": 61760354,
+    "siteUrl": "https://botix.ca",
+    "cleanSource": true,
+    "localAcceptance": "passed"
+  },
+  {
+    "mode": "preview",
+    "sourceSha": "d4978a605b4eea8a670664960b6c9bb63013e7c8",
+    "directory": "/workspace/Botix/artifacts/botix-d4978a605b4e-preview-XSotzTSle9KU_JfGCZftd",
+    "files": 2471,
+    "archive": "artifacts/botix-staging-d4978a605b4eea8a670664960b6c9bb63013e7c8.tar.gz",
+    "sha256": "cf9357f45ebfe3d2901ce764a7991a683e04d66ada8c28bc17ddf3e40beea9c6",
+    "bytes": 61558891,
+    "siteUrl": "https://staging.botix.ca",
+    "cleanSource": true,
+    "localAcceptance": "passed"
+  }
+]

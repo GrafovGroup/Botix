@@ -40,6 +40,8 @@ jobs:
       - run: pnpm build:release
       - run: pnpm typecheck
       - run: pnpm release:smoke
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:browser
       - run: pnpm package:release
       - run: pnpm standalone:smoke
       - run: SITE_ENV=preview SITE_URL=https://staging.example.test pnpm build:release

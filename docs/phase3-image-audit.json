@@ -1,0 +1,19 @@
+{
+  "images": 288,
+  "within_site_candidates": [
+    {
+      "a": "public/images/phase3/en-locations-nova-scotia-detail.webp",
+      "b": "public/images/phase3/en-manufacturers-boston-dynamics-overview.webp",
+      "distance": 7,
+      "exact": false
+    }
+  ],
+  "external_candidates": [],
+  "external_images_screened": 388,
+  "projects": [
+    "MetalFabricators",
+    "nicerack"
+  ],
+  "unreadable": [],
+  "scope": "Accessible local sibling projects only; remote-only inventories unavailable. Perceptual matches require visual review; low distance is not proof of reuse."
+}
