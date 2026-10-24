@@ -22,14 +22,20 @@ do not recreate the app or create a worktree unless explicitly requested.
 - Local development startup/HTTP verified. New source originals and durable receipts
   remain in `/workspace/generated_images` and ignored `artifacts/phase3`; do not delete.
 
-## Next technical action
+## Local completion
 
-Commit the completed asset/application snapshot, then exercise `build:release`,
-`package:release`, `standalone:smoke` and archive generation for clean Linux production
-and protected-preview modes. Record exact source identities/checksums, publish the
-review branch without merging, and save the environment's actual repository commits.
-See `docs/COMPLETION_ACCEPTANCE.md` for evidence and status; do not re-run passed suites
-without new changes, failures or another unresolved concern.
+Clean standalone production and protected-preview builds, packages, smoke checks,
+archives and independent checksum verification all passed from application commit
+`d4978a605b4eea8a670664960b6c9bb63013e7c8`. Each package has 2,471 files and
+relocatable dependencies. The production package remains available through
+`artifacts/completion-production.json`; preview through `artifacts/completion-preview.json`.
+Both exact artifact identities and SHA256 values are in
+`docs/qa/completion/release-artifacts.json`. The tested code is pushed to GitHub.
+
+All useful repository-local work is complete. Resume only the external requirements
+below once access arrives; do not repeat passing suites without new changes or failures.
+Current phase status and evidence: `docs/COMPLETION_ACCEPTANCE.md`. The current
+managed shell runs the production package locally; processes do not survive publication.
 
 ## External requirements
 
@@ -39,7 +45,7 @@ hosting access, the forwarding-rule location and inbox receipt remain prerequisi
 Live inquiry activation still has its separate gate. Preserve safe brand/phone and
 business-fact fallbacks. Supplier outreach is drafted, not sent.
 
-Native Git reads and push dry-run work. GitHub API and live-site CONNECT requests
+Native Git reads and publishing the completed implementation branch work. GitHub API and live-site CONNECT requests
 return proxy 403. Required api.github.com, botix.ca and staging.botix.ca additions are
 saved in the environment draft, not applied/published. PR/CI/hosted acceptance remains
 unverified until access is available; do not claim it completed.

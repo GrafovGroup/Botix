@@ -37,8 +37,8 @@ Earlier Phase 3 and Phase 4 checkpoints remain historical evidence.
 The current cloud runtime has no configured WHC credentials or mailbox transport
 bindings. Git access works; `api.github.com` is absent from the current runtime's
 reported destination list and the proxy rejects the connection. Its addition is
-saved in the environment draft, not yet applied to the runtime. A native Git push
-dry-run succeeded; PR creation and remote CI inspection need API access.
+saved in the environment draft, not yet applied to the runtime. The completed implementation was pushed to `codex/phase-4-growth`; PR creation
+and remote CI inspection still need API access.
 
 Existing website-publication and synthetic receiver/mailbox-test authorizations are
 preserved. Neither supplies credentials or confirms inbox routing. Real inquiry
@@ -70,5 +70,28 @@ Evidence: [browser summary](qa/completion/browser-summary.json),
 [image review](phase3-image-review.json), [candidate audit](phase3-image-audit.json),
 and [contact sheets](qa/completion/images/).
 
-Final clean standalone production/preview packaging is the remaining local gate.
-Exact source identity and package results follow after it completes.
+## Clean standalone releases — passed
+
+Both packages were built from clean Linux x64 source
+`d4978a605b4eea8a670664960b6c9bb63013e7c8`, with 2,471 files each and independent
+relocatable runtime dependencies. Production packaged acceptance passed all 144 routes
+and inquiry/security/preview safeguards. The separately built protected-preview
+package passed all 144 authenticated GET-only routes and protection/noindex/asset checks.
+Both tar archives were created and their SHA256 values independently recomputed and
+matched. [Exact identities and checksums](qa/completion/release-artifacts.json).
+
+The production package is retained via `artifacts/completion-production.json`; the
+preview package via `artifacts/completion-preview.json`. Original source outputs,
+packages and archives are retained locally; processes must restart after a snapshot.
+The browser/performance evidence and these artifact identities refer to the application
+commit above; the final documentation-only commit does not change that tested code.
+
+The local production package was started independently on loopback and its health,
+English/French content and static images verified. This is a release candidate, not
+an assertion that the new code has been deployed to WHC or that a mailbox accepted mail.
+
+All feasible repository-local phase deliverables and acceptance gates are complete.
+Remaining external work: apply saved network destinations; provide secure WHC access;
+resolve the forwarding rule and complete the already-authorized mailbox test; then
+perform the separately gated live inquiry activation and PR/hosted acceptance. No
+unreviewed merge, live inquiry or external outreach was performed.

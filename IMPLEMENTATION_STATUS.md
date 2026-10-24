@@ -1,21 +1,26 @@
-# Current standalone cloud completion
+# Current standalone completion — October 23, 2026 (Toronto)
 
-The actual application was found on `codex/phase-4-growth`; the selected `main`
-checkout contained briefs only. Existing Phase 1A–1F, combined Phase 2, Phase 3
-operations and Phase 4 buyer-guide code are preserved together in this standalone
-Next.js repository. No replacement application or additional worktree was created.
+The implementation is on `codex/phase-4-growth`, with the complete standalone
+Next.js app, historical 1A–1F and combined Phase 2 work, Phase 3 inquiry operations
+and imagery, and Phase 4 buyer guides/supplier/lead/growth preparation preserved.
+`main` contains briefs, so it must not be used as the implemented application.
 
-Independent locked installation, production build, lint/types, 52 existing unit
-tests, catalogue/offline-delivery checks, 144-route release/preview checks and
-dependency audit pass in the cloud. New pinned Playwright/axe coverage passed 52
-desktop/mobile bilingual navigation, guide-to-inquiry, localization and representative
-accessibility checks. Intermediate image 404s remain outside that passing assertion;
-all 141 missing image placements are now completed. All 288 unique placements passed provenance/coverage checks, visual review and local cross-site screening. Final standalone package acceptance is running.
+All feasible local gates pass: frozen installation; 52 unit and 3 launcher tests;
+catalogue/offline delivery; lint/types/build/full audit; 144 bilingual source and
+packaged route checks; 288 reviewed unique image placements; 56 desktop/mobile browser
+checks with no skips; and clean production/protected-preview standalone archives.
+12 actual viewport screenshots, 19 image contact sheets, 24 local lab observations,
+source identities and checksums are retained in `docs/qa/completion/`.
+The last visual defect—missing font arrows—was corrected with decorative SVGs and
+rechecked. Exact application source for release artifacts: `d4978a605b4e`.
 
-`BUILD_PROGRESS.md` is the active resume point. Older environment failures and phase
-status paragraphs below retain their original dates; they are not current blockers.
-External mailbox receipt, hosting access, approved business/brand inputs and live
-activation remain distinct from local software readiness.
+The implementation branch was pushed to GitHub. PR creation/remote CI need the saved
+GitHub API network addition applied. WHC credentials, forwarding-rule resolution and
+real mailbox receipt remain unavailable in this cloud runtime; no new hosted release,
+external email, outreach, merge, live inquiries or growth results are claimed.
+Safe business/brand/phone and live-activation gates remain intact. See
+[completion acceptance](docs/COMPLETION_ACCEPTANCE.md), [phase index](docs/PHASE_INDEX.md)
+and [owner handoff](OWNER_ACTIONS.md). Earlier dated checkpoints follow as history.
 
 ## Combined Phase 2 — repository implementation
 

@@ -14,8 +14,8 @@ deployment, office, stock or manufacturer relationship is fabricated.
 
 52 existing unit tests, catalogue, offline delivery, three launcher tests, build,
 lint/types, full audit and 144-route production/preview checks pass. Added actual
-desktop/mobile browser acceptance; final clean standalone packaging evidence is
-recorded in COMPLETION_ACCEPTANCE.md when complete. This supersedes the old disk,
+desktop/mobile browser acceptance; clean production and protected-preview package acceptance is
+recorded in COMPLETION_ACCEPTANCE.md. This supersedes the old disk,
 shared-dependency and missing-image blockers below, without rewriting their history.
 
 Real mailbox receipt is not verified in this cloud runtime: no hosting/mail bindings

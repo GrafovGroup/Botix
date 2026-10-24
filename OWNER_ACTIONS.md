@@ -9,7 +9,8 @@ older disk-space and shared-node_modules requests below are historical.
 Only these external handoffs remain owner-dependent:
 
 1. **Access and routing:** review/save the environment-settings network addition
-   for `api.github.com` so Codex can inspect/create the review PR. Provide authorized
+   for `api.github.com`, `botix.ca` and `staging.botix.ca` so Codex can inspect/create
+   the review PR and verify the authorized hosted release. Provide authorized
    WHC access through secure environment settings, never chat or Git. Identify the
    existing info@botix.ca-to-Gmail forwarding provider/rule; ownership was already
    reported and the address does not need reconfirmation. Existing receiver setup,
