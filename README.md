@@ -2,24 +2,47 @@
 
 Bilingual Canadian B2B robotics site built with Next.js App Router, React, TypeScript and Tailwind CSS. English and Québec French live at `/en` and `/fr`; `/` redirects to `/en`.
 
+This is a standalone application: install and run commands from this directory.
+The implementation is on `codex/phase-4-growth`; `main` currently contains the
+historical project briefs. Current completion evidence is in `BUILD_PROGRESS.md`.
+
 ## Run locally
 
 Use Node.js 20.9+ (Node 24 tested) and pnpm 11.
 
 ```sh
 pnpm install --frozen-lockfile
-pnpm dev
+SITE_ENV=development SITE_URL=http://127.0.0.1:3004 pnpm dev --port 3004
 ```
 
-Open http://127.0.0.1:3000/en. Production checks:
+Use the local address printed by Next.js, then `/en` or `/fr`. Production checks:
 
 ```sh
 pnpm test
 pnpm lint
 pnpm typecheck
-pnpm build
-pnpm start
+SITE_ENV=production SITE_URL=https://botix.ca pnpm build
+pnpm release:smoke
+SITE_ENV=production SITE_URL=https://botix.ca INQUIRY_DELIVERY_ENABLED=false pnpm start --port 3004
 ```
+
+The production mode above is for an isolated local server; it does not deploy or
+enable real inquiries. An unspecified production mode deliberately defaults to
+protected preview. Keep `INQUIRY_DELIVERY_ENABLED=false` for local acceptance.
+
+Browser and accessibility checks use the pinned Playwright/axe dependencies:
+
+```sh
+pnpm exec playwright install chromium
+pnpm test:browser
+```
+
+On the cloud machine with system Chromium, use
+`CHROMIUM_PATH=/usr/bin/chromium pnpm test:browser` instead. Tests start and stop
+their own local server on port 3005 and never send a real inquiry. Screenshots,
+traces and JSON results go under ignored `artifacts/browser/`. With the local
+production server on 3004, `CHROMIUM_PATH=/usr/bin/chromium pnpm audit:local-performance`
+records 24 unthrottled local lab observations; these are not live field metrics.
 
 For a local webhook test, set `SITE_URL=http://127.0.0.1:3000`; production canonical URLs default to `https://botix.ca`. Keep deployment-specific environment files out of Git.
 
